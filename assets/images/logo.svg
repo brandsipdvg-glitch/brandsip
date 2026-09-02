@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="BRANDSIP logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a4d82"/>
+      <stop offset="1" stop-color="#1484d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="64" fill="url(#g)"/>
+  <!-- Water drop -->
+  <path d="M160 78c42 40 62 76 62 108a62 62 0 1 1-124 0c0-32 20-68 62-108z" fill="#ffffff" opacity="0.95"/>
+  <!-- Swoosh -->
+  <path d="M138 140c22 18 34 40 36 66-6-8-11-15-16-21-9-12-20-22-34-30z" fill="#6ec2f1" opacity="0.85"/>
+  <!-- text -->
+  <text x="160" y="250" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="64" fill="#ffffff" text-anchor="middle" letter-spacing="2">BRANDSIP</text>
+</svg>

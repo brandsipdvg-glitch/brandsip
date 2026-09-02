@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" width="400" height="720" role="img" aria-label="Customized 300ml square branded water bottle"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ddeefb"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs><rect width="400" height="720" fill="url(#sk)"/><rect x="124" y="150" width="152" height="420" rx="28" fill="url(#sk)"/>
+<rect x="124" y="150" width="152" height="420" rx="28" fill="none" stroke="#9cc8ec" stroke-width="3"/>
+<rect x="178" y="86" width="44" height="40" rx="8" fill="#06385f"/>
+<rect x="130" y="430" width="140" height="300" rx="12" fill="#ffffff"/>
+<rect x="130" y="430" width="140" height="52" rx="12" fill="#06385f"/>
+<text x="200" y="464" font-family="Georgia,serif" font-weight="bold" font-size="17" fill="#ffffff" text-anchor="middle">THE</text>
+<text x="200" y="534" font-family="Georgia,serif" font-weight="bold" font-size="28" fill="#0a4d82" text-anchor="middle">KITCHEN</text>
+<text x="200" y="570" font-family="Arial,sans-serif" font-size="15" fill="#0f5ea8" text-anchor="middle">300 ml</text>
+<text x="200" y="602" font-family="Arial,sans-serif" font-size="12" fill="#0f5ea8" text-anchor="middle">SINGLE-SIDE LABEL</text>
+<text x="200" y="850" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#0a4d82" text-anchor="middle">MAKE EVERY SIP A BRAND EXPERIENCE</text></svg>

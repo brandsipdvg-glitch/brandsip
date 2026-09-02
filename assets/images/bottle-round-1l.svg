@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" width="400" height="720" role="img" aria-label="Customized 1 litre round branded drinking water bottle"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ddeefb"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs><rect width="400" height="720" fill="url(#sk)"/><rect x="168" y="86" width="64" height="34" rx="8" fill="#06385f"/>
+<rect x="114" y="180" width="10" height="70" fill="none" stroke="#9cc8ec" stroke-width="3"/>
+<path d="M114 250 h10 v-70 a12 12 0 0 1 12-12 h132 a12 12 0 0 1 12 12 v70 h10 c18 0 30 22 30 52 v330 c0 40 -22 66 -60 66 h-100 c-38 0 -60 -26 -60 -66 v-330 c0 -30 12 -52 30 -52z" fill="url(#sk)"/>
+<rect x="124" y="285" width="156" height="310" rx="14" fill="#0a4d82"/>
+<rect x="124" y="285" width="156" height="70" rx="14" fill="#06385f"/>
+<circle cx="202" cy="319" r="20" fill="#ffffff" opacity="0.9"/>
+<path d="M202 301 c 16.2 12.6 18 19.8 18 27.0 a 18 18 0 0 1 -36 0 c 0 -7.2 1.8 -14.4 18 -27.0 z" fill="#1484d4"/>
+<text x="202" y="397" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="#ffffff" text-anchor="middle">VERDE</text>
+<text x="202" y="421" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="#6ec2f1" text-anchor="middle">RESORT &amp; SPA</text>
+<text x="202" y="451" font-family="Arial,sans-serif" font-size="13" fill="#bcd9f0" text-anchor="middle" letter-spacing="3">HOTEL</text>
+<line x1="150" y1="471" x2="254" y2="471" stroke="#2f72ad" stroke-width="1"/>
+<text x="202" y="501" font-family="Arial,sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">PACKAGED DRINKING WATER</text>
+<text x="202" y="563" font-family="Arial,sans-serif" font-size="62" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="202" y="593" font-family="Arial,sans-serif" font-size="16" fill="#bcd9f0" text-anchor="middle" letter-spacing="2">LITRE</text>
+<line x1="150" y1="615" x2="254" y2="615" stroke="#2f72ad" stroke-width="1"/>
+<text x="202" y="649" font-family="Arial,sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">MAKE EVERY SIP A BRAND EXPERIENCE</text></svg>
