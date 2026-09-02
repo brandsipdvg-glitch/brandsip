@@ -31,54 +31,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BottlingCompany",
-  "@id": "{{BASE}}/#organization",
-  "name": "BRANDSIP",
-  "alternateName": "BRANDSIP Custom Bottled Water",
-  "url": "{{BASE}}",
-  "logo": "{{BASE}}/assets/images/logo.png",
-  "image": "{{BASE}}/assets/images/logo.png",
-  "slogan": "Make Every Sip a Brand Experience",
-  "description": "BRANDSIP is a customized packaged drinking water supplier providing custom branded water bottles for restaurants, hotels, businesses, events and organizations across India.",
-  "foundingLocation": "Davangere, Karnataka, India",
-  "email": "brandsipdvg@gmail.com",
-  "telephone": "+918073137080",
-  "priceRange": "₹7 - ₹18",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Davangere",
-    "addressLocality": "Davangere",
-    "addressRegion": "Karnataka",
-    "postalCode": "577001",
-    "addressCountry": "IN"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+918073137080",
-    "contactType": "customer service",
-    "email": "brandsipdvg@gmail.com",
-    "availableLanguage": ["en", "hi", "kn"]
-  },
-  "sameAs": []
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "{{BASE}}/#website",
-  "name": "BRANDSIP",
-  "url": "{{BASE}}",
-  "publisher": { "@id": "{{BASE}}/#organization" },
-  "inLanguage": "en-IN",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{BASE}}/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{BASE}}/#organization",
+      "additionalType": "https://schema.org/BottlingCompany",
+      "name": "BRANDSIP",
+      "alternateName": ["BRANDSIP Custom Bottled Water", "BRANDSIP Branded Water", "BRANDSIP Customised Water Bottles"],
+      "url": "{{BASE}}",
+      "logo": "{{BASE}}/assets/images/logo.png",
+      "image": "{{BASE}}/assets/images/logo.png",
+      "slogan": "Make Every Sip a Brand Experience",
+      "description": "BRANDSIP is a customized packaged drinking water supplier in Davangere, Karnataka providing custom branded and private label water bottles for restaurants, hotels, businesses, events and organizations across India.",
+      "keywords": "customised water bottles, custom branded water bottles, private label water bottles, logo printed water bottles, branded water bottles India, custom water bottles Davangere",
+      "knowsAbout": ["Customised water bottles", "Branded water bottles", "Private label bottled water", "Custom bottle labels", "Bottled water manufacturing"],
+      "foundingLocation": "Davangere, Karnataka, India",
+      "email": "brandsipdvg@gmail.com",
+      "telephone": "+918073137080",
+      "priceRange": "₹7 - ₹18",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Davangere",
+        "addressLocality": "Davangere",
+        "addressRegion": "Karnataka",
+        "postalCode": "577001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+918073137080",
+        "contactType": "customer service",
+        "email": "brandsipdvg@gmail.com",
+        "availableLanguage": ["en", "hi", "kn"]
+      },
+      "sameAs": [
+        "https://wa.me/918073137080"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{BASE}}/#website",
+      "name": "BRANDSIP",
+      "url": "{{BASE}}",
+      "publisher": { "@id": "{{BASE}}/#organization" },
+      "inLanguage": "en-IN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{BASE}}/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>

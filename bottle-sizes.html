@@ -31,55 +31,57 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BottlingCompany",
-  "@id": "https://brandsip.online/#organization",
-  "name": "BRANDSIP",
-  "alternateName": "BRANDSIP Custom Bottled Water",
-  "url": "https://brandsip.online",
-  "logo": "https://brandsip.online/assets/images/logo.png",
-  "image": "https://brandsip.online/assets/images/logo.png",
-  "slogan": "Make Every Sip a Brand Experience",
-  "description": "BRANDSIP is a customized packaged drinking water supplier providing custom branded water bottles for restaurants, hotels, businesses, events and organizations across India.",
-  "foundingLocation": "Davangere, Karnataka, India",
-  "email": "brandsipdvg@gmail.com",
-  "telephone": "+918073137080",
-  "priceRange": "₹7 - ₹18",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Davangere",
-    "addressLocality": "Davangere",
-    "addressRegion": "Karnataka",
-    "postalCode": "577001",
-    "addressCountry": "IN"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+918073137080",
-    "contactType": "customer service",
-    "email": "brandsipdvg@gmail.com",
-    "availableLanguage": ["en", "hi", "kn"]
-  },
-  "sameAs": []
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://brandsip.online/#website",
-  "name": "BRANDSIP",
-  "url": "https://brandsip.online",
-  "publisher": { "@id": "https://brandsip.online/#organization" },
-  "inLanguage": "en-IN",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://brandsip.online/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://brandsip.online/#organization",
+      "additionalType": "https://schema.org/BottlingCompany",
+      "name": "BRANDSIP",
+      "alternateName": ["BRANDSIP Custom Bottled Water", "BRANDSIP Branded Water", "BRANDSIP Customised Water Bottles"],
+      "url": "https://brandsip.online",
+      "logo": "https://brandsip.online/assets/images/logo.png",
+      "image": "https://brandsip.online/assets/images/logo.png",
+      "slogan": "Make Every Sip a Brand Experience",
+      "description": "BRANDSIP is a customized packaged drinking water supplier in Davangere, Karnataka providing custom branded and private label water bottles for restaurants, hotels, businesses, events and organizations across India.",
+      "keywords": "customised water bottles, custom branded water bottles, private label water bottles, logo printed water bottles, branded water bottles India, custom water bottles Davangere",
+      "knowsAbout": ["Customised water bottles", "Branded water bottles", "Private label bottled water", "Custom bottle labels", "Bottled water manufacturing"],
+      "foundingLocation": "Davangere, Karnataka, India",
+      "email": "brandsipdvg@gmail.com",
+      "telephone": "+918073137080",
+      "priceRange": "₹7 - ₹18",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Davangere",
+        "addressLocality": "Davangere",
+        "addressRegion": "Karnataka",
+        "postalCode": "577001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+918073137080",
+        "contactType": "customer service",
+        "email": "brandsipdvg@gmail.com",
+        "availableLanguage": ["en", "hi", "kn"]
+      },
+      "sameAs": [
+        "https://wa.me/918073137080"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://brandsip.online/#website",
+      "name": "BRANDSIP",
+      "url": "https://brandsip.online",
+      "publisher": { "@id": "https://brandsip.online/#organization" },
+      "inLanguage": "en-IN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://brandsip.online/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">
