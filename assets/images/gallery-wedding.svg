@@ -1,72 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="BRANDSIP branded bottles at a wedding table">
-<defs>
-  <linearGradient id="wdbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f7fd"/><stop offset="1" stop-color="#e3e9f6"/></linearGradient>
-  <radialGradient id="wdwarm" cx="0.5" cy="0.2" r="0.9"><stop offset="0" stop-color="#a9c7ef" stop-opacity="0.25"/><stop offset="1" stop-color="#a9c7ef" stop-opacity="0"/></radialGradient>
-</defs>
-<rect width="640" height="480" fill="url(#wdbg)"/>
-<rect width="640" height="480" fill="url(#wdwarm)"/>
-<!-- drape/bunting -->
-<path d="M0 20 Q80 60 160 20 Q240 60 320 20 Q400 60 480 20 Q560 60 640 20 L640 0 L0 0 Z" fill="#cfe4f7"/>
-<path d="M0 20 Q80 60 160 20 Q240 60 320 20 Q400 60 480 20 Q560 60 640 20" stroke="#7fa8d0" stroke-width="1.5" fill="none"/>
-<!-- tablecloth -->
-<path d="M0 300 L640 300 L600 480 L40 480 Z" fill="#eef3fa"/>
-<path d="M0 296 L640 296 L638 304 L2 304 Z" fill="#ffffff" opacity="0.8"/>
-<!-- center flowers -->
-<g transform="translate(300,250)">
-  <path d="M0 26 c-2 -8 2 -14 4 -16 M-12 24 c0 -8 4 -14 8 -18 M12 24 c0 -8 -4 -14 -8 -18" stroke="#9ec8e8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <circle cx="4" cy="8" r="9" fill="#9ec8e8" opacity="0.7"/>
-  <circle cx="-8" cy="6" r="8" fill="#b8d4ec" opacity="0.8"/>
-  <circle cx="14" cy="10" r="7" fill="#cfe2f2" opacity="0.85"/>
-  <circle cx="4" cy="0" r="6" fill="#7fa8d0"/>
-</g>
-<g transform="translate(180,170) scale(0.7)">
-  <!-- shadow -->
-  <ellipse cx="96" cy="640" rx="95" ry="20" fill="#0a2f4d" opacity="0.18"/>
-  <!-- glass -->
-  <path d="M46 250 c0 -52 18 -90 50 -90 c32 0 50 38 50 90 l0 330 c0 38 -20 64 -50 64 c-30 0 -50 -26 -50 -64 z" fill="#d9edfb"/>
-  <path d="M46 250 c0 -52 18 -90 50 -90 c32 0 50 38 50 90 l0 16 c0 -50 -20 -88 -50 -88 c-30 0 -50 38 -50 88 z" fill="#ffffff" opacity="0.5"/>
-  <path d="M56 262 c0 -42 12 -72 44 -80 c-30 8 -40 38 -40 80 l0 280 c0 22 6 36 20 46 c-18 -8 -24 -26 -24 -46 z" fill="#ffffff" opacity="0.42"/>
-  <!-- water -->
-  <path d="M50 500 l92 0 l0 130 c0 36 -18 58 -46 58 c-28 0 -46 -22 -46 -58 z" fill="#a9dffb" opacity="0.85"/>
-  <ellipse cx="96" cy="498" rx="46" ry="6" fill="#ffffff" opacity="0.7"/>
-  <!-- cap -->
-  <rect x="72" y="158" width="48" height="34" rx="6" fill="#071f35"/>
-  <rect x="72" y="182" width="48" height="10" rx="4" fill="#1f6fa8"/>
-  <rect x="72" y="158" width="12" height="34" rx="6" fill="#ffffff" opacity="0.25"/>
-  <!-- label -->
-  <rect x="50" y="250" width="92" height="230" rx="9" fill="#5a5a8a"/>
-  <rect x="50" y="250" width="92" height="40" rx="9" fill="#071f35"/>
-  <circle cx="96" cy="272" r="11" fill="#ffffff" opacity="0.92"/>
-  <path d="M96 262 c8 6 10 11 10 14 a10 10 0 0 1 -20 0 c0 -3 2 -8 10 -14 z" fill="#1f8fd0"/>
-  <rect x="50" y="250" width="13" height="230" rx="9" fill="#ffffff" opacity="0.09"/>
-  <line x1="60" y1="292" x2="132" y2="292" stroke="#1f6fa8" stroke-width="1"/>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#ffffff" x="96" y="415" text-anchor="middle">MAKE EVERY</text>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#ffffff" x="96" y="430" text-anchor="middle">SIP A BRAND</text>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#7cc4f5" x="96" y="446" text-anchor="middle">EXPERIENCE</text>
-</g>
-<g transform="translate(340,170) scale(0.7)">
-  <!-- shadow -->
-  <ellipse cx="96" cy="640" rx="95" ry="20" fill="#0a2f4d" opacity="0.18"/>
-  <!-- glass -->
-  <path d="M46 250 c0 -52 18 -90 50 -90 c32 0 50 38 50 90 l0 330 c0 38 -20 64 -50 64 c-30 0 -50 -26 -50 -64 z" fill="#d9edfb"/>
-  <path d="M46 250 c0 -52 18 -90 50 -90 c32 0 50 38 50 90 l0 16 c0 -50 -20 -88 -50 -88 c-30 0 -50 38 -50 88 z" fill="#ffffff" opacity="0.5"/>
-  <path d="M56 262 c0 -42 12 -72 44 -80 c-30 8 -40 38 -40 80 l0 280 c0 22 6 36 20 46 c-18 -8 -24 -26 -24 -46 z" fill="#ffffff" opacity="0.42"/>
-  <!-- water -->
-  <path d="M50 500 l92 0 l0 130 c0 36 -18 58 -46 58 c-28 0 -46 -22 -46 -58 z" fill="#a9dffb" opacity="0.85"/>
-  <ellipse cx="96" cy="498" rx="46" ry="6" fill="#ffffff" opacity="0.7"/>
-  <!-- cap -->
-  <rect x="72" y="158" width="48" height="34" rx="6" fill="#071f35"/>
-  <rect x="72" y="182" width="48" height="10" rx="4" fill="#1f6fa8"/>
-  <rect x="72" y="158" width="12" height="34" rx="6" fill="#ffffff" opacity="0.25"/>
-  <!-- label -->
-  <rect x="50" y="250" width="92" height="230" rx="9" fill="#5a5a8a"/>
-  <rect x="50" y="250" width="92" height="40" rx="9" fill="#071f35"/>
-  <circle cx="96" cy="272" r="11" fill="#ffffff" opacity="0.92"/>
-  <path d="M96 262 c8 6 10 11 10 14 a10 10 0 0 1 -20 0 c0 -3 2 -8 10 -14 z" fill="#1f8fd0"/>
-  <rect x="50" y="250" width="13" height="230" rx="9" fill="#ffffff" opacity="0.09"/>
-  <line x1="60" y1="292" x2="132" y2="292" stroke="#1f6fa8" stroke-width="1"/>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#ffffff" x="96" y="415" text-anchor="middle">MAKE EVERY</text>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#ffffff" x="96" y="430" text-anchor="middle">SIP A BRAND</text>
-  <text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="11" fill="#7cc4f5" x="96" y="446" text-anchor="middle">EXPERIENCE</text>
-</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 720" width="400" height="720" role="img" aria-label="Customized wedding water bottle"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ddeefb"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs><rect width="400" height="720" fill="url(#sk)"/><rect x="168" y="86" width="64" height="34" rx="8" fill="#06385f"/>
+<rect x="114" y="180" width="10" height="70" fill="none" stroke="#9cc8ec" stroke-width="3"/>
+<path d="M114 250 h10 v-70 a12 12 0 0 1 12-12 h132 a12 12 0 0 1 12 12 v70 h10 c18 0 30 22 30 52 v330 c0 40 -22 66 -60 66 h-100 c-38 0 -60 -26 -60 -66 v-330 c0 -30 12 -52 30 -52z" fill="url(#sk)"/>
+<rect x="124" y="285" width="156" height="310" rx="14" fill="#0a4d82"/>
+<rect x="124" y="285" width="156" height="70" rx="14" fill="#06385f"/>
+<circle cx="202" cy="319" r="20" fill="#ffffff" opacity="0.9"/>
+<path d="M202 301 c 16.2 12.6 18 19.8 18 27.0 a 18 18 0 0 1 -36 0 c 0 -7.2 1.8 -14.4 18 -27.0 z" fill="#1484d4"/>
+<text x="202" y="397" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="#ffffff" text-anchor="middle">ADAM</text>
+<text x="202" y="421" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="#6ec2f1" text-anchor="middle">&amp; EVA</text>
+<text x="202" y="451" font-family="Arial,sans-serif" font-size="13" fill="#bcd9f0" text-anchor="middle" letter-spacing="3">WEDDING</text>
+<line x1="150" y1="471" x2="254" y2="471" stroke="#2f72ad" stroke-width="1"/>
+<text x="202" y="501" font-family="Arial,sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">PACKAGED DRINKING WATER</text>
+<text x="202" y="563" font-family="Arial,sans-serif" font-size="62" font-weight="bold" fill="#ffffff" text-anchor="middle">300</text>
+<text x="202" y="593" font-family="Arial,sans-serif" font-size="16" fill="#bcd9f0" text-anchor="middle" letter-spacing="2">ml</text>
+<line x1="150" y1="615" x2="254" y2="615" stroke="#2f72ad" stroke-width="1"/>
+<text x="202" y="649" font-family="Arial,sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">MAKE EVERY SIP A BRAND EXPERIENCE</text></svg>

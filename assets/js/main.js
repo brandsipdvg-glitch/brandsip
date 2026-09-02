@@ -3,7 +3,7 @@
   'use strict';
 
   const WA_NUMBER = '918073137080';
-  const WA_MESSAGE = "Hi BRANDSIP, I'm interested in customized packaged drinking water. I'd like to get a quote.";
+  const WA_MESSAGE = 'Hello BRANDSIP, I am interested in customized packaged drinking water. I would like to know more about your bottle options, pricing and customization.';
 
   function waLink() {
     return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(WA_MESSAGE);
@@ -71,36 +71,20 @@
   });
 
   /* Scroll reveal */
-  function initReveal() {
-    var revealEls = document.querySelectorAll('.reveal');
-    if ('IntersectionObserver' in window && revealEls.length) {
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            io.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-      revealEls.forEach(function (el) { io.observe(el); });
-    } else {
-      revealEls.forEach(function (el) { el.classList.add('visible'); });
-    }
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && revealEls.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('visible'); });
   }
-  initReveal();
-
-  /* Smooth-scroll one-page anchor links with header offset */
-  document.querySelectorAll('a[href^="/#"]').forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      var targetId = link.getAttribute('href').replace('/#', '#');
-      var target = document.querySelector(targetId);
-      if (!target) return;
-      e.preventDefault();
-      var top = target.getBoundingClientRect().top + window.pageYOffset - 82;
-      window.scrollTo({ top: top, behavior: 'smooth' });
-      history.replaceState(null, '', '/' + targetId);
-    });
-  });
 
   /* Accordion */
   document.querySelectorAll('.accordion').forEach(function (acc) {
@@ -109,6 +93,7 @@
     if (!btn || !panel) return;
     btn.addEventListener('click', function () {
       var isOpen = acc.classList.contains('open');
+      /* close siblings */
       if (acc.parentElement) {
         acc.parentElement.querySelectorAll('.accordion.open').forEach(function (sib) {
           sib.classList.remove('open');
@@ -165,19 +150,21 @@
         return v ? v : 'Not provided';
       };
       var lines = [
-        "Hi BRANDSIP, I'd like to request a customized packaged drinking water quote.",
+        'Hello BRANDSIP, I would like to request a customized packaged drinking water quote.',
         'Name: ' + val('name'),
-        'Business / Organization: ' + val('business'),
-        'Phone / WhatsApp: ' + val('phone'),
+        'Business / Restaurant: ' + val('business'),
+        'Phone: ' + val('phone'),
         'Email: ' + val('email'),
+        'City: ' + val('city'),
         'Bottle Size: ' + val('size'),
+        'Bottle Shape: ' + val('shape'),
         'Quantity Required: ' + val('quantity'),
-        'Business / Event Type: ' + val('type'),
-        'Delivery Location: ' + val('city'),
+        'Label Type: ' + val('label'),
+        'Custom MRP Requirement: ' + val('mrp'),
         'Message: ' + val('message')
       ];
-      if (quoteForm.querySelector('input[type="file"]').files.length) {
-        var file = quoteForm.querySelector('input[type="file"]').files[0];
+      if (quoteForm.querySelector('#file').files.length) {
+        var file = quoteForm.querySelector('#file').files[0];
         lines.push('Uploaded file name: ' + file.name);
       }
       window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
