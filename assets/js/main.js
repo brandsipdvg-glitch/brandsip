@@ -96,7 +96,8 @@
       var target = document.querySelector(targetId);
       if (!target) return;
       e.preventDefault();
-      var top = target.getBoundingClientRect().top + window.pageYOffset - 82;
+      var top = target.getBoundingClientRect().top + window.pageYOffset -
+        document.querySelector('.site-header').offsetHeight;
       window.scrollTo({ top: top, behavior: 'smooth' });
       history.replaceState(null, '', '/' + targetId);
     });

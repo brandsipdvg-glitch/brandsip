@@ -274,6 +274,10 @@ h1, h2, h3, h4 {
   width: auto;
   filter: drop-shadow(0 4px 10px rgba(15, 106, 176, 0.22));
 }
+.site-header .brand img {
+  height: 132px;
+  max-width: 70vw;
+}
 .brand-slogan {
   display: none;
 }
@@ -746,6 +750,9 @@ h1, h2, h3, h4 {
   color: var(--blue-300);
 }
 @media (min-width: 720px) {
+  .header-inner {
+    height: 150px;
+  }
   .trust-inner {
     flex-direction: row;
     justify-content: center;
