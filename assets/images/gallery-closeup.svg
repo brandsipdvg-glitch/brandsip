@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Closeup of BRANDSIP branded water bottle label">
+<defs>
+  <linearGradient id="clbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a2f4d"/><stop offset="1" stop-color="#0d3f66"/></linearGradient>
+  <linearGradient id="clrade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.14"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="640" height="480" fill="url(#clbg)"/>
+<!-- big bottle fill -->
+<path d="M140 20 L500 20 L500 560 L140 560 Z" fill="url(#clrade)"/>
+<path d="M150 -10 c40 90 60 200 60 320 M490 -10 c-40 90 -60 200 -60 320" stroke="#ffffff" stroke-width="2" opacity="0.12" fill="none"/>
+<!-- label panel -->
+<rect x="200" y="70" width="240" height="340" rx="18" fill="#0d3f66"/>
+<rect x="200" y="70" width="240" height="70" rx="18" fill="#071f35"/>
+<circle cx="320" cy="105" r="24" fill="#ffffff" opacity="0.95"/>
+<path d="M320 82 c20 14 22 24 22 32 a22 22 0 0 1 -44 0 c0 -8 2 -18 22 -32 z" fill="#1f8fd0"/>
+<text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="22" fill="#ffffff" x="320" y="190" text-anchor="middle" letter-spacing="2">MAKE EVERY SIP</text>
+<text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="22" fill="#7cc4f5" x="320" y="218" text-anchor="middle" letter-spacing="2">A BRAND EXPERIENCE</text>
+<line x1="230" y1="236" x2="410" y2="236" stroke="#1f6fa8" stroke-width="1.5"/>
+<text font-family="Inter,Arial,sans-serif" font-size="13" fill="#b8dcf5" x="320" y="262" text-anchor="middle" letter-spacing="3">PACKAGED DRINKING WATER</text>
+<text font-family="Inter,Arial,sans-serif" font-weight="800" font-size="70" fill="#ffffff" x="320" y="330" text-anchor="middle">500</text>
+<text font-family="Inter,Arial,sans-serif" font-size="18" fill="#b8dcf5" x="320" y="356" text-anchor="middle" letter-spacing="3">ml</text>
+<line x1="230" y1="374" x2="410" y2="374" stroke="#1f6fa8" stroke-width="1.5"/>
+<text font-family="Inter,Arial,sans-serif" font-size="11" fill="#ffffff" x="320" y="398" text-anchor="middle" letter-spacing="2">BRANDSIP · CUSTOM LABEL</text>
+<rect x="200" y="70" width="22" height="340" rx="18" fill="#ffffff" opacity="0.08"/>
+</svg>
