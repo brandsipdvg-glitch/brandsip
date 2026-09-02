@@ -2363,3 +2363,19 @@ textarea.form-control {
   .dt-arrow { display: none; }
   .dt-grid { gap: 24px 14px; }
 }
+
+/* Light blue border + glow on hover for lift-up card boxes */
+.card:hover,
+.use-card:hover,
+.product-card:hover,
+.feature-card:hover,
+.action-card:hover,
+.testimonial-card:hover,
+.price-card:hover,
+.contact-card:hover,
+.icon-card:hover,
+.value-card:hover,
+.team-card:hover {
+  border-color: var(--blue-300) !important;
+  box-shadow: 0 16px 40px rgba(105, 190, 240, 0.35);
+}
