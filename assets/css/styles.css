@@ -275,7 +275,7 @@ h1, h2, h3, h4 {
   filter: drop-shadow(0 4px 10px rgba(15, 106, 176, 0.22));
 }
 .site-header .brand img {
-  height: 132px;
+  height: 66px;
   max-width: 70vw;
 }
 .brand-slogan {
@@ -751,7 +751,7 @@ h1, h2, h3, h4 {
 }
 @media (min-width: 720px) {
   .header-inner {
-    height: 150px;
+    height: 84px;
   }
   .trust-inner {
     flex-direction: row;
