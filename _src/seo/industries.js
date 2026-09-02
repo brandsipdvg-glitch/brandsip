@@ -24,7 +24,7 @@ module.exports = [
       { q: 'Can you brand water bottles for my hotel?', a: 'Yes. BRANDSIP customizes the bottle label with your hotel name, logo and design, using a premium full-cover label on round bottles for a polished presentation.' },
       { q: 'What bottle sizes are best for hotels?', a: '500ml round bottles work well for in-room and banquet use, while 1 litre round bottles suit longer stays, restaurant tables and hospitality areas. BRANDSIP can advise the best mix for your property.' },
       { q: 'What is the minimum order quantity for hotels?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
-      { q: 'Do you deliver to hotels across India?', a: 'Yes. BRANDSIP offers PAN India delivery from our Karnataka facility, so we can supply hotels and resorts anywhere in the country.' }
+      { q: 'Do you deliver to hotels across Karnataka?', a: 'Yes. BRANDSIP supplies hotels and resorts across Karnataka from our Davangere facility.' }
     ]
   },
   {
@@ -74,7 +74,7 @@ module.exports = [
       { q: 'Can cafés order branded water bottles?', a: 'Yes. BRANDSIP supplies custom branded water bottles to cafés, coffee shops and bakeries of all sizes.' },
       { q: 'Do you offer small quantities for cafés?', a: 'Minimum order quantities are negotiable based on your requirement. Contact BRANDSIP to confirm current MOQs.' },
       { q: 'Can I sell branded bottles to my customers?', a: 'Yes. You can offer branded water as a retail product. BRANDSIP can also customize the MRP on the label, subject to applicable labelling requirements.' },
-      { q: 'Do you deliver to cafés across India?', a: 'Yes. BRANDSIP offers PAN India delivery from our Karnataka facility.' }
+      { q: 'Do you deliver to cafés across Karnataka?', a: 'Yes. BRANDSIP delivers to cafés across Karnataka from our Davangere base.' }
     ]
   },
   {
@@ -124,7 +124,7 @@ module.exports = [
       { q: 'Can you print the couple\'s names on bottles?', a: 'Yes. Bottle labels can be customized with the couple\'s names, wedding date, monogram and theme colours.' },
       { q: 'How many bottles do I need for my wedding?', a: 'A common guideline is one or two bottles per guest, depending on the number of events. BRANDSIP can help you estimate the right quantity.' },
       { q: 'Can I match the bottles to my wedding theme?', a: 'Yes. Choose your colours, fonts and design and BRANDSIP will prepare a label that matches your theme.' },
-      { q: 'Do you deliver to my wedding venue?', a: 'Yes. BRANDSIP offers PAN India delivery so bottles can be sent to your venue or city.' }
+      { q: 'Do you deliver to my wedding venue?', a: 'Yes. BRANDSIP delivers bottles across Karnataka to your venue or city.' }
     ]
   },
   {
@@ -174,7 +174,7 @@ module.exports = [
       { q: 'Can schools order branded water?', a: 'Yes. BRANDSIP supplies custom branded water bottles to schools, colleges and educational institutions.' },
       { q: 'What sizes suit school events?', a: '300ml and 500ml single-serve bottles are ideal for students and events. BRANDSIP can help match the size to your occasion.' },
       { q: 'Can you print the school logo and colours?', a: 'Yes. The label can carry your school name, logo, colours and event details.' },
-      { q: 'Do you deliver to our school?', a: 'Yes. BRANDSIP offers PAN India delivery to your school or city.' }
+      { q: 'Do you deliver to our school?', a: 'Yes. BRANDSIP delivers to schools across Karnataka.' }
     ]
   },
   {
@@ -196,7 +196,7 @@ module.exports = [
       'Sports days and inter-college competitions'
     ],
     faqs: [
-      { q: 'Can colleges order branded bottles?', a: 'Yes. BRANDSIP supplies custom branded water bottles to colleges and universities across India.' },
+      { q: 'Can colleges order branded bottles?', a: 'Yes. BRANDSIP supplies custom branded water bottles to colleges and universities across Karnataka.' },
       { q: 'Can the bottle carry our fest or event name?', a: 'Yes. Labels can include your college name, fest name, dates, sponsors and artwork.' },
       { q: 'What is the minimum order for a college event?', a: 'MOQs depend on size and requirements. Contact BRANDSIP with your expected attendance for a current quote.' },
       { q: 'Can we get delivery before our event?', a: 'Yes. Contact BRANDSIP early with your event date so production and delivery can be scheduled in time.' }
@@ -224,7 +224,7 @@ module.exports = [
       { q: 'Can you brand water for my real estate project?', a: 'Yes. BRANDSIP customizes bottles with your project name, logo and brand colours for launches, site visits and events.' },
       { q: 'What bottle size suits project events?', a: '500ml bottles are popular for launches and site visits, while 1 litre bottles work well for long meetings and gifting.' },
       { q: 'Can bottles be used as corporate gifts?', a: 'Yes. Custom branded bottles make an upscale, practical inclusion in corporate gift boxes for clients and partners.' },
-      { q: 'Do you deliver to project sites?', a: 'Yes. BRANDSIP offers PAN India delivery to your site or city.' }
+      { q: 'Do you deliver to project sites?', a: 'Yes. BRANDSIP delivers to project sites across Karnataka.' }
     ]
   },
   {
@@ -249,7 +249,7 @@ module.exports = [
       { q: 'Can I brand water bottles for my exhibition stall?', a: 'Yes. BRANDSIP customizes bottles with your company name, logo, booth number and contact information for trade shows and expos.' },
       { q: 'What quantities do exhibitors order?', a: 'Quantities depend on expected footfall and budget. Contact BRANDSIP for a current quote based on your stall plan.' },
       { q: 'Can bottles include my contact details?', a: 'Yes. Add your website, phone or WhatsApp details to the label to make it easier for visitors to reach you.' },
-      { q: 'Do you deliver to exhibition venues across India?', a: 'Yes. BRANDSIP offers PAN India delivery to your venue or city.' }
+      { q: 'Do you deliver to exhibition venues across Karnataka?', a: 'Yes. BRANDSIP delivers to exhibition venues across the state.' }
     ]
   }
 ];

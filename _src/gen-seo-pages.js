@@ -110,11 +110,11 @@ function faqSchema(faqs) {
 function cityPage(c, i, total) {
   const slugPath = `/custom-water-bottles-${c.slug}`;
   const isHome = c.slug === 'davangere';
-  const localTag = isHome ? 'Local Delivery from Davangere' : 'PAN India Delivery';
+  const localTag = isHome ? 'Local Delivery from Davangere' : 'Karnataka-wide Delivery';
   const title = `Customised Water Bottles in ${c.name} | Custom Branded & Private Label Bottles | BRANDSIP`;
   const desc = isHome
     ? `Customised water bottles in ${c.name}. BRANDSIP is based in ${c.name}, Karnataka — supply custom branded & private label bottled water to restaurants, hotels, offices, weddings & events with the fastest local delivery at ${PHONE_DISPLAY}.`
-    : `Customised water bottles in ${c.name} (${c.region}) by BRANDSIP. Custom branded & private label bottled water for restaurants, hotels, corporate events & weddings, with reliable PAN India delivery at ${PHONE_DISPLAY}.`;
+    : `Customised water bottles in ${c.name} (${c.region}) by BRANDSIP. Custom branded & private label bottled water for restaurants, hotels, corporate events & weddings, with reliable delivery across Karnataka at ${PHONE_DISPLAY}.`;
   const h1 = `Customised Water Bottles in ${c.name}`;
 
   const rel = `/custom-water-bottles-${c.slug}`;
@@ -125,7 +125,7 @@ function cityPage(c, i, total) {
 
   const body = `
   ${breadcrumb('Cities', '')}
-  ${pageHero(h1, `<strong>Customised water bottles in ${c.name}</strong> — ${c.intro} Choose your <a href="/bottle-sizes">bottle size &amp; shape</a>, share your branding, and BRANDSIP supplies quality packaged drinking water with your logo across ${c.name} and anywhere in India.`)}
+  ${pageHero(h1, `<strong>Customised water bottles in ${c.name}</strong> — ${c.intro} Choose your <a href="/bottle-sizes">bottle size &amp; shape</a>, share your branding, and BRANDSIP supplies quality packaged drinking water with your logo across ${c.name} and across Karnataka.`)}
   <div style="padding:64px 0 0;">
     <div class="container">
       <div class="section-head reveal">
@@ -174,12 +174,12 @@ function cityPage(c, i, total) {
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Delivery &amp; Trust</span>
-        <h2>Customised Water Bottle Delivery in ${c.name} &amp; Across India</h2>
-        <p>Based in <strong>Davangere, Karnataka</strong>, BRANDSIP delivers custom branded water bottles to ${c.name} and every major city in India. We prioritize reliable scheduling, so your branded bottles arrive ready for your restaurant, hotel, event or business.</p>
+        <h2>Customised Water Bottle Delivery in ${c.name} &amp; Across Karnataka</h2>
+        <p>Based in <strong>Davangere, Karnataka</strong>, BRANDSIP delivers custom branded water bottles to ${c.name} and cities across Karnataka. We prioritize reliable scheduling, so your branded bottles arrive ready for your restaurant, hotel, event or business.</p>
         <p style="margin-top:12px;">Also serving: ${cityLinks(c.slug)}</p>
       </div>
       <div class="grid grid-3">
-        <div class="feature-card reveal"><span class="feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><h3>PAN India Delivery</h3><p>We deliver branded bottles to ${c.name} and across India.</p></div>
+        <div class="feature-card reveal"><span class="feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><h3>Karnataka-wide Delivery</h3><p>We deliver branded bottles to ${c.name} and across Karnataka.</p></div>
         <div class="feature-card reveal"><span class="feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><h3>Custom Branding</h3><p>Your logo, name and design on every label.</p></div>
         <div class="feature-card reveal"><span class="feature-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><h3>Quality Treatment</h3><p>Filtered, UV treated and ozonised before packaging.</p></div>
       </div>
@@ -191,9 +191,9 @@ function cityPage(c, i, total) {
       <div class="grid grid-2" style="align-items:center;">
         <div class="reveal">
           <div class="section-head">
-            <span class="eyebrow">Local + National</span>
+            <span class="eyebrow">Local + Karnataka</span>
             <h2 style="font-size:1.9rem;">Customised Water Bottles in ${c.name}, Managed from Karnataka</h2>
-            <p>From our Davangere base in Karnataka, BRANDSIP manages manufacturing, custom labelling and delivery for clients across ${c.region} and the rest of India. We combine local attention with national reach — so ${c.name} businesses get both close service and dependable PAN India delivery.</p>
+            <p>From our Davangere base in Karnataka, BRANDSIP manages manufacturing, custom labelling and delivery for clients across ${c.region}. We combine close local attention with statewide reach — so ${c.name} businesses get dependable delivery wherever they serve in Karnataka.</p>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
               <a class="btn btn-primary" href="/contact">Get a Quote</a>
               <a class="btn btn-outline" href="/pricing">See Pricing</a>
@@ -222,7 +222,7 @@ function cityPage(c, i, total) {
     </div>
   </div>
 
-  ${ctaBand(`Get Customised Water Bottles in ${c.name}`, `Order customised branded bottled water for your ${c.name} restaurant, hotel, office, wedding or event. Flexible sizes, negotiable MOQs and reliable PAN India delivery.`)}
+  ${ctaBand(`Get Customised Water Bottles in ${c.name}`, `Order customised branded bottled water for your ${c.name} restaurant, hotel, office, wedding or event. Flexible sizes, negotiable MOQs and reliable delivery across Karnataka.`)}
 `;
 
   const extraHead = `
@@ -246,7 +246,7 @@ ${faqSchema(c.faqs || cityFaqs())}
 const cities = require(path.join(SEODIR, 'cities.js'));
 function cityFaqs() {
   return [
-    { q: 'Can you deliver branded water bottles to my city?', a: 'Yes. BRANDSIP offers PAN India delivery from our Karnataka facility, so we can supply branded water bottles to any city in India.' },
+    { q: 'Can you deliver branded water bottles to my city?', a: 'Yes. BRANDSIP delivers branded water bottles across Karnataka from our Davangere base, serving all major towns and cities in the state.' },
     { q: 'What is the minimum order quantity?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP for a current quote.' },
     { q: 'How do I order branded water bottles?', a: 'Choose your bottle size, share your branding, confirm your requirements, and we produce and deliver your branded bottles. Contact us to get started.' },
     { q: 'What bottle sizes are available?', a: 'BRANDSIP offers 250ml, 500ml, 750ml and 1 litre bottles in square and round formats with single-side or full-cover labels.' }
@@ -260,12 +260,12 @@ function industryPage(ind) {
   const rel = `/water-bottles-for-${ind.slug}`;
   const canonicalUrl = `${BASE}${rel}`;
   const title = `${ind.title} | BRANDSIP`;
-  const desc = `${ind.title}. BRANDSIP supplies custom branded packaged drinking water for ${ind.slug.replace(/-/g, ' ')} — premium labels, flexible sizes and PAN India delivery. Get a quote at ${PHONE_DISPLAY}.`;
+  const desc = `${ind.title}. BRANDSIP supplies custom branded packaged drinking water for ${ind.slug.replace(/-/g, ' ')} — premium labels, flexible sizes and reliable delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
   const h1 = ind.h1;
 
   const body = `
   ${breadcrumb('Industries', '/industries')}
-  ${pageHero(h1, ind.intro + ' BRANDSIP combines responsible water treatment with premium custom labelling, delivered across India.')}
+  ${pageHero(h1, ind.intro + ' BRANDSIP combines responsible water treatment with premium custom labelling, delivered across Karnataka.')}
 
   <div class="section">
     <div class="container">
@@ -294,7 +294,7 @@ function industryPage(ind) {
       <div class="section-head center reveal">
         <span class="eyebrow">Examples</span>
         <h2>How ${ind.slug.replace(/-/g, ' ')} Use Branded Bottles</h2>
-        <p>Practical ways ${ind.slug.replace(/-/g, ' ')} across India use custom branded water to build their brand and experience.</p>
+        <p>Practical ways ${ind.slug.replace(/-/g, ' ')} across Karnataka use custom branded water to build their brand and experience.</p>
       </div>
       <div class="grid grid-2">
         ${ind.examples.map(x => `<div class="card reveal"><div class="card-body"><h3>${x}</h3><p>${x} — with a clean, premium label that puts your ${ind.eyebrow.toLowerCase()} branding in front of every guest and attendee.</p></div></div>`).join('\n        ')}
@@ -315,7 +315,7 @@ function industryPage(ind) {
           <div class="step reveal"><span class="step-num">01</span><h3>Choose Your Bottle</h3><p>Pick from 250ml to 1 litre, square or round.</p></div>
           <div class="step reveal"><span class="step-num">02</span><h3>Share Your Branding</h3><p>Send your logo, name or design.</p></div>
           <div class="step reveal"><span class="step-num">03</span><h3>Confirm Requirements</h3><p>Confirm quantity, label and details.</p></div>
-          <div class="step reveal"><span class="step-num">04</span><h3>Delivered to You</h3><p>Receive branded bottles across India.</p></div>
+          <div class="step reveal"><span class="step-num">04</span><h3>Delivered to You</h3><p>Receive branded bottles across Karnataka.</p></div>
         </div>
       </div>
       <div class="reveal" style="margin-top:36px;text-align:center;">
@@ -335,7 +335,7 @@ function industryPage(ind) {
     </div>
   </div>
 
-  ${ctaBand(`Branded Water for ${ind.slug.replace(/-/g, ' ')}`, `Put your name and logo on quality packaged drinking water. Flexible sizes, negotiable MOQs and reliable PAN India delivery from BRANDSIP.`)}
+  ${ctaBand(`Branded Water for ${ind.slug.replace(/-/g, ' ')}`, `Put your name and logo on quality packaged drinking water. Flexible sizes, negotiable MOQs and reliable delivery across Karnataka from BRANDSIP.`)}
 `;
 
   const extraHead = `
@@ -346,7 +346,7 @@ function industryPage(ind) {
   "name": "${h1}",
   "serviceType": "Custom branded packaged drinking water bottles for ${ind.slug.replace(/-/g, ' ')}",
   "provider": { "@type": "Organization", "name": "BRANDSIP", "telephone": "${PHONE}", "email": "${EMAIL}", "address": { "@type": "PostalAddress", "addressLocality": "Davangere", "addressRegion": "Karnataka", "addressCountry": "IN" } },
-  "areaServed": "India",
+  "areaServed": { "@type": "State", "name": "Karnataka" },
   "url": "${canonicalUrl}"
 }
 </script>
@@ -362,7 +362,7 @@ function productPage(p) {
   const rel = `/${p.slug}-branded-water-bottles`;
   const canonicalUrl = `${BASE}${rel}`;
   const title = `${p.title} | BRANDSIP`;
-  const desc = `${p.title}. ${p.region} branded water bottles with custom labelling by BRANDSIP. Specs, MOQ, use cases and delivery across India. Get a quote at ${PHONE_DISPLAY}.`;
+  const desc = `${p.title}. ${p.region} branded water bottles with custom labelling by BRANDSIP. Specs, MOQ, use cases and delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
   const h1 = p.h1;
 
   const specsRows = p.specs.map(s => `<tr><td><strong>${s.k}</strong></td><td>${s.v}</td></tr>`).join('\n            ');
@@ -412,7 +412,7 @@ function productPage(p) {
         <p>Popular applications for the ${p.sizeLabel} branded water bottle.</p>
       </div>
       <div class="grid grid-2">
-        ${p.useCases.map(x => `<div class="card reveal"><div class="card-body"><h3>${x}</h3><p>${x} with a custom label that carries your brand, logo and design — delivered across India by BRANDSIP.</p></div></div>`).join('\n        ')}
+        ${p.useCases.map(x => `<div class="card reveal"><div class="card-body"><h3>${x}</h3><p>${x} with a custom label that carries your brand, logo and design — delivered across Karnataka by BRANDSIP.</p></div></div>`).join('\n        ')}
       </div>
     </div>
   </div>
@@ -427,7 +427,7 @@ function productPage(p) {
     </div>
   </div>
 
-  ${ctaBand(`Order ${p.title}`, `Get the ${p.sizeLabel} branded water bottle for your business, event or hospitality. Flexible MOQs and reliable PAN India delivery.`)}
+  ${ctaBand(`Order ${p.title}`, `Get the ${p.sizeLabel} branded water bottle for your business, event or hospitality. Flexible MOQs and reliable delivery across Karnataka.`)}
 `;
 
   const imageChoices = {
@@ -496,7 +496,7 @@ function blogPage(b, idx) {
     </div>
   </article>
 
-  ${ctaBand('Make Every Sip a Brand Experience', 'Branded water for restaurants, hotels, businesses, events and weddings — with reliable PAN India delivery from BRANDSIP.')}
+  ${ctaBand('Make Every Sip a Brand Experience', 'Branded water for restaurants, hotels, businesses, events and weddings — with reliable delivery across Karnataka from BRANDSIP.')}
 `;
 
   const extraHead = `
@@ -552,7 +552,7 @@ function faqPage(faqs) {
     </div>
   </div>
 
-  ${ctaBand('Get Your Custom Branded Water Bottles', 'Choose your bottle, share your branding and let BRANDSIP handle production and PAN India delivery. Flexible sizes, negotiable MOQs.')}
+  ${ctaBand('Get Your Custom Branded Water Bottles', 'Choose your bottle, share your branding and let BRANDSIP handle production and delivery across Karnataka. Flexible sizes, negotiable MOQs.')}
 `;
 
   const extraHead = `
@@ -600,7 +600,7 @@ function resourcesPage(blog) {
 
       <div class="reveal" style="margin-top:36px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:28px; text-align:center;">
         <p><strong>More BRANDSIP resources:</strong> <a href="/custom-bottles">Custom Bottles</a> · <a href="/bottle-sizes">Bottle Options</a> · <a href="/pricing">Pricing</a> · <a href="/gallery">Gallery</a> · <a href="/faq">FAQ</a> · <a href="/industries">Industries</a></p>
-        <p style="margin-top:12px;color:var(--muted);">Looking for city guidance? See <a href="/custom-water-bottles-bangalore">custom water bottles in Bangalore</a>, <a href="/custom-water-bottles-mumbai">Mumbai</a> or <a href="/custom-water-bottles-davangere">Davangere</a>.</p>
+        <p style="margin-top:12px;color:var(--muted);">Looking for city guidance? See <a href="/custom-water-bottles-bangalore">custom water bottles in Bangalore</a>, <a href="/custom-water-bottles-davangere">Davangere</a> or <a href="/custom-water-bottles-mysore">Mysore</a>.</p>
       </div>
     </div>
   </div>

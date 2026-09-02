@@ -7,7 +7,7 @@ module.exports = [
     slug: 'how-hotels-use-branded-water-bottles',
     title: 'How Hotels Use Branded Water Bottles to Elevate the Guest Experience',
     category: 'Hospitality',
-    intro: 'In the competitive world of hospitality, small details create lasting impressions. One of the most practical and effective ways hotels are elevating the guest experience is through branded water bottles. This article explores how hotels across India use custom branded water bottles to strengthen their brand, improve guest perception and add a premium finishing touch to every stay.',
+    intro: 'In the competitive world of hospitality, small details create lasting impressions. One of the most practical and effective ways hotels are elevating the guest experience is through branded water bottles. This article explores how hotels across Karnataka use custom branded water bottles to strengthen their brand, improve guest perception and add a premium finishing touch to every stay.',
     sections: [
       { h: 'Why Branded Water Works in Hospitality', body: 'Water is one of the few amenities every hotel guest uses, regardless of room type or purpose of stay. By placing your own branded bottle in the room, restaurant or spa, you create a consistent, branded touchpoint that guests encounter naturally. Unlike a generic bottle, a professionally labelled bottle reflects the care and attention a property invests in its presentation.' },
       { h: 'Where Hotels Use Branded Bottles', body: 'Hotels place branded bottles in guest rooms, near the mini-bar, in restaurants and banquet halls, at conference tables and in spa and pool areas. Each placement reinforces the brand in a different context, from a private guest moment to a large corporate event. This versatility makes branded water a flexible marketing and amenity tool.' },
@@ -25,7 +25,7 @@ module.exports = [
     slug: 'corporate-event-branding-ideas',
     title: 'Corporate Event Branding Ideas That Make Your Brand Unforgettable',
     category: 'Corporate',
-    intro: 'Corporate events are powerful opportunities to build brand recall, but standing out requires more than a logo on a banner. This article shares practical corporate event branding ideas in India — including branded water bottles — that keep your company visible, professional and memorable from start to finish.',
+    intro: 'Corporate events are powerful opportunities to build brand recall, but standing out requires more than a logo on a banner. This article shares practical corporate event branding ideas in Karnataka — including branded water bottles — that keep your company visible, professional and memorable from start to finish.',
     sections: [
       { h: 'Why Event Branding Matters', body: 'Attendees at conferences, launches and expos are exposed to dozens of brands in a single day. The brands they remember are those they encounter repeatedly and positively. Event branding creates those touchpoints and turns a one-time event into lasting brand recognition.' },
       { h: 'Branded Water at Every Seat', body: 'Placing a branded water bottle at every seat is one of the simplest and most effective branding moves. Every attendee interacts with your brand, and the bottle often travels home with them, continuing to work long after the event ends.' },
@@ -43,14 +43,14 @@ module.exports = [
     slug: 'benefits-of-private-label-water-bottles',
     title: 'The Business Benefits of Private Label Water Bottles',
     category: 'Business',
-    intro: 'Private label water bottles let a brand put its own name on a quality product, creating a powerful and affordable way to build recognition. This article explains the benefits of private label water bottles for businesses, restaurants, hotels and events in India.',
+    intro: 'Private label water bottles let a brand put its own name on a quality product, creating a powerful and affordable way to build recognition. This article explains the benefits of private label water bottles for businesses, restaurants, hotels and events in Karnataka.',
     sections: [
       { h: 'What Is Private Label Water?', body: 'Private label water is packaged drinking water bottled under your own brand name rather than a generic or national brand. You control the label, the look and the message, while the manufacturer handles production, treatment and packaging.' },
       { h: 'Brand Ownership and Control', body: 'With private label water, you own the branding. This means your logo, colours and design appear exactly as you want, and no other brand competes for attention on the bottle.' },
       { h: 'A Practical Marketing Tool', body: 'A private label bottle is a working product, not a one-time advertisement. Every sip, every table, every takeaway bottle reinforces your brand in a natural, useful way.' },
       { h: 'Consistency Across Locations', body: 'For chains and franchises, private label water ensures consistent branding across every outlet, helping customers instantly recognize and trust the product wherever they encounter it.' },
       { h: 'Cost-Effective Premium Positioning', body: 'Private label water lets businesses deliver a premium look without the premium cost of building a separate national water brand. It positions your product and business as more established and polished.' },
-      { h: 'Why Choose BRANDSIP for Private Label', body: 'BRANDSIP combines responsible water treatment with flexible custom labelling, so you get a quality product that carries your brand exactly as you intend — delivered across India.' }
+      { h: 'Why Choose BRANDSIP for Private Label', body: 'BRANDSIP combines responsible water treatment with flexible custom labelling, so you get a quality product that carries your brand exactly as you intend — delivered across Karnataka.' }
     ],
     faqs: [
       { q: 'What is the difference between private label and branded water?', a: 'Private label water carries your own brand name and design on the bottle, while branded water refers to an established third-party brand. BRANDSIP helps you create your own private label.' },
@@ -68,7 +68,7 @@ module.exports = [
       { h: 'Choosing the Right Size', body: '300ml and 500ml bottles are popular single-serve options for weddings, while 1 litre bottles suit long receptions and gatherings. Consider the number of events, the duration and your guest count when choosing sizes.' },
       { h: 'Estimating Your Quantity', body: 'A common guideline is one to two bottles per guest per event. Confirming your guest count and number of events helps BRANDSIP recommend the right quantity to avoid running short or over-ordering.' },
       { h: 'Designing a Keepsake-Worthy Label', body: 'The best wedding labels feel personal. Include the couple\'s names, the date, a monogram or a short message, and choose colours and fonts that match the theme. A thoughtful design makes the bottle a memento guests treasure.' },
-      { h: 'Planning and Delivery Timeline', body: 'Ordering well ahead of your wedding date is essential. Contact BRANDSIP early so production and PAN India delivery can be scheduled comfortably before your event.' }
+      { h: 'Planning and Delivery Timeline', body: 'Ordering well ahead of your wedding date is essential. Contact BRANDSIP early so production and delivery across Karnataka can be scheduled comfortably before your event.' }
     ],
     faqs: [
       { q: 'Can you print the couple\'s names and wedding date?', a: 'Yes. Labels can be customized with the couple\'s names, date, monogram, theme colours and a short message.' },
@@ -86,7 +86,7 @@ module.exports = [
       { h: 'Building Recognition and Recall', body: 'When guests take a branded bottle home or see it on social media, your restaurant gains recognition beyond the dining room. This extends your brand into everyday moments.' },
       { h: 'Matching Packaging to Brand Personality', body: 'A fine-dining restaurant might choose a round bottle with a full-cover label for elegance, while a casual café might prefer a playful square bottle. The packaging should reflect the personality of your brand.' },
       { h: 'Takeaway and Delivery Branding', body: 'With the rise of takeaway and delivery, branded packaging matters more than ever. Branded water bundled with orders extends consistent branding into the customer\'s home.' },
-      { h: 'Getting Started with BRANDSIP', body: 'BRANDSIP helps restaurants choose the right bottle size and label to match their brand, with flexible options and PAN India delivery.' }
+      { h: 'Getting Started with BRANDSIP', body: 'BRANDSIP helps restaurants choose the right bottle size and label to match their brand, with flexible options and delivery across Karnataka.' }
     ],
     faqs: [
       { q: 'Can I put my restaurant logo on the water bottle?', a: 'Yes. Your restaurant name, logo and design can be printed on the label.' },
@@ -104,7 +104,7 @@ module.exports = [
       { h: 'Leveraging Social Moments', body: 'A beautifully branded bottle is a natural subject for photography and social sharing. Guests posting your branded water extends your marketing reach organically.' },
       { h: 'Adding Value with Personalization', body: 'Personalized welcome messages, guest names and event-specific designs add a memorable, human touch that generic amenities cannot match.' },
       { h: 'Measuring the Impact of Branding', body: 'While subtle, branded touches influence reviews, repeat visits and word-of-mouth. Observing guest feedback and social posts helps you see the value of consistent branding.' },
-      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP provides the bottles, labels and delivery to make your hospitality branding practical and effortless, across India.' }
+      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP provides the bottles, labels and delivery to make your hospitality branding practical and effortless, across Karnataka.' }
     ],
     faqs: [
       { q: 'How can branded water improve guest experience?', a: 'It adds a thoughtful, premium and consistent touch that guests notice and remember, supporting perception and recall.' },
@@ -112,10 +112,10 @@ module.exports = [
     ]
   },
   {
-    slug: 'event-marketing-ideas-in-india',
-    title: 'Event Marketing Ideas in India That Build Brand Recall',
+    slug: 'event-marketing-ideas-in-karnataka',
+    title: 'Event Marketing Ideas in Karnataka That Build Brand Recall',
     category: 'Events',
-    intro: 'From weddings to conferences, events in India are a powerful channel for marketing. This article shares event marketing ideas — centred on branded water — that help brands, planners and organizers build visibility and lasting recall with attendees.',
+    intro: 'From weddings to conferences, events in Karnataka are a powerful channel for marketing. This article shares event marketing ideas — centred on branded water — that help brands, planners and organizers build visibility and lasting recall with attendees.',
     sections: [
       { h: 'The Power of Practical Branding', body: 'The most effective event branding is practical. Items people actually use and take home — like a branded water bottle — keep your brand in front of them far longer than a banner that comes down at the end of the event.' },
       { h: 'Branded Water for Every Occasion', body: 'Whether it\'s a conference, a wedding, an exhibition or a product launch, a branded bottle at every seat or stall ensures your brand is seen throughout the event and beyond.' },
@@ -131,9 +131,9 @@ module.exports = [
   },
   {
     slug: 'custom-water-bottle-trends',
-    title: 'Custom Water Bottle Trends to Watch in India',
+    title: 'Custom Water Bottle Trends to Watch in Karnataka',
     category: 'Trends',
-    intro: 'Custom water bottles are evolving from a novelty into a mainstream branding tool. This article explores the latest custom water bottle trends in India — from premium full-wrap labels to personalization — and what businesses should consider as they develop their branding.',
+    intro: 'Custom water bottles are evolving from a novelty into a mainstream branding tool. This article explores the latest custom water bottle trends in Karnataka — from premium full-wrap labels to personalization — and what businesses should consider as they develop their branding.',
     sections: [
       { h: 'The Rise of Full-Cover Labels', body: 'Round bottles with full-cover, complete-wrap labels are increasingly popular for a premium finish. The larger canvas allows richer design and a more polished, upscale appearance.' },
       { h: 'Personalization at Scale', body: 'From guest names to event-specific designs, personalization is becoming more accessible. Businesses and events are using personalized bottles to create memorable, individual touches.' },
@@ -158,7 +158,7 @@ module.exports = [
       { h: 'Designing an Effective Label', body: 'Effective premium labels are clean, legible and on-brand. They balance your logo, name and supporting design without clutter, so the brand reads instantly at a glance.' },
       { h: 'Typography and Colour', body: 'Consistent typography and a considered colour palette reinforce brand recognition. Choose elements that match your wider identity for a cohesive premium feel.' },
       { h: 'The Impact of a Professional Finish', body: 'A well-produced label protects your product\'s quality perception. Small details — alignment, print clarity and finish — directly affect how customers judge your brand.' },
-      { h: 'Bringing It Together with BRANDSIP', body: 'BRANDSIP works with you to select the bottle and prepare a label that reflects your premium positioning, delivered across India.' }
+      { h: 'Bringing It Together with BRANDSIP', body: 'BRANDSIP works with you to select the bottle and prepare a label that reflects your premium positioning, delivered across Karnataka.' }
     ],
     faqs: [
       { q: 'What bottle gives the most premium look?', a: 'The round bottle with a full-cover label is recommended by BRANDSIP for the most premium presentation.' },
@@ -193,7 +193,7 @@ module.exports = [
       { h: 'Choosing the Right Bottle Size', body: 'From 250ml single serves to 1 litre large formats, match the bottle to the occasion. B2B orders often combine sizes to cover different settings.' },
       { h: 'Working Within Minimum Order Quantities', body: 'MOQs depend on bottle size and are negotiable. Share your budget and quantity to get a clear picture of what\'s possible and cost-effective.' },
       { h: 'Preparing Your Artwork and Labels', body: 'Provide your logo, business name and design. BRANDSIP helps prepare the label, choosing between single-side and full-cover options to match your brand.' },
-      { h: 'Planning Timelines and Delivery', body: 'Confirm your deadlines and delivery location early. BRANDSIP offers PAN India delivery and works to your schedule when dates are shared in advance.' },
+      { h: 'Planning Timelines and Delivery', body: 'Confirm your deadlines and delivery location early. BRANDSIP offers delivery across Karnataka and works to your schedule when dates are shared in advance.' },
       { h: 'Building a Long-Term Supply', body: 'Many B2B clients reorder regularly. Establishing a reliable supply arrangement ensures consistent branding and uninterrupted availability.' }
     ],
     faqs: [
@@ -203,16 +203,16 @@ module.exports = [
   },
   {
     slug: 'why-branded-water-matters-for-restaurants',
-    title: 'Why Branded Water Matters for Restaurants in India',
+    title: 'Why Branded Water Matters for Restaurants in Karnataka',
     category: 'Restaurants',
-    intro: 'Indian restaurants operate in an incredibly competitive market, and every detail shapes the guest\'s impression. This article explains why branded water matters for restaurants in India — and how a simple custom bottle can strengthen your tableside image.',
+    intro: 'restaurants in Karnataka operate in an incredibly competitive market, and every detail shapes the guest\'s impression. This article explains why branded water matters for restaurants in Karnataka — and how a simple custom bottle can strengthen your tableside image.',
     sections: [
       { h: 'The Competitive Restaurant Landscape', body: 'With dining options everywhere, restaurants must differentiate on experience. Small, polished details can be the difference between a memorable meal and a forgotten one.' },
       { h: 'Water Is Served at Every Meal', body: 'Nearly every guest drinks water, making the bottle one of the most consistent and high-frequency brand touchpoints in your restaurant.' },
       { h: 'A Premium Impression That Costs Less Than You Think', body: 'A branded bottle with a full-cover label delivers a premium, intentional look at a fraction of the cost of other brand-building efforts.' },
       { h: 'Extending Brand Reach Beyond the Table', body: 'Guests take branded bottles home and share them online, so your branding continues to work outside the restaurant, reaching new audiences.' },
       { h: 'Matching the Bottle to Your Concept', body: 'From fine dining to casual cafés, the right bottle and label match your concept\'s personality, reinforcing the experience you want to create.' },
-      { h: 'Working with BRANDSIP', body: 'BRANDSIP helps Indian restaurants choose sizes and labels that fit their brand and budget, with reliable delivery across regions.' }
+      { h: 'Working with BRANDSIP', body: 'BRANDSIP helps restaurants in Karnataka choose sizes and labels that fit their brand and budget, with reliable delivery across regions.' }
     ],
     faqs: [
       { q: 'Why should restaurants brand their water?', a: 'Branded water reinforces your identity at every table, adds a premium impression and extends brand recall beyond the restaurant.' },
@@ -302,7 +302,7 @@ module.exports = [
       { h: 'Managing Costs and Quantities', body: 'Understanding volumes and budgets helps you choose cost-effective sizes and quantities. Negotiable MOQs allow procurement to align orders with actual usage.' },
       { h: 'Ensuring Reliable Supply', body: 'Consistency matters in hospitality. Establishing a dependable supply arrangement with scheduled delivery keeps rooms and venues stocked without interruption.' },
       { h: 'Working with Procurement Timelines', body: 'Hotels plan purchases in advance. Confirming specifications, quantities and delivery dates early helps BRANDSIP meet your operational timelines.' },
-      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP supports hotel procurement with flexible sizing, custom labelling and PAN India delivery for properties of all sizes.' }
+      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP supports hotel procurement with flexible sizing, custom labelling and delivery across Karnataka for properties of all sizes.' }
     ],
     faqs: [
       { q: 'What should hotels consider when ordering branded water?', a: 'Consider quality, presentation, bottle sizes for different areas, costs, reliable supply and delivery timelines.' },
@@ -319,7 +319,7 @@ module.exports = [
       { h: 'Step 2: Share Your Branding', body: 'Send your logo, business name, artwork or design. BRANDSIP will work with you to prepare a label that represents your brand well.' },
       { h: 'Step 3: Choose Your Label', body: 'Select between single-side and full-cover label styles based on your bottle and desired look. BRANDSIP helps you decide what\'s best.' },
       { h: 'Step 4: Confirm Requirements', body: 'Confirm the quantity, bottle choice, label, branding and any custom details like MRP. This ensures your order matches your needs exactly.' },
-      { h: 'Step 5: Production and Delivery', body: 'BRANDSIP prepares and produces your branded bottles, then delivers across India to your business, venue or event.' },
+      { h: 'Step 5: Production and Delivery', body: 'BRANDSIP prepares and produces your branded bottles, then delivers across Karnataka to your business, venue or event.' },
       { h: 'Start Your Order Today', body: 'Ready to begin? Contact BRANDSIP with your requirements and receive a customized quote for your branded water bottles.' }
     ],
     faqs: [
@@ -347,37 +347,37 @@ module.exports = [
   },
   {
     slug: 'how-to-choose-a-branded-water-supplier',
-    title: 'How to Choose a Branded Water Supplier in India',
+    title: 'How to Choose a Branded Water Supplier in Karnataka',
     category: 'Buying Guide',
-    intro: 'Choosing the right branded water supplier is critical for quality, consistency and reliability. This guide outlines what to evaluate when selecting a branded water supplier in India — so you can partner with a provider that meets your needs.',
+    intro: 'Choosing the right branded water supplier is critical for quality, consistency and reliability. This guide outlines what to evaluate when selecting a branded water supplier in Karnataka — so you can partner with a provider that meets your needs.',
     sections: [
       { h: 'Evaluate Product Quality', body: 'The water itself must be reliably treated and responsibly packaged. Check that the supplier\'s process supports safe, clean drinking water for your customers.' },
       { h: 'Assess Labelling and Branding Quality', body: 'Your branding is only as good as the printing. Evaluate the supplier\'s label options and finish, and ask to see examples of their work.' },
       { h: 'Consider Range and Flexibility', body: 'A good supplier offers a range of bottle sizes and label styles, plus flexibility to tailor orders to your use case and budget.' },
-      { h: 'Check Reliability and Delivery', body: 'Delivery reliability is essential, especially for events and regular supply. Confirm the supplier can meet your timelines and locations, including PAN India delivery.' },
+      { h: 'Check Reliability and Delivery', body: 'Delivery reliability is essential, especially for events and regular supply. Confirm the supplier can meet your timelines and locations, including delivery across Karnataka.' },
       { h: 'Review MOQs and Pricing', body: 'Understand minimum order quantities and how pricing scales. Negotiable MOQs give you flexibility to match orders to your actual needs.' },
       { h: 'Choose a Partner You Can Trust', body: 'Beyond price, choose a supplier that communicates clearly and aligns with your quality expectations. BRANDSIP offers the quality, flexibility and delivery to support your brand.' }
     ],
     faqs: [
       { q: 'What should I look for in a branded water supplier?', a: 'Look for reliable water quality, quality labelling, a range of sizes, flexible MOQs, reliable delivery and clear communication.' },
-      { q: 'Does BRANDSIP deliver across India?', a: 'Yes. BRANDSIP offers PAN India delivery from our Karnataka facility.' }
+      { q: 'Does BRANDSIP deliver across Karnataka?', a: 'Yes. BRANDSIP offers statewide delivery across Karnataka from our Davangere facility.' }
     ]
   },
   {
     slug: 'branded-water-for-restaurant-chains',
     title: 'Branded Water for Restaurant Chains: Consistency Across Locations',
     category: 'Restaurants',
-    intro: 'Restaurant chains face a unique challenge: delivering a consistent experience across every outlet. This article explains how branded water helps restaurant chains maintain consistent branding, supply and quality across multiple locations in India.',
+    intro: 'Restaurant chains face a unique challenge: delivering a consistent experience across every outlet. This article explains how branded water helps restaurant chains maintain consistent branding, supply and quality across multiple locations in Karnataka.',
     sections: [
       { h: 'The Consistency Challenge', body: 'Every outlet of a chain should feel the same, from food to presentation. Branded water is one way to standardize a visible touchpoint across all locations.' },
       { h: 'One Brand, Every Table', body: 'A single, consistent branded bottle ensures guests see the same logo and design no matter which outlet they visit, reinforcing recognition and trust.' },
       { h: 'Centralizing Supply', body: 'Chains can centralize branded water supply for consistent quality and simplified procurement, while distributing to each location as needed.' },
       { h: 'Scaling Quantities', body: 'With multiple outlets, chains need volume. Negotiable MOQs and reliable supply help chains manage large, recurring orders efficiently.' },
       { h: 'Supporting Marketing Campaigns', body: 'Chains can use branded bottles for seasonal campaigns, limited editions and promotional events, adding flexibility and freshness to their branding.' },
-      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP supports restaurant chains with consistent labelling, volume supply and PAN India delivery across locations.' }
+      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP supports restaurant chains with consistent labelling, volume supply and statewide delivery across their locations.' }
     ],
     faqs: [
-      { q: 'Can BRANDSIP supply branded water to multiple locations?', a: 'Yes. BRANDSIP supports restaurant chains with consistent branding and PAN India delivery across their locations.' },
+      { q: 'Can BRANDSIP supply branded water to multiple locations?', a: 'Yes. BRANDSIP supports restaurant chains with consistent branding and statewide delivery across their locations.' },
       { q: 'Can I create limited-edition campaign bottles?', a: 'Yes. Seasonal and campaign-specific labels are possible, subject to order requirements.' }
     ]
   },
@@ -392,7 +392,7 @@ module.exports = [
       { h: 'Cafeteria and Breakroom Use', body: 'Branded water in the cafeteria and breakroom is a low-cost way to keep the brand present while providing a practical amenity for employees.' },
       { h: 'Easy, Reliable Supply', body: 'Offices value reliability. A dependable branded water supply keeps rooms and cafeterias stocked without imperfing daily operations.' },
       { h: 'Scaling with the Office', body: 'From a small office to a large corporate campus, flexible quantities and sizes let you scale branded water to your needs.' },
-      { h: 'Working with BRANDSIP', body: 'BRANDSIP supplies branded water to corporate offices across India, with flexible quantities and reliable delivery.' }
+      { h: 'Working with BRANDSIP', body: 'BRANDSIP supplies branded water to corporate offices across Karnataka, with flexible quantities and reliable delivery.' }
     ],
     faqs: [
       { q: 'Is branded water suitable for offices?', a: 'Yes. Branded water works well in offices for meetings, cafeterias, client areas and daily operations.' },
@@ -428,7 +428,7 @@ module.exports = [
       { h: 'Placements and Corporate Events', body: 'For placement drives and corporate interactions, branded water presents a professional image and adds a polished touch.' },
       { h: 'Choosing the Right Sizes', body: '300ml and 500ml single-serve bottles suit most campus events and student gatherings, with larger sizes for extended functions.' },
       { h: 'Planning for High Volume', body: 'College events can involve thousands of attendees. Planning quantities and delivery in advance ensures you have enough branded water on the day.' },
-      { h: 'Working with BRANDSIP', body: 'BRANDSIP supplies branded water to colleges and institutions across India, with flexible quantities and reliable delivery.' }
+      { h: 'Working with BRANDSIP', body: 'BRANDSIP supplies branded water to colleges and institutions across Karnataka, with flexible quantities and reliable delivery.' }
     ],
     faqs: [
       { q: 'Can colleges brand water bottles?', a: 'Yes. BRANDSIP supplies custom branded water bottles to colleges, universities and educational institutions.' },
@@ -464,7 +464,7 @@ module.exports = [
       { h: 'Brand Recall and Reach', body: 'A generic bottle is forgotten the moment it\'s finished. A branded bottle is remembered, shared and often taken home, extending your reach.' },
       { h: 'Consistency and Trust', body: 'Consistent branded presentation builds familiarity and trust. Over time, customers associate clean, branded water with your quality and professionalism.' },
       { h: 'Cost-Effective Branding', body: 'Branding your water is a low-cost, high-visibility way to reinforce your brand compared with many other marketing investments.' },
-      { h: 'Choosing Branded with BRANDSIP', body: 'BRANDSIP makes it easy to switch from generic to branded water, with flexible options and reliable delivery across India.' }
+      { h: 'Choosing Branded with BRANDSIP', body: 'BRANDSIP makes it easy to switch from generic to branded water, with flexible options and reliable delivery across Karnataka.' }
     ],
     faqs: [
       { q: 'Is branded water worth the extra cost?', a: 'For most businesses, the brand value of consistent presentation, recall and premium perception outweighs the small added cost.' },
@@ -482,7 +482,7 @@ module.exports = [
       { h: 'A Premium, Memorable Touch', body: 'A well-designed bottle elevates the perceived quality of the experience and is more likely to be remembered and shared.' },
       { h: 'Practical and Personal', body: 'As a useful, everyday item, branded water is a practical way to provide value while personalizing the experience for your audience.' },
       { h: 'Supporting Your Brand Story', body: 'Every branded detail reinforces your story and values. Water, used by everyone, is a powerful and everyday way to tell it.' },
-      { h: 'Improving Experience with BRANDSIP', body: 'BRANDSIP helps you add this memorable, practical touch with quality branded bottles delivered across India.' }
+      { h: 'Improving Experience with BRANDSIP', body: 'BRANDSIP helps you add this memorable, practical touch with quality branded bottles delivered across Karnataka.' }
     ],
     faqs: [
       { q: 'Does branded water really improve customer experience?', a: 'Yes. It adds a premium, personal and consistent touch that customers notice, shaping perception and recall.' },
@@ -518,7 +518,7 @@ module.exports = [
       { h: 'Consistent Brand Presentation', body: 'Matching your launch bottle with your product\'s colours and design creates a cohesive, memorable presentation around the revealed product.' },
       { h: 'Takeaways That Travel', body: 'A branded bottle guests take home extends the launch\'s impact beyond the venue, keeping your new brand in circulation.' },
       { h: 'Planning Quantities and Delivery', body: 'Confirm your attendee list and delivery date early so your branded bottles arrive in time and in the right quantity.' },
-      { h: 'Executing with BRANDSIP', body: 'BRANDSIP helps you create launch-ready branded water, with flexible customization and reliable PAN India delivery.' }
+      { h: 'Executing with BRANDSIP', body: 'BRANDSIP helps you create launch-ready branded water, with flexible customization and reliable delivery across Karnataka.' }
     ],
     faqs: [
       { q: 'Why use branded water at a product launch?', a: 'It ensures your brand is visible throughout the event, improves the professional impression, and creates memorable takeaways.' },
@@ -529,14 +529,14 @@ module.exports = [
     slug: 'branded-water-for-exhibitions',
     title: 'Branded Water for Exhibitions and Trade Shows: Getting Noticed',
     category: 'Events',
-    intro: 'Exhibitions are competitive, crowded spaces where brands fight for attention. This article explains how branded water helps exhibitors get noticed, engage visitors and build recall at trade fairs and exhibitions across India.',
+    intro: 'Exhibitions are competitive, crowded spaces where brands fight for attention. This article explains how branded water helps exhibitors get noticed, engage visitors and build recall at trade fairs and exhibitions across Karnataka.',
     sections: [
       { h: 'Standing Out on the Floor', body: 'With hundreds of stalls, standing out is hard. A practical, useful gift like branded water gives visitors a reason to stop and remember your brand.' },
       { h: 'The Power of a Useful Giveaway', body: 'Giveaways that are actually used outperform items that get discarded. A branded bottle is used throughout the event and often taken home.' },
       { h: 'Driving Conversations at the Stall', body: 'Offering branded water creates a natural reason to engage visitors at your booth, supporting lead generation and conversations.' },
       { h: 'Extending Reach Beyond the Event', body: 'Bottles taken home and shared online keep your brand working well after the exhibition closes.' },
       { h: 'Planning Your Exhibition Supply', body: 'Estimate expected footfall to determine quantity, and confirm delivery to the venue in advance so your stock is ready.' },
-      { h: 'Preparing with BRANDSIP', body: 'BRANDSIP supplies branded water for exhibitions with contact details and design customization, delivered across India.' }
+      { h: 'Preparing with BRANDSIP', body: 'BRANDSIP supplies branded water for exhibitions with contact details and design customization, delivered across Karnataka.' }
     ],
     faqs: [
       { q: 'Why use branded water at exhibitions?', a: 'A useful branded giveaway attracts visitors, keeps your brand visible and builds recall better than items that get thrown away.' },
@@ -547,18 +547,18 @@ module.exports = [
     slug: 'why-choose-brandsip-for-branded-water',
     title: 'Why Choose BRANDSIP for Your Branded Water Bottles',
     category: 'About',
-    intro: 'Choosing the right partner for branded water matters. This article explains why businesses, hotels, restaurants, events and weddings choose BRANDSIP — covering quality, customization, flexibility and reliable PAN India delivery.',
+    intro: 'Choosing the right partner for branded water matters. This article explains why businesses, hotels, restaurants, events and weddings choose BRANDSIP — covering quality, customization, flexibility and reliable delivery across Karnataka.',
     sections: [
       { h: 'Quality Water, Responsibly Treated', body: 'BRANDSIP packaged drinking water is filtered, UV treated and ozonised before packaging, supporting safe, clean hydration for your customers and guests.' },
       { h: 'Custom Branding Done Right', body: 'Put your restaurant name, company name, logo or event design on the bottle label. BRANDSIP prepares your customized label to represent your brand well.' },
       { h: 'A Range of Bottles and Sizes', body: 'From 250ml to 1 litre, and square to round formats with single-side or full-cover labels, BRANDSIP has options to fit every business and occasion.' },
       { h: 'Flexible Quantities and Pricing', body: 'Negotiable MOQs and competitive pricing let you tailor orders to your budget, whether you need a small event run or large recurring supply.' },
-      { h: 'Reliable PAN India Delivery', body: 'From our Karnataka base, BRANDSIP delivers across India — to your restaurant, hotel, office, venue or event — so your branded water arrives on time.' },
+      { h: 'Reliable Delivery Across Karnataka', body: 'From our Karnataka base, BRANDSIP delivers across Karnataka — to your restaurant, hotel, office, venue or event — so your branded water arrives on time.' },
       { h: 'A Partner Each Sip Reflects', body: 'Choose BRANDSIP to make every sip a brand experience for your customers, guests and event attendees.' }
     ],
     faqs: [
-      { q: 'Why choose BRANDSIP for branded water?', a: 'BRANDSIP offers quality treated water, custom branding, a range of bottle sizes, flexible pricing and reliable PAN India delivery.' },
-      { q: 'Does BRANDSIP deliver across India?', a: 'Yes. BRANDSIP offers PAN India delivery from our Karnataka facility.' }
+      { q: 'Why choose BRANDSIP for branded water?', a: 'BRANDSIP offers quality treated water, custom branding, a range of bottle sizes, flexible pricing and reliable delivery across Karnataka.' },
+      { q: 'Does BRANDSIP deliver across Karnataka?', a: 'Yes. BRANDSIP offers statewide delivery across Karnataka from our Davangere facility.' }
     ]
   },
   {
@@ -608,7 +608,7 @@ module.exports = [
       { h: 'In-Room and Mini-Bar Bottles', body: 'A branded bottle in the room and mini-bar is a natural amenity that guests use and remember, supporting the overall guest experience.' },
       { h: 'Banquets and Event Spaces', body: 'Banquet and event spaces benefit from branded bottles at every seat, keeping the property\'s brand visible throughout weddings and corporate functions.' },
       { h: 'Sizing Across the Property', body: '500ml bottles suit restaurants and banquets, while 1 litre bottles work well for rooms and longer stays. Mixing sizes lets hotels cover every area.' },
-      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP helps hotel restaurants and properties supply consistent branded water across all their spaces, with reliable PAN India delivery.' }
+      { h: 'Partnering with BRANDSIP', body: 'BRANDSIP helps hotel restaurants and properties supply consistent branded water across all their spaces, with reliable delivery across Karnataka.' }
     ],
     faqs: [
       { q: 'What sizes work for hotel restaurants and rooms?', a: '500ml bottles suit restaurants and banquets; 1 litre bottles work for rooms and longer stays. Mixing sizes covers all areas.' },
@@ -637,18 +637,18 @@ module.exports = [
     slug: 'top-reasons-to-brand-your-water',
     title: 'Top Reasons to Brand Your Water in 2026',
     category: 'Trends',
-    intro: 'Branding water has become a mainstream strategy for businesses across India. This article covers the top reasons to brand your water in 2026 — from premium presentation and brand recall to cost-effective marketing and guest experience.',
+    intro: 'Branding water has become a mainstream strategy for businesses across Karnataka. This article covers the top reasons to brand your water in 2026 — from premium presentation and brand recall to cost-effective marketing and guest experience.',
     sections: [
       { h: 'Premium Presentation', body: 'A branded bottle looks intentional and premium, elevating how your business, restaurant, hotel or event is perceived by guests and customers.' },
       { h: 'Stronger Brand Recall', body: 'Brands that appear consistently in useful products are remembered. A branded bottle keeps your name in front of people from first sip to social share.' },
       { h: 'Cost-Effective Marketing', body: 'Compared with many marketing channels, branded water is affordable and gives you a visible, long-lasting brand presence at a low cost per bottle.' },
       { h: 'A Memorable Guest Experience', body: 'Small, personal touches build memorable experiences. Branded water adds a considered detail that customers appreciate and remember.' },
       { h: 'Consistency Across Touchpoints', body: 'Consistent branding builds trust. Water, used by nearly everyone, is an everyday way to reinforce a consistent brand identity.' },
-      { h: 'Easy to Start with BRANDSIP', body: 'Starting is simple. Choose your bottle, share your branding, and BRANDSIP handles production and PAN India delivery.' }
+      { h: 'Easy to Start with BRANDSIP', body: 'Starting is simple. Choose your bottle, share your branding, and BRANDSIP handles production and delivery across Karnataka.' }
     ],
     faqs: [
       { q: 'Why brand water in 2026?', a: 'Branded water offers premium presentation, stronger brand recall, and a low-cost, high-visibility marketing presence that improves guest experience.' },
-      { q: 'How easy is it to start branding water?', a: 'It\'s simple — choose a bottle, share your branding, and BRANDSIP handles the rest, including delivery across India.' }
+      { q: 'How easy is it to start branding water?', a: 'It\'s simple — choose a bottle, share your branding, and BRANDSIP handles the rest, including delivery across Karnataka.' }
     ]
   }
 ];

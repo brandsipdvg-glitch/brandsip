@@ -6,8 +6,8 @@ module.exports = [
   { cat: 'Basics', q: 'What is a branded water bottle?', a: 'A branded water bottle is a bottled water bottle that carries a brand\'s name, logo or design on the label. BRANDSIP supplies branded packaged drinking water so a business does not have to serve generic-looking water bottles.' },
   { cat: 'Basics', q: 'What does private label water mean?', a: 'Private label water is packaged drinking water bottled under your own brand name rather than a generic or national brand. You control the label, the look and the message while BRANDSIP handles production, treatment and packaging.' },
   { cat: 'Basics', q: 'How is BRANDSIP packaged drinking water treated?', a: 'BRANDSIP packaged drinking water is filtered, UV treated and ozonised before packaging. For information about current certifications, licensing or approvals, contact BRANDSIP directly.' },
-  { cat: 'Basics', q: 'Where is BRANDSIP located?', a: 'BRANDSIP is based in Davangere, Karnataka, India. From our Karnataka base we supply custom branded water bottles across India with PAN India delivery.' },
-  { cat: 'Basics', q: 'Does BRANDSIP deliver across India?', a: 'Yes. BRANDSIP offers PAN India delivery. We deliver custom branded water bottles to businesses, venues and events across all Indian states and major cities.' },
+  { cat: 'Basics', q: 'Where is BRANDSIP located?', a: 'BRANDSIP is based in Davangere, Karnataka, India. From our Karnataka base we supply custom branded water bottles across Karnataka with reliable statewide delivery.' },
+  { cat: 'Basics', q: 'Does BRANDSIP deliver across Karnataka?', a: 'Yes. BRANDSIP supplies custom branded water bottles to businesses, venues and events across Karnataka, serving all major towns and cities in the state.' },
   { cat: 'Basics', q: 'What is the difference between branded and generic water?', a: 'The water itself can be comparable, but a branded bottle carries your identity, name and logo while a generic bottle carries nothing. Branded water improves perception, brand recall and presentation.' },
   { cat: 'Basics', q: 'Why should my business brand its water?', a: 'Branding your water reinforces your identity at every table or event, adds a premium impression, builds brand recall and extends your reach as customers take bottles home or share them online.' },
 
@@ -50,10 +50,10 @@ module.exports = [
 
   { cat: 'Delivery & Logistics', q: 'How long does delivery take?', a: 'Delivery timelines depend on quantity, bottle availability, label requirements and destination. Contact BRANDSIP with your requirements and event date for a confirmed timeline.' },
   { cat: 'Delivery & Logistics', q: 'How much advance notice do you need for an order?', a: 'For higher volumes or large events, order as early as possible so production and delivery can be scheduled comfortably. Contact BRANDSIP with your dates to plan.' },
-  { cat: 'Delivery & Logistics', q: 'Do you deliver to my event venue?', a: 'Yes. BRANDSIP offers PAN India delivery to your venue or city, subject to location and requirements.' },
+  { cat: 'Delivery & Logistics', q: 'Do you deliver to my event venue?', a: 'Yes. BRANDSIP delivers to venues across Karnataka, subject to location and requirements.' },
   { cat: 'Delivery & Logistics', q: 'Do you offer regular scheduled supply?', a: 'Yes. BRANDSIP can arrange regular, recurring supply to hotels, offices, hospitals and other businesses, subject to location and requirements.' },
   { cat: 'Delivery & Logistics', q: 'Can you deliver before my event date?', a: 'Yes. Contact BRANDSIP early with your event date so we can schedule production and delivery in advance of the occasion.' },
-  { cat: 'Delivery & Logistics', q: 'Do you deliver to cities across India?', a: 'Yes. BRANDSIP delivers custom branded water bottles to all major Indian cities and towns of Karnataka and beyond, including Bangalore, Hyderabad, Chennai, Mumbai, Delhi, Pune and more.' },
+  { cat: 'Delivery & Logistics', q: 'Do you deliver to cities across Karnataka?', a: 'Yes. BRANDSIP delivers custom branded water bottles across Karnataka, including Bangalore, Mysore, Mangalore, Hubli, Belgaum, Davangere, Chitradurga and more.' },
   { cat: 'Delivery & Logistics', q: 'Do you deliver locally in Davangere and Karnataka?', a: 'Yes. As a Davangere-based company, we provide fast, convenient delivery to Davangere and surrounding Karnataka regions.' },
 
   { cat: 'Industries & Use Cases', q: 'Can BRANDSIP customize water bottles for businesses?', a: 'Yes. BRANDSIP can customize water bottles for businesses, corporate companies and offices with their brand name, logo or design.' },
