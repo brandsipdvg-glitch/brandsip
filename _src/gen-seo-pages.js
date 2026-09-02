@@ -109,9 +109,13 @@ function faqSchema(faqs) {
    ===================================================================== */
 function cityPage(c, i, total) {
   const slugPath = `/custom-water-bottles-${c.slug}`;
-  const title = `Custom Water Bottles in ${c.name} | ${c.slug === 'davangere' ? 'Local' : 'PAN India'} | BRANDSIP`;
-  const desc = `Custom branded water bottles in ${c.name} (${c.region}) by BRANDSIP. ${c.name}-focused restaurant, hotel, corporate, event and wedding branding with PAN India delivery. Get a quote at ${PHONE_DISPLAY}.`;
-  const h1 = `Custom Branded Water Bottles in ${c.name}`;
+  const isHome = c.slug === 'davangere';
+  const localTag = isHome ? 'Local Delivery from Davangere' : 'PAN India Delivery';
+  const title = `Customised Water Bottles in ${c.name} | Custom Branded & Private Label Bottles | BRANDSIP`;
+  const desc = isHome
+    ? `Customised water bottles in ${c.name}. BRANDSIP is based in ${c.name}, Karnataka — supply custom branded & private label bottled water to restaurants, hotels, offices, weddings & events with the fastest local delivery at ${PHONE_DISPLAY}.`
+    : `Customised water bottles in ${c.name} (${c.region}) by BRANDSIP. Custom branded & private label bottled water for restaurants, hotels, corporate events & weddings, with reliable PAN India delivery at ${PHONE_DISPLAY}.`;
+  const h1 = `Customised Water Bottles in ${c.name}`;
 
   const rel = `/custom-water-bottles-${c.slug}`;
   const canonicalUrl = `${BASE}${rel}`;
@@ -121,25 +125,25 @@ function cityPage(c, i, total) {
 
   const body = `
   ${breadcrumb('Cities', '')}
-  ${pageHero(h1, `<strong>${c.name}</strong> — ${c.intro} Choose your <a href="/bottle-sizes">bottle size &amp; shape</a>, share your branding, and BRANDSIP supplies quality packaged drinking water with your logo across ${c.name} and anywhere in India.`)}
+  ${pageHero(h1, `<strong>Customised water bottles in ${c.name}</strong> — ${c.intro} Choose your <a href="/bottle-sizes">bottle size &amp; shape</a>, share your branding, and BRANDSIP supplies quality packaged drinking water with your logo across ${c.name} and anywhere in India.`)}
   <div style="padding:64px 0 0;">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Local Service</span>
-        <h2>Branded Water Bottles for ${c.name}</h2>
+        <h2>Customised &amp; Branded Water Bottles in ${c.name}</h2>
         <p>BRANDSIP serves ${c.name} and ${c.region} with custom branded packaged drinking water. Whether you run a restaurant, hotel, office or are planning an event, we help you put your brand on every bottle — reliably and on time.</p>
       </div>
       <div class="grid grid-2">
         <div class="card reveal"><div class="card-body">
           <h3>Why ${c.name} Businesses Choose Branded Water</h3>
-          <p>In a city like ${c.name}, presentation differentiates you. A branded bottle keeps your restaurant, hotel, company or event name in front of every customer and guest. It adds a premium, considered touch that generic water cannot match.</p>
+          <p>A customised water bottle with your own label keeps your restaurant, hotel, company or event name in front of every customer and guest. In ${c.name}, presentation differentiates you — a branded bottle adds a premium, considered touch that generic water cannot match.</p>
           <p style="margin-top:10px;">Local highlights we serve in ${c.name}:</p>
           <ul class="price-meta" style="margin-top:8px;">
             ${c.localHighlights.map(x => `<li><span class="check">✓</span> ${x}</li>`).join('\n            ')}
           </ul>
         </div></div>
         <div class="card reveal"><div class="card-body">
-          <h3>Use Cases in ${c.name}</h3>
+          <h3>How Customised Bottles Are Used in ${c.name}</h3>
           <p>Custom branded water works across many settings in ${c.name}:</p>
           <ul class="price-meta" style="margin-top:8px;">
             ${c.useCases.map(x => `<li><span class="check">✓</span> ${x}</li>`).join('\n            ')}
@@ -154,7 +158,7 @@ function cityPage(c, i, total) {
     <div class="container">
       <div class="section-head center reveal">
         <span class="eyebrow">Available in ${c.name}</span>
-        <h2>Bottle Sizes &amp; Options We Deliver to ${c.name}</h2>
+        <h2>Customised Bottle Sizes &amp; Options Delivered to ${c.name}</h2>
         <p>Choose from a range of sizes and label styles, customized with your branding.</p>
       </div>
       <div class="grid grid-4">
@@ -170,7 +174,7 @@ function cityPage(c, i, total) {
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Delivery &amp; Trust</span>
-        <h2>Delivery in ${c.name} &amp; Across India</h2>
+        <h2>Customised Water Bottle Delivery in ${c.name} &amp; Across India</h2>
         <p>Based in <strong>Davangere, Karnataka</strong>, BRANDSIP delivers custom branded water bottles to ${c.name} and every major city in India. We prioritize reliable scheduling, so your branded bottles arrive ready for your restaurant, hotel, event or business.</p>
         <p style="margin-top:12px;">Also serving: ${cityLinks(c.slug)}</p>
       </div>
@@ -188,7 +192,7 @@ function cityPage(c, i, total) {
         <div class="reveal">
           <div class="section-head">
             <span class="eyebrow">Local + National</span>
-            <h2 style="font-size:1.9rem;">Branded Water in ${c.name}, Managed from Karnataka</h2>
+            <h2 style="font-size:1.9rem;">Customised Water Bottles in ${c.name}, Managed from Karnataka</h2>
             <p>From our Davangere base in Karnataka, BRANDSIP manages manufacturing, custom labelling and delivery for clients across ${c.region} and the rest of India. We combine local attention with national reach — so ${c.name} businesses get both close service and dependable PAN India delivery.</p>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
               <a class="btn btn-primary" href="/contact">Get a Quote</a>
@@ -218,7 +222,7 @@ function cityPage(c, i, total) {
     </div>
   </div>
 
-  ${ctaBand(`Get Custom Branded Water in ${c.name}`, `Order branded water bottles for your ${c.name} restaurant, hotel, office, wedding or event. Flexible sizes, negotiable MOQs and reliable PAN India delivery.`)}
+  ${ctaBand(`Get Customised Water Bottles in ${c.name}`, `Order customised branded bottled water for your ${c.name} restaurant, hotel, office, wedding or event. Flexible sizes, negotiable MOQs and reliable PAN India delivery.`)}
 `;
 
   const extraHead = `
@@ -226,11 +230,12 @@ function cityPage(c, i, total) {
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Custom Branded Water Bottles in ${c.name}",
-  "serviceType": "Custom branded packaged drinking water bottles",
+  "name": "Customised Water Bottles in ${c.name}",
+  "serviceType": "Custom branded and private label packaged drinking water bottles",
   "provider": { "@type": "Organization", "name": "BRANDSIP", "telephone": "${PHONE}", "email": "${EMAIL}", "address": { "@type": "PostalAddress", "addressLocality": "Davangere", "addressRegion": "Karnataka", "addressCountry": "IN" } },
   "areaServed": { "@type": "City", "name": "${c.name}", "containedInPlace": { "@type": "State", "name": "${c.region}" } },
-  "url": "${canonicalUrl}"
+  "url": "${canonicalUrl}",
+  "description": "${jsonSafe(desc)}"
 }
 </script>
 ${faqSchema(c.faqs || cityFaqs())}

@@ -43,7 +43,7 @@ module.exports = [
   { cat: 'Ordering & MOQ', q: 'Can I order customized water bottles online?', a: 'Yes. Share your requirements through our contact page, WhatsApp or email, and BRANDSIP will prepare a customized quote and confirm your order.' },
 
   { cat: 'Pricing', q: 'What is the price of a 300ml branded bottle?', a: 'The 300ml square bottle with a single-side label is available at ₹7 per bottle. Prices are negotiable based on quantity and requirements.' },
-  { cat: 'Pricing', q: 'What is the price of a 500ml branded bottle?', a: 'The 500ml square bottle is available at ₹8 per bottle and the 500ml round bottle at ₹10 per bottle. Prices are negotiable based on quantity and requirements.' },
+  { cat: 'Pricing', q: 'What is the price of a 500ml branded bottle?', a: 'The 500ml square bottle is available at ₹8 per bottle and the 500ml round bottle at ₹12 per bottle. Prices are negotiable based on quantity and requirements.' },
   { cat: 'Pricing', q: 'What is the price of a 1 litre branded bottle?', a: 'The 1 litre round bottle with a full-cover label is available at ₹18 per bottle. Prices are negotiable based on quantity and requirements.' },
   { cat: 'Pricing', q: 'Why does pricing vary by quantity?', a: 'Pricing depends on bottle size, label style, order quantity and production requirements. Larger quantities generally allow more favourable pricing. Contact BRANDSIP for a quote.' },
   { cat: 'Pricing', q: 'Are there additional costs for custom printing?', a: 'Custom printing and label preparation may affect the per-bottle price depending on complexity. Share your branding with BRANDSIP for an accurate quote.' },

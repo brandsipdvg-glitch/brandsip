@@ -179,10 +179,6 @@
         'Delivery Location: ' + val('city'),
         'Message: ' + val('message')
       ];
-      if (file) {
-        lines.push('Design/Logo file selected: ' + file.name);
-        lines.push('Please note: I will attach the design using the WhatsApp attachment (paperclip) button when the chat opens.');
-      }
       var msg = lines.join('\n');
       var wa = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
       window.open(wa, '_blank', 'noopener');
@@ -191,22 +187,6 @@
       quoteForm.reset();
     });
   }
-
-  /* File input label display + hint */
-  document.querySelectorAll('.field-file input[type="file"]').forEach(function (inp) {
-    inp.addEventListener('change', function () {
-      var wrap = inp.closest('.field-file');
-      var strong = wrap.querySelector('strong');
-      var hint = wrap.querySelector('.file-hint');
-      if (inp.files.length) {
-        if (strong) strong.textContent = inp.files[0].name;
-        if (hint) hint.style.display = 'block';
-      } else {
-        if (strong) strong.textContent = 'Upload Logo / Design';
-        if (hint) hint.style.display = 'none';
-      }
-    });
-  });
 
   /* Current year */
   document.querySelectorAll('[data-year]').forEach(function (el) {

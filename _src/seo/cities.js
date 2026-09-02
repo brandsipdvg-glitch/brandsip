@@ -240,18 +240,20 @@ module.exports = [
     slug: 'davangere',
     name: 'Davangere',
     region: 'Karnataka',
-    intro: 'Davangere is our home base — BRANDSIP is based in Davangere, Karnataka. We supply custom branded water bottles to restaurants, hotels, businesses, weddings and events across Davangere with the fastest delivery and closest local support.',
+    intro: 'Davangere is our home base — BRANDSIP is based in Davangere, Karnataka — and this is where we provide the fastest delivery and closest local support for customised water bottles. We supply custom branded bottled water to restaurants, hotels, businesses, weddings and events across Davangere and its nearby districts of Chitradurga, Shivamogga, Haveri, Ballari and Vijayanagara.',
     localHighlights: [
-      'Restaurants and cafés across Davangere',
+      'Restaurants and cafés across Davangere city',
       'Hotels and lodges hosting events and guests',
-      'Corporate offices and local businesses',
-      'Weddings, receptions and community functions'
+      'Corporate offices, factories and local businesses',
+      'Weddings, receptions and community functions',
+      'Nearby districts: Chitradurga, Shivamogga, Haveri, Ballari and Vijayanagara'
     ],
     useCases: [
       'Restaurant branded water bottles for your tables',
-      'Custom bottles for weddings and functions',
-      'Corporate and business branding for events',
-      'Hotel hospitality and event water'
+      'Custom bottles for weddings, receptions and functions',
+      'Corporate and business branding for events and office use',
+      'Hotel hospitality and event water',
+      'Customised bottled water delivered across Davangere district and nearby areas'
     ]
   },
   {
@@ -288,6 +290,96 @@ module.exports = [
       'Restaurant table water with your branding',
       'Personalized wedding and celebration bottles',
       'Corporate and event promotional water'
+    ]
+  },
+  {
+    slug: 'chitradurga',
+    name: 'Chitradurga',
+    region: 'Karnataka',
+    intro: 'Chitradurga, directly west of Davangere, hosts a steady mix of restaurants, hotels, businesses and community events. Because BRANDSIP is based in nearby Davangere, we supply custom branded water bottles across Chitradurga with fast local delivery and close support.',
+    localHighlights: [
+      'Restaurants and cafés across Chitradurga town',
+      'Hotels and lodges hosting business and family events',
+      'Tourism hospitality around Chitradurga Fort',
+      'Weddings, receptions and community functions'
+    ],
+    useCases: [
+      'Restaurant branded water bottles for your tables',
+      'Custom bottles for weddings and receptions',
+      'Corporate and business branding for events',
+      'Hotel hospitality and event water'
+    ]
+  },
+  {
+    slug: 'shivamogga',
+    name: 'Shivamogga',
+    region: 'Karnataka',
+    intro: 'Shivamogga (Shimoga), south of Davangere, is a growing hub for hospitality, tourism and trade. BRANDSIP supplies custom branded water bottles to restaurants, hotels, resorts, businesses and events across Shivamogga with reliable delivery from our Davangere base.',
+    localHighlights: [
+      'Restaurants and cafés across Shivamogga',
+      'Hotels and resorts serving tourists and businesses',
+      'Tourism hospitality around Jog Falls and the Malnad region',
+      'Weddings, receptions and community events'
+    ],
+    useCases: [
+      'Restaurant and café branded bottles',
+      'Hotel and resort hospitality water',
+      'Personalized wedding and function bottles',
+      'Corporate and promotional event water'
+    ]
+  },
+  {
+    slug: 'haveri',
+    name: 'Haveri',
+    region: 'Karnataka',
+    intro: 'Haveri, north of Davangere, is an important district centre for business, weddings and community events. Being close to our Davangere base, BRANDSIP supplies custom branded water bottles across Haveri with fast local delivery and personal support.',
+    localHighlights: [
+      'Restaurants and hotels across Haveri town',
+      'Local businesses and corporate offices',
+      'Weddings, receptions and community functions',
+      'Religious and cultural gatherings'
+    ],
+    useCases: [
+      'Restaurant branded water bottles',
+      'Custom bottles for weddings and functions',
+      'Corporate and business event branding',
+      'Hotel hospitality and event water'
+    ]
+  },
+  {
+    slug: 'ballari',
+    name: 'Ballari',
+    region: 'Karnataka',
+    intro: 'Ballari (Bellary), north-east of Davangere, is a major trade and business district. BRANDSIP supplies custom branded water bottles to restaurants, hotels, businesses, weddings and events across Ballari, with reliable delivery from our Karnataka base.',
+    localHighlights: [
+      'Restaurants and cafés across Ballari town',
+      'Hotels hosting business and family events',
+      'Industrial, mining and trade businesses',
+      'Weddings, receptions and cultural events'
+    ],
+    useCases: [
+      'Restaurant and café branded bottles',
+      'Custom bottles for corporate and business events',
+      'Personalized wedding and function bottles',
+      'Hotel hospitality and event water'
+    ]
+  },
+  {
+    slug: 'vijayanagara',
+    name: 'Vijayanagara',
+    region: 'Karnataka',
+    intro: 'Vijayanagara district, home to Hampi — a UNESCO World Heritage site — attracts tourism, hospitality and events all year round. BRANDSIP supplies custom branded water bottles to resorts, restaurants, hotels and event organizers across Vijayanagara, with reliable delivery from our Karnataka base.',
+    localHighlights: [
+      'Resorts and hotels serving tourists around Hampi',
+      'Restaurants and cafés across the district',
+      'Tourism and cultural events throughout the year',
+      'Weddings and destination celebrations'
+    ],
+    useCases: [
+      'Premium branded bottles for resorts and hotels',
+      'Restaurant table water with your branding',
+      'Personalized event and wedding bottles',
+      'Tourism and hospitality promotional water'
     ]
   }
 ];
