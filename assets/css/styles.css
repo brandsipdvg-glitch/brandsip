@@ -1927,6 +1927,12 @@ textarea.form-control {
 .field-file strong {
   color: var(--blue-700);
 }
+.file-hint {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--success);
+  font-weight: 600;
+}
 
 /* Quote form card */
 .quote-wrap {

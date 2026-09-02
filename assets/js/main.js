@@ -165,6 +165,8 @@
         var v = el ? el.value.trim() : '';
         return v ? v : 'Not provided';
       };
+      var fileInput = quoteForm.querySelector('input[type="file"]');
+      var file = fileInput && fileInput.files.length ? fileInput.files[0] : null;
       var lines = [
         "Hi BRANDSIP, I'd like to request a customized packaged drinking water quote.",
         'Name: ' + val('name'),
@@ -177,22 +179,32 @@
         'Delivery Location: ' + val('city'),
         'Message: ' + val('message')
       ];
-      if (quoteForm.querySelector('input[type="file"]').files.length) {
-        var file = quoteForm.querySelector('input[type="file"]').files[0];
-        lines.push('Uploaded file name: ' + file.name);
+      if (file) {
+        lines.push('Design/Logo file selected: ' + file.name);
+        lines.push('Please note: I will attach the design using the WhatsApp attachment (paperclip) button when the chat opens.');
       }
-      window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+      var msg = lines.join('\n');
+      var wa = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
+      window.open(wa, '_blank', 'noopener');
       var success = quoteForm.querySelector('.form-success');
       if (success) success.classList.add('show');
       quoteForm.reset();
     });
   }
 
-  /* File input label display */
+  /* File input label display + hint */
   document.querySelectorAll('.field-file input[type="file"]').forEach(function (inp) {
     inp.addEventListener('change', function () {
-      var strong = inp.closest('.field-file').querySelector('strong');
-      if (strong && inp.files.length) strong.textContent = inp.files[0].name;
+      var wrap = inp.closest('.field-file');
+      var strong = wrap.querySelector('strong');
+      var hint = wrap.querySelector('.file-hint');
+      if (inp.files.length) {
+        if (strong) strong.textContent = inp.files[0].name;
+        if (hint) hint.style.display = 'block';
+      } else {
+        if (strong) strong.textContent = 'Upload Logo / Design';
+        if (hint) hint.style.display = 'none';
+      }
     });
   });
 
