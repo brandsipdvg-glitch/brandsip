@@ -635,7 +635,7 @@ h1, h2, h3, h4 {
   min-width: 0;
   flex: 0 1 auto;
   transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
-  animation: heroFloat 6s ease-in-out infinite;
+  animation: heroFloat 10s ease-in-out infinite;
 }
 .hero-bottle img {
   width: 100%;
@@ -1240,6 +1240,38 @@ h1, h2, h3, h4 {
   }
   .transform-bottle {
     height: 300px;
+  }
+}
+
+@media (max-width: 719px) {
+  .transform-stage {
+    padding: 24px 16px;
+  }
+  .transform-grid {
+    gap: 14px;
+  }
+  .transform-bottle {
+    height: 150px;
+  }
+  .transform-icon {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 10px;
+  }
+  .transform-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+  .transform-arrow svg {
+    width: 26px;
+    height: 26px;
+  }
+  .transform-cell h3 {
+    font-size: 0.95rem;
+    margin-top: 8px;
+  }
+  .transform-tag {
+    margin-bottom: 12px;
   }
 }
 
