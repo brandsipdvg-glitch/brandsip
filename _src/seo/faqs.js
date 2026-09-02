@@ -1,0 +1,75 @@
+/* FAQ page data. Generate the FAQ page + FAQPage schema from this single source
+   of truth to keep visible content and structured data perfectly in sync. */
+
+module.exports = [
+  { cat: 'Basics', q: 'What are customized water bottles?', a: 'Customized water bottles are packaged drinking water bottles where the label is customized with a restaurant name, company name, business name, brand name, logo, event name or artwork. BRANDSIP supplies bottled water with customized labels for businesses, restaurants, hotels, events and organizations.' },
+  { cat: 'Basics', q: 'What is a branded water bottle?', a: 'A branded water bottle is a bottled water bottle that carries a brand\'s name, logo or design on the label. BRANDSIP supplies branded packaged drinking water so a business does not have to serve generic-looking water bottles.' },
+  { cat: 'Basics', q: 'What does private label water mean?', a: 'Private label water is packaged drinking water bottled under your own brand name rather than a generic or national brand. You control the label, the look and the message while BRANDSIP handles production, treatment and packaging.' },
+  { cat: 'Basics', q: 'How is BRANDSIP packaged drinking water treated?', a: 'BRANDSIP packaged drinking water is filtered, UV treated and ozonised before packaging. For information about current certifications, licensing or approvals, contact BRANDSIP directly.' },
+  { cat: 'Basics', q: 'Where is BRANDSIP located?', a: 'BRANDSIP is based in Davangere, Karnataka, India. From our Karnataka base we supply custom branded water bottles across India with PAN India delivery.' },
+  { cat: 'Basics', q: 'Does BRANDSIP deliver across India?', a: 'Yes. BRANDSIP offers PAN India delivery. We deliver custom branded water bottles to businesses, venues and events across all Indian states and major cities.' },
+  { cat: 'Basics', q: 'What is the difference between branded and generic water?', a: 'The water itself can be comparable, but a branded bottle carries your identity, name and logo while a generic bottle carries nothing. Branded water improves perception, brand recall and presentation.' },
+  { cat: 'Basics', q: 'Why should my business brand its water?', a: 'Branding your water reinforces your identity at every table or event, adds a premium impression, builds brand recall and extends your reach as customers take bottles home or share them online.' },
+
+  { cat: 'Sizes & Shapes', q: 'What bottle sizes are available?', a: 'BRANDSIP offers 250ml, 500ml, 750ml and 1 litre bottle options with square and round formats depending on the bottle size.' },
+  { cat: 'Sizes & Shapes', q: 'Do you provide 250ml customized water bottles?', a: 'Yes. BRANDSIP offers 250ml bottles in a compact single-serve format, ideal for sampling, takeaways and short events. Contact BRANDSIP for current availability and requirements.' },
+  { cat: 'Sizes & Shapes', q: 'Do you provide 500ml customized water bottles?', a: 'Yes. BRANDSIP offers 500ml bottles in both square and round formats, with a single-side label on the square bottle and a full-cover label on the round bottle. This is our most popular size.' },
+  { cat: 'Sizes & Shapes', q: 'Do you provide 1 litre customized water bottles?', a: 'Yes. BRANDSIP offers 1 litre (1000ml) bottles in a round format with a full-cover label, ideal for hotels, offices and longer events.' },
+  { cat: 'Sizes & Shapes', q: 'Are round bottles available?', a: 'Yes. Round bottles are available for the 500ml and 1 litre options with a complete-wrap, full-cover label. BRANDSIP recommends the round bottle for a more premium presentation.' },
+  { cat: 'Sizes & Shapes', q: 'Are square bottles available?', a: 'Yes. Square bottles are available for the 300ml and 500ml options with a single-side label or sticker.' },
+  { cat: 'Sizes & Shapes', q: 'What is the best size for restaurants?', a: 'Most restaurants prefer 500ml bottles for table service, with 300ml as a compact single-serve option. BRANDSIP can help match the size to your concept and service style.' },
+  { cat: 'Sizes & Shapes', q: 'What is the best size for hotel rooms?', a: '500ml round bottles suit in-room and banquet use, while 1 litre round bottles work well for longer stays and restaurant tables. BRANDSIP can recommend the best mix for your property.' },
+  { cat: 'Sizes & Shapes', q: 'What is the best size for events and weddings?', a: '500ml bottles are the most common for events and weddings. For longer receptions or larger gatherings, 1 litre bottles are a good option. BRANDSIP can help estimate quantities.' },
+  { cat: 'Sizes & Shapes', q: 'Can I combine multiple bottle sizes in one order?', a: 'Yes. You can combine different bottle sizes in a single order to suit different settings, such as 500ml for tables and 1 litre for longer hospitality.' },
+
+  { cat: 'Label & Print', q: 'Can I customize the bottle label?', a: 'Yes. You can customize the bottle label with your logo, business name, restaurant identity, event name or artwork using the available single-side or full-cover label options.' },
+  { cat: 'Label & Print', q: 'What is a full-cover label?', a: 'A full-cover or complete-wrap label encircles the entire bottle, offering a larger branding canvas and a more premium, finished look. Round bottles typically use full-cover labels.' },
+  { cat: 'Label & Print', q: 'What is a single-side label?', a: 'A single-side label or sticker is applied to one face of the bottle, common on square formats. It is a clean, cost-effective option for compact designs.' },
+  { cat: 'Label & Print', q: 'Can I print my logo on the bottle?', a: 'Yes. Your restaurant name, company name, business name, brand name, logo or design can be printed on the bottle label.' },
+  { cat: 'Label & Print', q: 'Can I put my restaurant logo on the bottle?', a: 'Yes. Your restaurant name and logo can be printed on the water bottle label. BRANDSIP supplies customized bottled water for restaurants.' },
+  { cat: 'Label & Print', q: 'What artwork do I need to provide?', a: 'A high-resolution version of your logo and any design elements. BRANDSIP can guide you on the exact file requirements when preparing your customized label.' },
+  { cat: 'Label & Print', q: 'Can I provide my own logo or design?', a: 'Yes. You can provide your own logo, business name, artwork or design to be printed on the bottle label.' },
+  { cat: 'Label & Print', q: 'Do you help with label design?', a: 'Yes. BRANDSIP helps prepare and produce your label from your branding and requirements, choosing between single-side and full-cover options to match your brand.' },
+  { cat: 'Label & Print', q: 'Can I customize the MRP?', a: 'Along with your bottle branding, BRANDSIP can customize the MRP printed on the bottle according to your requirements, subject to applicable legal and labeling requirements.' },
+  { cat: 'Label & Print', q: 'Can I add my contact details or website to the label?', a: 'Yes. You can include your website, phone number, WhatsApp details or other information on the label, making it easier for customers to reach you.' },
+  { cat: 'Label & Print', q: 'Can I create a limited-edition or seasonal label?', a: 'Yes. Campaign, seasonal and limited-edition labels are possible, subject to order requirements and quantities.' },
+
+  { cat: 'Ordering & MOQ', q: 'What is the minimum order quantity (MOQ)?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP with your size and quantity for a current quote.' },
+  { cat: 'Ordering & MOQ', q: 'Can I place a small order as a startup or small café?', a: 'Yes. MOQs are negotiable, so startups and smaller businesses can begin with quantities that fit their budget and event sizes.' },
+  { cat: 'Ordering & MOQ', q: 'How do I place an order?', a: 'Choose your bottle size and shape, share your branding, choose your label, confirm your requirements and then receive your branded bottles. Share your requirements with BRANDSIP to place an order.' },
+  { cat: 'Ordering & MOQ', q: 'Can I see the costs before ordering?', a: 'Yes. Share your requirements and BRANDSIP will provide a customized quote based on bottle size, quantity and branding.' },
+  { cat: 'Ordering & MOQ', q: 'Are prices negotiable?', a: 'Yes. BRANDSIP prices are negotiable and may vary based on order quantity, customer requirements, bottle requirements, label requirements and other agreed specifications.' },
+  { cat: 'Ordering & MOQ', q: 'How do I get a quote?', a: 'Contact BRANDSIP by phone at 8073137080, on WhatsApp at the same number, by email at brandsipdvg@gmail.com, or use the quote form on our contact page.' },
+  { cat: 'Ordering & MOQ', q: 'Can I order customized water bottles online?', a: 'Yes. Share your requirements through our contact page, WhatsApp or email, and BRANDSIP will prepare a customized quote and confirm your order.' },
+
+  { cat: 'Pricing', q: 'What is the price of a 300ml branded bottle?', a: 'The 300ml square bottle with a single-side label is available at ₹7 per bottle. Prices are negotiable based on quantity and requirements.' },
+  { cat: 'Pricing', q: 'What is the price of a 500ml branded bottle?', a: 'The 500ml square and round bottles are available at ₹8 per bottle. Prices are negotiable based on quantity and requirements.' },
+  { cat: 'Pricing', q: 'What is the price of a 1 litre branded bottle?', a: 'The 1 litre round bottle with a full-cover label is available at ₹18 per bottle. Prices are negotiable based on quantity and requirements.' },
+  { cat: 'Pricing', q: 'Why does pricing vary by quantity?', a: 'Pricing depends on bottle size, label style, order quantity and production requirements. Larger quantities generally allow more favourable pricing. Contact BRANDSIP for a quote.' },
+  { cat: 'Pricing', q: 'Are there additional costs for custom printing?', a: 'Custom printing and label preparation may affect the per-bottle price depending on complexity. Share your branding with BRANDSIP for an accurate quote.' },
+
+  { cat: 'Delivery & Logistics', q: 'How long does delivery take?', a: 'Delivery timelines depend on quantity, bottle availability, label requirements and destination. Contact BRANDSIP with your requirements and event date for a confirmed timeline.' },
+  { cat: 'Delivery & Logistics', q: 'How much advance notice do you need for an order?', a: 'For higher volumes or large events, order as early as possible so production and delivery can be scheduled comfortably. Contact BRANDSIP with your dates to plan.' },
+  { cat: 'Delivery & Logistics', q: 'Do you deliver to my event venue?', a: 'Yes. BRANDSIP offers PAN India delivery to your venue or city, subject to location and requirements.' },
+  { cat: 'Delivery & Logistics', q: 'Do you offer regular scheduled supply?', a: 'Yes. BRANDSIP can arrange regular, recurring supply to hotels, offices, hospitals and other businesses, subject to location and requirements.' },
+  { cat: 'Delivery & Logistics', q: 'Can you deliver before my event date?', a: 'Yes. Contact BRANDSIP early with your event date so we can schedule production and delivery in advance of the occasion.' },
+  { cat: 'Delivery & Logistics', q: 'Do you deliver to cities across India?', a: 'Yes. BRANDSIP delivers custom branded water bottles to all major Indian cities and towns of Karnataka and beyond, including Bangalore, Hyderabad, Chennai, Mumbai, Delhi, Pune and more.' },
+  { cat: 'Delivery & Logistics', q: 'Do you deliver locally in Davangere and Karnataka?', a: 'Yes. As a Davangere-based company, we provide fast, convenient delivery to Davangere and surrounding Karnataka regions.' },
+
+  { cat: 'Industries & Use Cases', q: 'Can BRANDSIP customize water bottles for businesses?', a: 'Yes. BRANDSIP can customize water bottles for businesses, corporate companies and offices with their brand name, logo or design.' },
+  { cat: 'Industries & Use Cases', q: 'Do you provide customized water bottles for weddings?', a: 'Yes. BRANDSIP supplies customized water bottles for weddings with the couple\'s names, event identity or custom artwork. Contact BRANDSIP for current availability and requirements.' },
+  { cat: 'Industries & Use Cases', q: 'Do you provide customized water bottles for corporate events?', a: 'Yes. BRANDSIP supplies customized water bottles for corporate events, conferences and promotional events with your company branding.' },
+  { cat: 'Industries & Use Cases', q: 'Do you supply restaurants and hotels?', a: 'Yes. BRANDSIP supplies customized packaged drinking water to restaurants, cafés, hotels, resorts and hospitality establishments.' },
+  { cat: 'Industries & Use Cases', q: 'Do you supply water bottles to hospitals and clinics?', a: 'Yes. BRANDSIP supplies custom branded packaged drinking water to hospitals, clinics, nursing homes and healthcare facilities.' },
+  { cat: 'Industries & Use Cases', q: 'Do you supply water bottles to schools and colleges?', a: 'Yes. BRANDSIP supplies custom branded water bottles to schools, colleges, universities and educational institutions for events, fests and daily operations.' },
+  { cat: 'Industries & Use Cases', q: 'Can I brand water bottles for my exhibition stall?', a: 'Yes. BRANDSIP customizes bottles with your company name, logo, booth number and contact information for trade shows, expos and exhibitions.' },
+  { cat: 'Industries & Use Cases', q: 'Can I use branded water for corporate gifting?', a: 'Yes. A branded bottle is a practical, premium addition to corporate gift boxes for clients, employees and partners, and can be personalized with names or messages.' },
+
+  { cat: 'Care & Storage', q: 'How should branded water bottles be stored?', a: 'Store branded water bottles in a cool, clean area away from direct sunlight and strong odours. Follow the storage guidance on the label for best quality.' },
+  { cat: 'Care & Storage', q: 'What is the shelf life of packaged drinking water?', a: 'Shelf life for packaged drinking water is indicated on the bottle label and follows applicable packaging standards. BRANDSIP follows responsible storage and packaging practices.' },
+  { cat: 'Care & Storage', q: 'Is the bottle safe for food and beverage use?', a: 'BRANDSIP uses food-grade bottles with appropriate packaging for packaged drinking water, in line with responsible manufacturing practices.' },
+
+  { cat: 'Contact & Service', q: 'How can I contact BRANDSIP?', a: 'You can contact BRANDSIP by phone at 8073137080, by WhatsApp at the same number, or by email at brandsipdvg@gmail.com.' },
+  { cat: 'Contact & Service', q: 'What should I include in my enquiry?', a: 'Share your bottle size preference, estimated quantity, business or event type, delivery location and any branding or logo if you have it. This helps BRANDSIP reply faster.' },
+  { cat: 'Contact & Service', q: 'Does BRANDSIP respond to WhatsApp enquiries?', a: 'Yes. WhatsApp is one of the fastest ways to reach BRANDSIP at 8073137080, especially for quick quotes and design discussions.' }
+];

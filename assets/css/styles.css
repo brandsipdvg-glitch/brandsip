@@ -2041,8 +2041,7 @@ textarea.form-control {
 .footer-links a:hover {
   color: #fff;
   padding-left: 4px;
-}
-.footer-contact li {
+}.footer-contact li {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
@@ -2077,7 +2076,10 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.58);
 }
 @media (min-width: 720px) {
-  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1.2fr; }
+  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr; }
+}
+@media (min-width: 1024px) {
+  .footer-grid { grid-template-columns: 1.6fr 1fr 1fr 1fr 1.3fr; }
 }
 
 /* ==========================================================================
@@ -2313,4 +2315,45 @@ textarea.form-control {
   color: var(--blue-100);
   -webkit-text-stroke: 2px var(--blue-300);
   line-height: 1;
+}
+/* ==========================================================================
+   DELIVERY TIMELINE (conversion)
+   ========================================================================== */
+.dt-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.dt-step {
+  flex: 0 1 150px;
+  color: rgba(255, 255, 255, 0.95);
+}
+.dt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--grad);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.dt-step p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.dt-arrow {
+  color: var(--blue-300);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+@media (max-width: 640px) {
+  .dt-arrow { display: none; }
+  .dt-grid { gap: 24px 14px; }
 }

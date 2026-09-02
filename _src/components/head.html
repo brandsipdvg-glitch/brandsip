@@ -8,6 +8,9 @@
 <link rel="canonical" href="{{CANONICAL}}">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#06385f">
+<meta name="geo.region" content="IN-KA">
+<meta name="geo.placename" content="Davangere">
+<meta name="format-detection" content="telephone=no">
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="BRANDSIP">
@@ -22,34 +25,60 @@
 <meta name="twitter:image" content="{{OG_IMAGE}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/assets/css/styles.css?v=3">
+<link rel="stylesheet" href="/assets/css/styles.css?v=5">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="/assets/images/logo.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "BottlingCompany",
   "@id": "{{BASE}}/#organization",
   "name": "BRANDSIP",
+  "alternateName": "BRANDSIP Custom Bottled Water",
   "url": "{{BASE}}",
   "logo": "{{BASE}}/assets/images/logo.png",
+  "image": "{{BASE}}/assets/images/logo.png",
   "slogan": "Make Every Sip a Brand Experience",
-  "description": "BRANDSIP is a customized packaged drinking water supplier providing branded water bottles for restaurants, hotels, businesses, events and organizations.",
+  "description": "BRANDSIP is a customized packaged drinking water supplier providing custom branded water bottles for restaurants, hotels, businesses, events and organizations across India.",
+  "foundingLocation": "Davangere, Karnataka, India",
   "email": "brandsipdvg@gmail.com",
   "telephone": "+918073137080",
+  "priceRange": "₹7 - ₹18",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Davangere",
     "addressLocality": "Davangere",
     "addressRegion": "Karnataka",
+    "postalCode": "577001",
     "addressCountry": "IN"
   },
-  "areaServed": "Davangere and surroundings, Karnataka, India",
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+918073137080",
     "contactType": "customer service",
     "email": "brandsipdvg@gmail.com",
     "availableLanguage": ["en", "hi", "kn"]
+  },
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{BASE}}/#website",
+  "name": "BRANDSIP",
+  "url": "{{BASE}}",
+  "publisher": { "@id": "{{BASE}}/#organization" },
+  "inLanguage": "en-IN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{BASE}}/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
   }
 }
 </script>

@@ -56,16 +56,49 @@ function parseFrontMatter(html) {
   return meta;
 }
 
+/* Write an output file, creating parent directories as needed. */
+function writeOutput(content, relPath) {
+  const dest = path.join(OUT_DIR, relPath);
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, content);
+}
+
+/* Recursively list .html files under a directory, returning relative paths
+   such that nested files map to nested URL paths (e.g. blog/foo.html -> /blog/foo). */
+function listPages(dir, prefix = '') {
+  let out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) {
+      out = out.concat(listPages(path.join(dir, entry.name), rel));
+    } else if (entry.isFile() && entry.name.endsWith('.html')) {
+      out.push(rel);
+    }
+  }
+  return out;
+}
+
 function build() {
-  const files = fs.readdirSync(PAGES).filter((f) => f.endsWith('.html'));
+  const files = listPages(PAGES);
   const urls = [];
 
   for (const f of files) {
     let html = fs.readFileSync(path.join(PAGES, f), 'utf8');
     const meta = parseFrontMatter(html);
-    const is404 = EXCLUDE.has(f);
-    const slug = f === 'index.html' ? '/' : '/' + f.replace('.html', '');
+    const is404 = EXCLUDE.has(path.basename(f));
+    const baseName = path.basename(f);
+    const relDir = f.slice(0, -5); // drop .html
+    const slug = relDir === 'index' ? '/' : '/' + relDir.replace(/\/index$/, '');
     const canonical = BASE.replace(/\/$/, '') + slug;
+
+    // only apply head/schema injection to non-404 pages
+    if (is404) {
+      html = html.replace(/<!--\s*META\s*-->[\s\S]*?<!--\s*\/META\s*-->\n?/, '');
+      html = html.replace(/https:\/\/brandsip\.example\.com/g, BASE);
+      writeOutput(html, f);
+      console.log('Built', f);
+      continue;
+    }
 
     html = html.replace(/<!--\s*META\s*-->[\s\S]*?<!--\s*\/META\s*-->\n?/, '');
 
@@ -128,7 +161,7 @@ function build() {
       .replace(/\n{3,}/g, '\n\n')
       .trim() + '\n';
 
-    fs.writeFileSync(path.join(OUT_DIR, f), html);
+    writeOutput(html, f);
     console.log('Built', f);
     if (!is404) urls.push({ slug, lastmod: meta.lastmod });
   }
