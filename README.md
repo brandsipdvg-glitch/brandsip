@@ -32,7 +32,7 @@ python3 -m http.server 8000
    git add .
    git commit -m "Initial BRANDSIP site"
    git branch -M main
-   git remote add origin git@github.com:YOUR_USERNAME/brandsip.git
+   git remote add origin git@github.com:brandsipdvg-glitch/brandsip.git
    git push -u origin main
    ```
 2. GitHub Actions already auto-builds and deploys (`BRANDSIP_OUT=_site node _src/build.js`) on every push to `main`.
