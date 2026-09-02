@@ -41,7 +41,7 @@ function comp(name) {
 
 function parseFrontMatter(html) {
   const m = html.match(/<!--\s*META\s*-->([\s\S]*?)<!--\s*\/META\s*-->/);
-  const meta = { title: '', lastmod: '', desc: '', og: '/assets/images/logo.svg' };
+  const meta = { title: '', lastmod: '', desc: '', og: '/assets/images/logo.png' };
   if (m) {
     const block = m[1];
     const line = (key) => {
@@ -73,7 +73,7 @@ function build() {
     html = html.replace(/https:\/\/brandsip\.example\.com/g, BASE);
 
     if (!is404) {
-      let og = meta.og || '/assets/images/logo.svg';
+      let og = meta.og || '/assets/images/logo.png';
       if (og && og.startsWith('/')) og = BASE + og;
       const head = comp('head')
         .replace(/{{PAGE_TITLE}}/g, meta.title)
