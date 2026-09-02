@@ -264,6 +264,105 @@ h1, h2, h3, h4 {
   transform: scaleX(1);
 }
 
+/* Nav dropdowns */
+.nav-drop {
+  position: relative;
+}
+.nav-drop-toggle {
+  appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.93rem;
+  padding: 8px 4px;
+  border-radius: 8px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+.nav-drop-toggle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 2px;
+  background: var(--blue-500);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.nav-drop-toggle:hover,
+.nav-drop-toggle:focus-visible,
+.nav-drop.open .nav-drop-toggle {
+  color: var(--blue-600);
+  outline: none;
+}
+.nav-drop-toggle:hover::after,
+.nav-drop-toggle:focus-visible::after,
+.nav-drop.open .nav-drop-toggle::after {
+  transform: scaleX(1);
+}
+.nav-chevron {
+  flex: none;
+  transition: transform 0.2s ease;
+}
+.nav-drop.open .nav-chevron {
+  transform: rotate(180deg);
+}
+.nav-drop-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  min-width: 215px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  padding: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  z-index: 1001;
+}
+.nav-drop-panel::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+.nav-drop:hover .nav-drop-panel,
+.nav-drop:focus-within .nav-drop-panel,
+.nav-drop.open .nav-drop-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.nav-drop-link {
+  display: block;
+  padding: 9px 12px;
+  border-radius: 9px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.nav-drop-link:hover,
+.nav-drop-link:focus-visible {
+  background: var(--blue-50);
+  color: var(--blue-600);
+  outline: none;
+}
+
 .header-cta {
   display: none;
 }
@@ -326,6 +425,14 @@ h1, h2, h3, h4 {
 }
 .nav-mobile .nav-link::after {
   display: none;
+}
+.nav-mobile-group {
+  margin: 18px 2px 4px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 .nav-mobile .btn {
   margin-top: 20px;

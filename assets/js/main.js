@@ -46,6 +46,30 @@
     });
   }
 
+  /* Desktop nav dropdowns */
+  document.querySelectorAll('.nav-drop').forEach(function (drop) {
+    var toggle = drop.querySelector('.nav-drop-toggle');
+    if (!toggle) return;
+    var close = function () {
+      drop.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      var opening = !drop.classList.contains('open');
+      document.querySelectorAll('.nav-drop.open').forEach(function (d) {
+        d.classList.remove('open');
+        d.querySelector('.nav-drop-toggle').setAttribute('aria-expanded', 'false');
+      });
+      drop.classList.toggle('open', opening);
+      toggle.setAttribute('aria-expanded', opening ? 'true' : 'false');
+    });
+    drop.addEventListener('mouseleave', close);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') close();
+    });
+  });
+
   /* Scroll reveal */
   var revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && revealEls.length) {

@@ -57,14 +57,37 @@
     </a>
     <nav class="nav-desktop" aria-label="Primary">
       <a class="nav-link" href="/">Home</a>
-      <a class="nav-link" href="/about-us">About Us</a>
-      <a class="nav-link" href="/custom-bottles">Custom Bottles</a>
-      <a class="nav-link" href="/bottle-sizes">Bottle Options</a>
-      <a class="nav-link" href="/industries">Industries</a>
-      <a class="nav-link" href="/how-it-works">How It Works</a>
+      <div class="nav-drop">
+        <button class="nav-drop-toggle" aria-haspopup="true" aria-expanded="false">Products
+          <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-drop-panel">
+          <a class="nav-drop-link" href="/custom-bottles">Custom Bottles</a>
+          <a class="nav-drop-link" href="/bottle-sizes">Bottle Options</a>
+          <a class="nav-drop-link" href="/industries">Industries</a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button class="nav-drop-toggle" aria-haspopup="true" aria-expanded="false">Company
+          <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-drop-panel">
+          <a class="nav-drop-link" href="/about-us">About Us</a>
+          <a class="nav-drop-link" href="/how-it-works">How It Works</a>
+        </div>
+      </div>
       <a class="nav-link" href="/pricing">Pricing</a>
-      <a class="nav-link" href="/gallery">Gallery</a>
-      <a class="nav-link" href="/faq">FAQ</a>
+      <div class="nav-drop">
+        <button class="nav-drop-toggle" aria-haspopup="true" aria-expanded="false">More
+          <svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-drop-panel">
+          <a class="nav-drop-link" href="/gallery">Gallery</a>
+          <a class="nav-drop-link" href="/water-quality">Water Quality</a>
+          <a class="nav-drop-link" href="/faq">FAQ</a>
+          <a class="nav-drop-link" href="/resources">Resources</a>
+        </div>
+      </div>
       <a class="nav-link" href="/contact">Contact</a>
     </nav>
     <a class="btn btn-primary header-cta" href="/contact">Get a Quote</a>
@@ -75,14 +98,19 @@
 </header>
 <div class="nav-mobile" id="mobile-menu" aria-label="Mobile">
   <a class="nav-link" href="/">Home</a>
-  <a class="nav-link" href="/about-us">About Us</a>
+  <p class="nav-mobile-group">Products</p>
   <a class="nav-link" href="/custom-bottles">Custom Bottles</a>
   <a class="nav-link" href="/bottle-sizes">Bottle Options</a>
   <a class="nav-link" href="/industries">Industries</a>
+  <p class="nav-mobile-group">Company</p>
+  <a class="nav-link" href="/about-us">About Us</a>
   <a class="nav-link" href="/how-it-works">How It Works</a>
   <a class="nav-link" href="/pricing">Pricing</a>
+  <p class="nav-mobile-group">Resources</p>
   <a class="nav-link" href="/gallery">Gallery</a>
+  <a class="nav-link" href="/water-quality">Water Quality</a>
   <a class="nav-link" href="/faq">FAQ</a>
+  <a class="nav-link" href="/resources">Resources</a>
   <a class="nav-link" href="/contact">Contact</a>
   <a class="btn btn-primary btn-block" href="/contact">Get a Quote</a>
 </div>
