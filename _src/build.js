@@ -79,7 +79,8 @@ function build() {
         .replace(/{{PAGE_TITLE}}/g, meta.title)
         .replace(/{{META_DESC}}/g, meta.desc || '')
         .replace(/{{CANONICAL}}/g, canonical)
-        .replace(/{{OG_IMAGE}}/g, og);
+        .replace(/{{OG_IMAGE}}/g, og)
+        .replace(/{{BASE}}/g, BASE);
 
       // inject Breadcrumb JSON-LD based on the visible breadcrumb nav in the body
       const crumbs = [];
