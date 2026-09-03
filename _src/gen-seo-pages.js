@@ -120,8 +120,11 @@ function cityPage(c, i, total) {
   const rel = `/custom-water-bottles-${c.slug}`;
   const canonicalUrl = `${BASE}${rel}`;
 
-  const cityLinks = (exclude) => cities.filter(x => x.slug !== exclude).slice(0, 6)
-    .map(x => `<a href="/custom-water-bottles-${x.slug}">${x.name}</a>`).join(' · ');
+  const cityLinks = (exclude) => {
+    const list = cities.filter(x => x.slug !== exclude).slice(0, 6);
+    let links = list.map(x => `<a href="/custom-water-bottles-${x.slug}">${x.name}</a>`).join(' · ');
+    return links + ` · <a href="/customized-water-bottles-davangere">Customized Davangere</a>`;
+  };
 
   const body = `
   ${breadcrumb('Cities', '')}

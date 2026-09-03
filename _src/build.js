@@ -186,7 +186,11 @@ Sitemap: ${BASE}/sitemap.xml
 
   // sitemap.xml
   const today = new Date().toISOString().split('T')[0];
-  const items = urls.map((u) => `  <url><loc>${BASE}${u.slug}</loc><lastmod>${u.lastmod || today}</lastmod><changefreq>monthly</changefreq><priority>${u.slug === '/' ? '1.0' : '0.8'}</priority></url>`).join('\n');
+  const items = urls.map((u) => {
+    let priority = u.slug === '/' ? '1.0' : '0.8';
+    if (u.slug === '/customized-water-bottles-davangere') priority = '0.9';
+    return `  <url><loc>${BASE}${u.slug}</loc><lastmod>${u.lastmod || today}</lastmod><changefreq>monthly</changefreq><priority>${priority}</priority></url>`;
+  }).join('\n');
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${items}
