@@ -175,8 +175,8 @@ function build() {
     console.log('Copied assets');
   }
 
-  // copy root-level static files (e.g. favicon.ico) into the output dir
-  const rootStatics = ['favicon.ico'];
+  // copy root-level static files (favicon, webmanifest) into the output dir
+  const rootStatics = ['favicon.ico', 'favicon-192.png', 'favicon-512.png', 'apple-touch-icon.png', 'site.webmanifest'];
   for (const f of rootStatics) {
     const src = path.join(ROOT, f);
     if (fs.existsSync(src)) {
