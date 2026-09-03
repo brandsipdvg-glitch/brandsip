@@ -175,6 +175,16 @@ function build() {
     console.log('Copied assets');
   }
 
+  // copy root-level static files (e.g. favicon.ico) into the output dir
+  const rootStatics = ['favicon.ico'];
+  for (const f of rootStatics) {
+    const src = path.join(ROOT, f);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(OUT_DIR, f));
+      console.log('Copied root file', f);
+    }
+  }
+
   // robots.txt
   const robots = `User-agent: *
 Allow: /
