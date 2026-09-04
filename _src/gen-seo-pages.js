@@ -199,7 +199,6 @@ function cityPage(c, i, total) {
             <p>From our Davangere base in Karnataka, BRANDSIP manages manufacturing, custom labelling and delivery for clients across ${c.region}. We combine close local attention with statewide reach — so ${c.name} businesses get dependable delivery wherever they serve in Karnataka.</p>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
               <a class="btn btn-primary" href="/contact">Get a Quote</a>
-              <a class="btn btn-outline" href="/pricing">See Pricing</a>
             </div>
           </div>
         </div>
@@ -424,7 +423,7 @@ function productPage(p) {
     <div class="container">
       ${faqBlocks(p.faqs)}
       <div class="reveal" style="margin-top:40px;text-align:center;">
-        <p style="color:var(--muted);">Compare all sizes on our <a href="/bottle-sizes">bottle options page</a> or see <a href="/pricing">pricing</a>.</p>
+        <p style="color:var(--muted);">Compare all sizes on our <a href="/bottle-sizes">bottle options page</a> or <a href="/contact">request a quote</a>.</p>
         <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="/contact">Request a Quote</a>
       </div>
     </div>
@@ -479,7 +478,7 @@ function blogPage(b, idx) {
           <p class="form-note" style="margin:14px 0 26px;">Read time: ~${Math.max(5, Math.round(b.sections.length * 1.3))} minutes · BRANDSIP Guide</p>
           ${b.sections.map((s, i) => `<h2 style="font-size:1.5rem;margin:34px 0 12px;">${i + 1}. ${s.h}</h2><p style="color:var(--muted);line-height:1.7;">${s.body}</p>`).join('\n          ')}
           <h2 style="font-size:1.5rem;margin:38px 0 12px;">Get Started with BRANDSIP</h2>
-          <p style="color:var(--muted);">Ready to put your name and logo on quality packaged drinking water? Choose from a range of <a href="/bottle-sizes">bottle sizes and shapes</a>, share your branding, and let BRANDSIP handle production and <a href="/pricing">pricing</a>. <a href="/contact">Request a quote</a> or call <a href="tel:+918073137080">${PHONE_DISPLAY}</a>.</p>
+          <p style="color:var(--muted);">Ready to put your name and logo on quality packaged drinking water? Choose from a range of <a href="/bottle-sizes">bottle sizes and shapes</a>, share your branding, and let BRANDSIP handle production. <a href="/contact">Request a quote</a> or call <a href="tel:+918073137080">${PHONE_DISPLAY}</a>.</p>
           <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;">
             <a class="btn btn-primary" href="/contact">Get a Quote</a>
             <a class="btn btn-outline" href="/custom-bottles">Custom Bottles</a>
@@ -528,7 +527,7 @@ function faqPage(faqs) {
   faqs.forEach((f) => { (cats[f.cat] = cats[f.cat] || []).push(f); });
 
   const title = 'FAQ | Custom Branded Water Bottles | BRANDSIP';
-  const desc = `Frequently asked questions about custom branded water bottles from BRANDSIP: MOQ, pricing, delivery, customization, artwork, printing, labels, packaging, water quality and logistics. Call ${PHONE_DISPLAY}.`;
+  const desc = `Frequently asked questions about custom branded water bottles from BRANDSIP: MOQ, delivery, customization, artwork, printing, labels, packaging, water quality and logistics. Call ${PHONE_DISPLAY}.`;
   const og = '/assets/images/logo.png';
 
   const catsHtml = Object.keys(cats).map((cat) => {
@@ -540,7 +539,7 @@ function faqPage(faqs) {
 
   const body = `
   ${breadcrumb('FAQ', '')}
-  ${pageHero('Frequently Asked Questions About Custom Branded Water Bottles', `Answers to the most common questions about ${esc('BRANDSIP')} customized water bottles — MOQ, pricing, delivery, customization, artwork, printing, labels, packaging, water quality and logistics. ${esc('Need')} something not covered here? ${esc('<a href="/contact">Contact BRANDSIP</a> for current availability and requirements.')}`)}
+  ${pageHero('Frequently Asked Questions About Custom Branded Water Bottles', `Answers to the most common questions about ${esc('BRANDSIP')} customized water bottles — MOQ, delivery, customization, artwork, printing, labels, packaging, water quality and logistics. ${esc('Need')} something not covered here? ${esc('<a href="/contact">Contact BRANDSIP</a> for current availability and requirements.')}`)}
 
   <div class="section">
     <div class="container">
@@ -549,7 +548,7 @@ function faqPage(faqs) {
       </div>
 
       <div class="reveal" style="margin-top:40px;text-align:center;">
-        <p style="color:var(--muted);">Still have questions? See <a href="/pricing">pricing</a>, explore <a href="/bottle-sizes">bottle options</a>, or <a href="/contact">request a quote</a>.</p>
+        <p style="color:var(--muted);">Still have questions? Explore <a href="/bottle-sizes">bottle options</a>, or <a href="/contact">request a quote</a>.</p>
         <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="/contact">Ask BRANDSIP a Question</a>
       </div>
     </div>
@@ -577,7 +576,7 @@ function faqPage(faqs) {
    ===================================================================== */
 function resourcesPage(blog) {
   const title = 'Resources & Blog | Branded Water Bottles | BRANDSIP';
-  const desc = 'Guides and articles on custom branded water bottles for restaurants, hotels, corporate events, weddings and more. Tips on labels, sizes, MOQ, pricing and delivery from BRANDSIP.';
+  const desc = 'Guides and articles on custom branded water bottles for restaurants, hotels, corporate events, weddings and more. Tips on labels, sizes, MOQ and delivery from BRANDSIP.';
   const og = '/assets/images/logo.png';
 
   const cards = blog.map((b) => `<article class="card reveal"><div class="card-body">
@@ -588,7 +587,7 @@ function resourcesPage(blog) {
 
   const body = `
   ${breadcrumb('Resources & Blog', '')}
-  ${pageHero('Resources & Blog on Branded Water Bottles', "Practical guides on custom branded water bottles, private label water, label design, sizes, MOQ, pricing and delivery — written for restaurants, hotels, businesses, events and weddings.")}
+  ${pageHero('Resources & Blog on Branded Water Bottles', "Practical guides on custom branded water bottles, private label water, label design, sizes, MOQ and delivery — written for restaurants, hotels, businesses, events and weddings.")}
 
   <div class="section">
     <div class="container">
@@ -602,7 +601,7 @@ function resourcesPage(blog) {
       </div>
 
       <div class="reveal" style="margin-top:36px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:28px; text-align:center;">
-        <p><strong>More BRANDSIP resources:</strong> <a href="/custom-bottles">Custom Bottles</a> · <a href="/bottle-sizes">Bottle Options</a> · <a href="/pricing">Pricing</a> · <a href="/gallery">Gallery</a> · <a href="/faq">FAQ</a> · <a href="/industries">Industries</a></p>
+        <p><strong>More BRANDSIP resources:</strong> <a href="/custom-bottles">Custom Bottles</a> · <a href="/bottle-sizes">Bottle Options</a> · <a href="/gallery">Gallery</a> · <a href="/faq">FAQ</a> · <a href="/industries">Industries</a></p>
         <p style="margin-top:12px;color:var(--muted);">Looking for city guidance? See <a href="/custom-water-bottles-bangalore">custom water bottles in Bangalore</a>, <a href="/custom-water-bottles-davangere">Davangere</a> or <a href="/custom-water-bottles-mysore">Mysore</a>.</p>
       </div>
     </div>

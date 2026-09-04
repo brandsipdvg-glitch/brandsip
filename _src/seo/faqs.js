@@ -42,12 +42,6 @@ module.exports = [
   { cat: 'Ordering & MOQ', q: 'How do I get a quote?', a: 'Contact BRANDSIP by phone at 8073137080, on WhatsApp at the same number, by email at brandsipdvg@gmail.com, or use the quote form on our contact page.' },
   { cat: 'Ordering & MOQ', q: 'Can I order customized water bottles online?', a: 'Yes. Share your requirements through our contact page, WhatsApp or email, and BRANDSIP will prepare a customized quote and confirm your order.' },
 
-  { cat: 'Pricing', q: 'What is the price of a 300ml branded bottle?', a: 'The 300ml square bottle with a single-side label is available at ₹7 per bottle. Prices are negotiable based on quantity and requirements.' },
-  { cat: 'Pricing', q: 'What is the price of a 500ml branded bottle?', a: 'The 500ml square bottle is available at ₹8 per bottle and the 500ml round bottle at ₹12 per bottle. Prices are negotiable based on quantity and requirements.' },
-  { cat: 'Pricing', q: 'What is the price of a 1 litre branded bottle?', a: 'The 1 litre round bottle with a full-cover label is available at ₹18 per bottle. Prices are negotiable based on quantity and requirements.' },
-  { cat: 'Pricing', q: 'Why does pricing vary by quantity?', a: 'Pricing depends on bottle size, label style, order quantity and production requirements. Larger quantities generally allow more favourable pricing. Contact BRANDSIP for a quote.' },
-  { cat: 'Pricing', q: 'Are there additional costs for custom printing?', a: 'Custom printing and label preparation may affect the per-bottle price depending on complexity. Share your branding with BRANDSIP for an accurate quote.' },
-
   { cat: 'Delivery & Logistics', q: 'How long does delivery take?', a: 'Delivery timelines depend on quantity, bottle availability, label requirements and destination. Contact BRANDSIP with your requirements and event date for a confirmed timeline.' },
   { cat: 'Delivery & Logistics', q: 'How much advance notice do you need for an order?', a: 'For higher volumes or large events, order as early as possible so production and delivery can be scheduled comfortably. Contact BRANDSIP with your dates to plan.' },
   { cat: 'Delivery & Logistics', q: 'Do you deliver to my event venue?', a: 'Yes. BRANDSIP delivers to venues across Karnataka, subject to location and requirements.' },
