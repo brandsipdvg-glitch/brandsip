@@ -5,6 +5,11 @@ module.exports = [
   {
     slug: '250ml',
     title: '250ml Branded Water Bottles',
+    page: '250ml-custom-water-bottles',
+    metaTitle: '250ml Custom Water Bottles | BRANDSIP',
+    metaDesc: '250ml custom branded water bottles for events, sampling, takeaways and single-serve use across Karnataka. Compact size, your logo on the label, flexible MOQ and delivery.',
+    landing: true,
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
     h1: '250ml Custom Branded Water Bottles',
     sizeLabel: '250 ML',
     region: 'Single Serve',
@@ -22,11 +27,22 @@ module.exports = [
       'Takeaway and delivery bundles for cafés and restaurants',
       'Conference and seminar water for short sessions',
       'Event and promotional giveaways'
+    ],
+    faqs: [
+      { q: 'What is the minimum order quantity for 250ml bottles?', a: 'MOQs for 250ml branded water bottles are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
+      { q: 'Do you supply 250ml bottles across Karnataka?', a: 'Yes. BRANDSIP delivers 250ml custom branded bottles across Karnataka from our Davangere facility.' },
+      { q: 'How long does production take?', a: 'Timelines depend on quantity and label requirements. Share your event or launch date and BRANDSIP will schedule production and delivery to meet it.' },
+      { q: 'Can you design the label for me?', a: 'Yes. Send your logo, name and design preferences and BRANDSIP helps prepare your 250ml bottle label.' }
     ]
   },
   {
     slug: '500ml',
     title: '500ml Branded Water Bottles',
+    page: '500ml-custom-water-bottles',
+    metaTitle: '500ml Custom Water Bottles | BRANDSIP',
+    metaDesc: '500ml custom branded water bottles for restaurants, hotels, events and corporate use across Karnataka. Square or round, your label design, flexible MOQ and delivery.',
+    landing: true,
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
     h1: '500ml Custom Branded Water Bottles',
     sizeLabel: '500 ML',
     region: 'Popular Choice',
@@ -44,6 +60,12 @@ module.exports = [
       'Hotel room and banquet bottles',
       'Corporate events, conferences and meetings',
       'Weddings, exhibitions and promotional events'
+    ],
+    faqs: [
+      { q: 'What is the minimum order quantity for 500ml bottles?', a: 'MOQs for 500ml branded water bottles are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
+      { q: 'Do you supply 500ml bottles across Karnataka?', a: 'Yes. BRANDSIP delivers 500ml custom branded bottles across Karnataka from our Davangere facility.' },
+      { q: 'How long does production take?', a: 'Timelines depend on quantity and label requirements. Share your event or launch date and BRANDSIP will schedule production and delivery to meet it.' },
+      { q: 'Can you design the label for me?', a: 'Yes. Send your logo, name and design preferences and BRANDSIP helps prepare your 500ml bottle label.' }
     ]
   },
   {

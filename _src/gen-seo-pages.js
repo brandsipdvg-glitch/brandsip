@@ -165,8 +165,8 @@ function cityPage(c, i, total) {
         <p>Choose from a range of sizes and label styles, customized with your branding.</p>
       </div>
       <div class="grid grid-4">
-        <div class="price-card reveal"><span class="price-size">250 ML</span><div class="price-tag">Compact</div><ul class="price-meta"><li><span class="check">✓</span> Single serve</li><li><span class="check">✓</span> Sampling &amp; takeaways</li></ul><a class="btn btn-outline btn-block" href="/250ml-branded-water-bottles">View Details</a></div>
-        <div class="price-card reveal"><span class="price-size">500 ML</span><div class="price-tag">Popular</div><ul class="price-meta"><li><span class="check">✓</span> Square or round</li><li><span class="check">✓</span> Restaurants &amp; events</li></ul><a class="btn btn-outline btn-block" href="/500ml-branded-water-bottles">View Details</a></div>
+        <div class="price-card reveal"><span class="price-size">250 ML</span><div class="price-tag">Compact</div><ul class="price-meta"><li><span class="check">✓</span> Single serve</li><li><span class="check">✓</span> Sampling &amp; takeaways</li></ul><a class="btn btn-outline btn-block" href="/250ml-custom-water-bottles">View Details</a></div>
+        <div class="price-card reveal"><span class="price-size">500 ML</span><div class="price-tag">Popular</div><ul class="price-meta"><li><span class="check">✓</span> Square or round</li><li><span class="check">✓</span> Restaurants &amp; events</li></ul><a class="btn btn-outline btn-block" href="/500ml-custom-water-bottles">View Details</a></div>
         <div class="price-card reveal"><span class="price-size">750 ML</span><div class="price-tag">Mid</div><ul class="price-meta"><li><span class="check">✓</span> Meetings</li><li><span class="check">✓</span> Hospitality</li></ul><a class="btn btn-outline btn-block" href="/750ml-branded-water-bottles">View Details</a></div>
         <div class="price-card reveal"><span class="price-size">1 Litre</span><div class="price-tag">Large</div><ul class="price-meta"><li><span class="check">✓</span> Round, full-cover</li><li><span class="check">✓</span> Premium</li></ul><a class="btn btn-outline btn-block" href="/1l-branded-water-bottles">View Details</a></div>
       </div>
@@ -256,18 +256,241 @@ function cityFaqs() {
 }
 
 /* =====================================================================
+   LANDING PAGES (dedicated high-value SEO pages + lead forms)
+   ===================================================================== */
+function leadForm(cta) {
+  return `<section class="section" id="quote">
+    <div class="container">
+      <div class="quote-wrap reveal" style="max-width:760px;margin:0 auto;">
+        <div class="quote-wrap-body">
+          <h2 style="font-size:1.5rem;margin-bottom:8px;">${cta}</h2>
+          <p style="color:var(--muted);margin-bottom:26px;">Fill in the form and BRANDSIP will get back to you about your branded water requirement. Prefer WhatsApp? <a href="#" data-wa onclick="return false;">Message us</a> directly.</p>
+          <form class="quote-form" action="#" method="post" id="lead-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="lf-name">Name <span class="req">*</span></label>
+                <input class="form-control" type="text" id="lf-name" name="name" required autocomplete="name" placeholder="Your full name">
+              </div>
+              <div class="form-group">
+                <label for="lf-business">Business Name</label>
+                <input class="form-control" type="text" id="lf-business" name="business" autocomplete="organization" placeholder="Business, restaurant or hotel name">
+              </div>
+              <div class="form-group">
+                <label for="lf-phone">Phone / WhatsApp <span class="req">*</span></label>
+                <input class="form-control" type="tel" id="lf-phone" name="phone" required autocomplete="tel" placeholder="Your contact number">
+              </div>
+              <div class="form-group">
+                <label for="lf-city">City</label>
+                <input class="form-control" type="text" id="lf-city" name="city" autocomplete="address-level2" placeholder="Your city in Karnataka">
+              </div>
+              <div class="form-group" style="grid-column:1/-1;">
+                <label for="lf-quantity">Quantity Required</label>
+                <input class="form-control" type="text" id="lf-quantity" name="quantity" placeholder="e.g. 500 bottles">
+              </div>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Request My Quote</button>
+            <p class="form-note" style="margin-top:12px;text-align:center;">By submitting, you agree to be contacted by BRANDSIP regarding your enquiry.</p>
+            <div class="form-success" role="status">Thank you! Your request has been received. BRANDSIP will get back to you shortly. For a faster response, WhatsApp us at 8073137080.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>`;
+}
+
+function topCta() {
+  return `<div style="padding:26px 0 0;" class="container">
+    <div class="reveal" style="background:linear-gradient(135deg,var(--blue-700),var(--blue-800));border-radius:var(--radius);padding:26px;color:#fff;text-align:center;">
+      <p style="font-size:1.15rem;font-weight:700;margin-bottom:6px;">Ready to see your brand on a bottle?</p>
+      <p style="color:rgba(255,255,255,.85);margin-bottom:16px;">Request a free branding mockup of your custom water bottle.</p>
+      <a class="btn btn-white" href="#quote">Get a Free Branding Mockup</a>
+    </div>
+  </div>`;
+}
+
+function landingGallery(items) {
+  if (!items || !items.length) return '';
+  const figures = items.map((g) => `<figure class="gallery-item reveal">
+      <img src="${g.src}" data-full="${g.src}" alt="${g.alt}" data-caption="${g.cap}">
+      <figcaption>${g.cap}</figcaption>
+    </figure>`).join('\n        ');
+  return `<div class="section section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Real Samples</span>
+        <h2>Branded Bottle Samples</h2>
+        <p>Hotels, restaurants, events, weddings and corporate bottles — so you can imagine your own brand on the bottle.</p>
+      </div>
+      <div class="gallery-masonry" style="grid-template-columns:repeat(4,1fr);">
+        ${figures}
+      </div>
+      <p class="reveal" style="margin-top:26px;text-align:center;color:var(--muted);">Want to see your own logo on a bottle? <a href="#quote">Request a free branding mockup</a> or browse our <a href="/gallery">full gallery</a>.</p>
+    </div>
+  </div>`;
+}
+
+function deliveryBlock(cities) {
+  const list = cities.map((c) => `<span class="check">✓</span> ${c}`).join('</li><li>');
+  return `<div class="card reveal" style="border-color:var(--blue-200);">
+    <div class="card-body">
+      <h3 style="margin-bottom:8px;">Delivery Across Karnataka</h3>
+      <p style="color:var(--muted);">We supply custom branded water bottles to hotels and businesses across Karnataka from our Davangere facility.</p>
+      <ul class="price-meta" style="margin-top:12px;grid-template-columns:repeat(2,1fr);"><li>${list}</li></ul>
+    </div>
+  </div>`;
+}
+
+function internalLinksBlock(links) {
+  if (!links || !links.length) return '';
+  const items = links.map((l) => `<li><a href="${l.href}">${l.label}</a> — ${l.text}</li>`).join('\n        ');
+  return `<div class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Explore More</span>
+        <h2>Related Custom Water Bottle Pages</h2>
+      </div>
+      <ul class="price-meta" style="margin-top:16px;margin-bottom:8px;">
+        ${items}
+      </ul>
+    </div>
+  </div>`;
+}
+
+function landingPage(lp) {
+  const rel = `/${lp.slug}`;
+  const canonicalUrl = `${BASE}${rel}`;
+  const title = lp.metaTitle;
+  const desc = lp.metaDesc;
+  const h1 = lp.h1;
+
+  const body = `
+  ${breadcrumb('Branded Water Bottles', '/custom-bottles')}
+  ${pageHero(h1, lp.lede)}
+  ${topCta()}
+
+  <div class="section">
+    <div class="container">
+      <div class="grid grid-2" style="align-items:center;">
+        <div class="reveal">
+          <div class="section-head">
+            <span class="eyebrow">${lp.eyebrow}</span>
+            <h2 style="font-size:1.9rem;">${lp.intro.heading}</h2>
+            <p>${lp.intro.body}</p>
+            <ul class="price-meta" style="margin-top:16px;">
+              ${lp.benefits.map(x => `<li><span class="check">✓</span> ${x}</li>`).join('\n              ')}
+            </ul>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:26px;">
+              <a class="btn btn-primary" href="#quote">Request Pricing</a>
+              <a class="btn btn-outline" href="#" data-wa onclick="return false;">Get a Quote on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          ${deliveryBlock(lp.delivery)}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Bottle Options</span>
+        <h2>Available Sizes &amp; Formats</h2>
+        <p>Choose the bottle that fits your business, event or occasion.</p>
+      </div>
+      <div class="grid grid-4">
+        ${lp.products.map(p => `<div class="price-card reveal"><span class="price-size">${p.label}</span><a class="btn btn-outline btn-block" style="margin-top:8px;" href="${p.href}">View Details</a></div>`).join('\n        ')}
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">How It's Used</span>
+        <h2>Ways to Use Custom Branded Water</h2>
+      </div>
+      <div class="grid grid-2">
+        ${lp.useCases.map(x => `<div class="card reveal"><div class="card-body"><p>${x} — with a clean, premium label carrying your brand.</p></div></div>`).join('\n        ')}
+      </div>
+    </div>
+  </div>
+
+  ${landingGallery(lp.gallery)}
+
+  <div class="section section-alt">
+    <div class="container">
+      ${faqBlocks(lp.faqs)}
+      <div class="reveal" style="margin-top:40px;text-align:center;">
+        <a class="btn btn-wa btn-lg" href="#" data-wa onclick="return false;">Get a Quote on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  ${lp.cityLinks ? `<div class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Cities We Serve</span>
+        <h2>Custom Water Bottles Across Karnataka</h2>
+      </div>
+      <p class="reveal" style="color:var(--muted);">${lp.cityLinks.map(x => `<a href="${x.href}">${x.label}</a>`).join(' · ')}</p>
+    </div>
+  </div>` : ''}
+
+  ${internalLinksBlock(lp.internalLinks)}
+
+  ${leadForm('Request Pricing')}
+`;
+
+  const serviceCtx = lp.slug === 'custom-water-bottles-karnataka'
+    ? '"areaServed": { "@type": "State", "name": "Karnataka" },'
+    : '"areaServed": [ { "@type": "State", "name": "Karnataka" }, { "@type": "City", "name": "' + lp.delivery[0] + '" } ],';
+
+  const extraHead = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "${h1}",
+  "serviceType": "Custom branded packaged drinking water bottles",
+  "provider": { "@id": "${BASE}/#organization" },
+  ${serviceCtx}
+  "url": "${canonicalUrl}",
+  "description": "${jsonSafe(desc)}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "${h1}",
+  "description": "${jsonSafe(desc)}",
+  "brand": { "@type": "Brand", "name": "BRANDSIP" },
+  "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "${canonicalUrl}" },
+  "image": "${BASE}/assets/images/bottle-round-500.svg"
+}
+</script>
+${faqSchema(lp.faqs)}
+`;
+  return wrap(body, title, desc, '/assets/images/bottle-round-500.svg', extraHead);
+}
+
+/* =====================================================================
    INDUSTRY PAGES
    ===================================================================== */
 function industryPage(ind) {
-  const rel = `/water-bottles-for-${ind.slug}`;
+  const page = ind.page || `water-bottles-for-${ind.slug}`;
+  const rel = `/${page}`;
   const canonicalUrl = `${BASE}${rel}`;
-  const title = `${ind.title} | BRANDSIP`;
-  const desc = `${ind.title}. BRANDSIP supplies custom branded packaged drinking water for ${ind.slug.replace(/-/g, ' ')} — premium labels, flexible sizes and reliable delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
+  const title = ind.metaTitle || `${ind.title} | BRANDSIP`;
+  const desc = ind.metaDesc || `${ind.title}. BRANDSIP supplies custom branded packaged drinking water for ${ind.slug.replace(/-/g, ' ')} — premium labels, flexible sizes and reliable delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
   const h1 = ind.h1;
 
   const body = `
   ${breadcrumb('Industries', '/industries')}
   ${pageHero(h1, ind.intro + ' BRANDSIP combines responsible water treatment with premium custom labelling, delivered across Karnataka.')}
+  ${ind.landing ? topCta() : ''}
 
   <div class="section">
     <div class="container">
@@ -281,15 +504,29 @@ function industryPage(ind) {
               ${ind.benefits.map(x => `<li><span class="check">✓</span> ${x}</li>`).join('\n              ')}
             </ul>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:26px;">
-              <a class="btn btn-primary" href="/contact">Get a Quote</a>
-              <a class="btn btn-outline" href="/custom-bottles">Custom Bottles</a>
+              <a class="btn btn-primary" href="${ind.landing ? '#quote' : '/contact'}">${ind.landing ? 'Request Pricing' : 'Get a Quote'}</a>
+              <a class="btn btn-outline" href="${ind.landing ? '#quote' : '/custom-bottles'}">${ind.landing ? 'Get a Free Branding Mockup' : 'Custom Bottles'}</a>
             </div>
           </div>
         </div>
-        <img class="reveal" src="/assets/images/gallery-hotel.svg" alt="${h1}" style="border-radius:var(--radius);box-shadow:var(--shadow-md);width:100%;">
+        <div class="reveal">
+          ${ind.landing ? deliveryBlock(ind.delivery) : `<img src="/assets/images/gallery-hotel.svg" alt="${h1}" style="border-radius:var(--radius);box-shadow:var(--shadow-md);width:100%;">`}
+        </div>
       </div>
     </div>
   </div>
+
+  ${ind.landing ? landingGallery(ind.slug === 'restaurants' ? [
+    { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded water bottle sample', cap: 'Restaurant bottle' },
+    { src: '/assets/images/bottle-square-300.svg', alt: '300ml square branded bottle', cap: '300ml Square' },
+    { src: '/assets/images/bottle-round-500.svg', alt: '500ml round branded bottle', cap: '500ml Round' },
+    { src: '/assets/images/gallery-wedding.svg', alt: 'Wedding branded bottle', cap: 'Wedding' }
+  ] : [
+    { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded water bottle sample', cap: 'Hotel bottle' },
+    { src: '/assets/images/bottle-round-500.svg', alt: '500ml round branded bottle', cap: '500ml Round' },
+    { src: '/assets/images/bottle-round-1l.svg', alt: '1 litre round branded bottle', cap: '1 Litre Round' },
+    { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded bottle', cap: 'Corporate' }
+  ]) : ''}
 
   <div class="section section-alt">
     <div class="container">
@@ -321,8 +558,8 @@ function industryPage(ind) {
         </div>
       </div>
       <div class="reveal" style="margin-top:36px;text-align:center;">
-        <a class="btn btn-primary btn-lg" href="/contact">Get a Quote</a>
-        <a class="btn btn-outline btn-lg" style="margin-left:10px;" href="/how-it-works">See How It Works</a>
+        <a class="btn btn-primary btn-lg" href="${ind.landing ? '#quote' : '/contact'}">${ind.landing ? 'Request Pricing' : 'Get a Quote'}</a>
+        <a class="btn btn-outline btn-lg" style="margin-left:10px;" href="${ind.landing ? '/how-it-works' : '/how-it-works'}">See How It Works</a>
       </div>
     </div>
   </div>
@@ -332,12 +569,36 @@ function industryPage(ind) {
       ${faqBlocks(ind.faqs)}
       <div class="reveal" style="margin-top:40px;text-align:center;">
         <p style="color:var(--muted);">Explore related <a href="/industries">industries</a> or <a href="/bottle-sizes">bottle options</a>.</p>
-        <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="/contact">Request a Quote</a>
+        <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="${ind.landing ? '#quote' : '/contact'}">${ind.landing ? 'Request Pricing' : 'Request a Quote'}</a>
       </div>
     </div>
   </div>
 
-  ${ctaBand(`Branded Water for ${ind.slug.replace(/-/g, ' ')}`, `Put your name and logo on quality packaged drinking water. Flexible sizes, negotiable MOQs and reliable delivery across Karnataka from BRANDSIP.`)}
+  ${ind.landing ? internalLinksBlock(ind.slug === 'restaurants' ? [
+    { href: '/custom-water-bottles-for-hotels', label: 'Custom Water Bottles for Hotels', text: 'Branded bottles for in-room, banquet and restaurant use.' },
+    { href: '/250ml-custom-water-bottles', label: '250ml Custom Water Bottles', text: 'Compact single-serve bottles for takeaways and sampling.' },
+    { href: '/500ml-custom-water-bottles', label: '500ml Custom Water Bottles', text: 'The popular single-serve for restaurant tables.' },
+    { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'Delivery across the state.' }
+  ] : [
+    { href: '/custom-water-bottles-for-restaurants', label: 'Custom Water Bottles for Restaurants', text: 'Branded table water for restaurants and cafés.' },
+    { href: '/500ml-custom-water-bottles', label: '500ml Custom Water Bottles', text: 'The popular 500ml single-serve for rooms and service.' },
+    { href: '/private-label-water-bottles', label: 'Private Label Water Bottles', text: 'Put your brand on every bottle.' },
+    { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'Delivery to hotels across the state.' }
+  ]) : ''}
+
+  ${ind.landing ? leadForm('Request Pricing') : ''}
+
+  ${ind.landing ? `<section class="cta-band">
+    <div class="container">
+      <h2>Get a Quote on WhatsApp</h2>
+      <p>Stuck on a detail or ready to order? Talk directly with BRANDSIP about ${ind.slug.replace(/-/g, ' ')} branded water — flexible sizes, negotiable MOQs and delivery across Karnataka.</p>
+      <div class="band-actions">
+        <a class="btn btn-white" href="#" data-wa onclick="return false;">Get a Quote on WhatsApp</a>
+        <a class="btn btn-outline" style="background:#fff;border-color:#fff;color:var(--blue-800);" href="#quote">Request Pricing</a>
+        <a class="btn btn-outline" style="background:#fff;border-color:#fff;color:var(--blue-800);" href="tel:+918073137080">Call ${PHONE_DISPLAY}</a>
+      </div>
+    </div>
+  </section>` : ctaBand(`Branded Water for ${ind.slug.replace(/-/g, ' ')}`, `Put your name and logo on quality packaged drinking water. Flexible sizes, negotiable MOQs and reliable delivery across Karnataka from BRANDSIP.`)}
 `;
 
   const extraHead = `
@@ -361,17 +622,52 @@ ${faqSchema(ind.faqs)}
    PRODUCT PAGES
    ===================================================================== */
 function productPage(p) {
-  const rel = `/${p.slug}-branded-water-bottles`;
+  const page = p.page || `${p.slug}-branded-water-bottles`;
+  const rel = `/${page}`;
   const canonicalUrl = `${BASE}${rel}`;
-  const title = `${p.title} | BRANDSIP`;
-  const desc = `${p.title}. ${p.region} branded water bottles with custom labelling by BRANDSIP. Specs, MOQ, use cases and delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
+  const title = p.metaTitle || `${p.title} | BRANDSIP`;
+  const desc = p.metaDesc || `${p.title}. ${p.region} branded water bottles with custom labelling by BRANDSIP. Specs, MOQ, use cases and delivery across Karnataka. Get a quote at ${PHONE_DISPLAY}.`;
   const h1 = p.h1;
 
   const specsRows = p.specs.map(s => `<tr><td><strong>${s.k}</strong></td><td>${s.v}</td></tr>`).join('\n            ');
 
-  const body = `
-  ${breadcrumb('Bottle Options', '/bottle-sizes')}
-  ${pageHero(h1, p.intro)}
+  const imageChoices = {
+    '250ml': '/assets/images/bottle-square-300.svg',
+    '500ml': '/assets/images/bottle-round-500.svg',
+    '750ml': '/assets/images/bottle-round-corporate.svg',
+    '1l': '/assets/images/bottle-round-1l.svg'
+  };
+
+  const productGalleries = {
+    '250ml': [
+      { src: '/assets/images/bottle-square-300.svg', alt: '250ml custom branded water bottle', cap: '250ml Square' },
+      { src: '/assets/images/gallery-event.svg', alt: 'Event branded 250ml bottle', cap: 'Event bottle' },
+      { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded bottle', cap: 'Restaurant bottle' },
+      { src: '/assets/images/gallery-business.svg', alt: 'Business branded bottle', cap: 'Business bottle' }
+    ],
+    '500ml': [
+      { src: '/assets/images/bottle-round-500.svg', alt: '500ml custom branded water bottle', cap: '500ml Round' },
+      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 500ml bottle', cap: 'Hotel bottle' },
+      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 500ml bottle', cap: 'Corporate bottle' },
+      { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded 500ml bottle', cap: 'Restaurant bottle' }
+    ],
+    '750ml': [
+      { src: '/assets/images/bottle-round-corporate.svg', alt: '750ml custom branded water bottle', cap: '750ml Round' },
+      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 750ml bottle', cap: 'Corporate bottle' },
+      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 750ml bottle', cap: 'Hotel bottle' },
+      { src: '/assets/images/gallery-wedding.svg', alt: 'Wedding branded 750ml bottle', cap: 'Wedding bottle' }
+    ],
+    '1l': [
+      { src: '/assets/images/bottle-round-1l.svg', alt: '1 litre custom branded water bottle', cap: '1 Litre Round' },
+      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 1L bottle', cap: 'Hotel bottle' },
+      { src: '/assets/images/gallery-business.svg', alt: 'Business branded 1L bottle', cap: 'Business bottle' },
+      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 1L bottle', cap: 'Corporate bottle' }
+    ]
+  };
+  const galleryItems = p.gallery || productGalleries[p.slug] || productGalleries['500ml'];
+
+  const productSections = `
+  ${topCta()}
 
   <div class="section">
     <div class="container">
@@ -391,20 +687,30 @@ function productPage(p) {
           </div></div>
         </div>
         <div class="reveal">
-          <div class="section-head">
-            <span class="eyebrow">Ordering</span>
-            <h2 style="font-size:1.9rem;">MOQ &amp; Ordering</h2>
-            <p>${p.moq}</p>
+          ${deliveryBlock(p.delivery || ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'])}
+          <div style="margin-top:20px;display:flex;gap:14px;flex-wrap:wrap;">
+            <a class="btn btn-primary" href="#quote">Request Pricing</a>
+            <a class="btn btn-outline" href="#" data-wa onclick="return false;">Get a Quote on WhatsApp</a>
           </div>
-          <div class="card reveal"><div class="card-body">
-            <h3>How to Order</h3>
-            <p>Share your branding, confirm quantity and label, and we produce and deliver your branded bottles. Contact <a href="/contact">BRANDSIP</a> for a current quote.</p>
-            <p style="margin-top:10px;">Call <a href="tel:+918073137080">${PHONE_DISPLAY}</a> or WhatsApp <a href="#" data-wa onclick="return false;">${PHONE_DISPLAY}</a>.</p>
-          </div></div>
         </div>
       </div>
+      <div class="section-head reveal" style="margin-top:56px;">
+        <span class="eyebrow">Ordering</span>
+        <h2 style="font-size:1.5rem;">MOQ &amp; Ordering</h2>
+        <p>${p.moq}</p>
+      </div>
+      <div class="card reveal"><div class="card-body">
+        <h3>How to Order</h3>
+        <p>Share your branding, confirm quantity and label, and we produce and deliver your branded bottles. Contact <a href="/contact">BRANDSIP</a> for a current quote.</p>
+        <p style="margin-top:10px;">Call <a href="tel:+918073137080">${PHONE_DISPLAY}</a> or WhatsApp <a href="#" data-wa onclick="return false;">${PHONE_DISPLAY}</a>.</p>
+      </div></div>
     </div>
-  </div>
+  </div>`;
+
+  const body = `
+  ${breadcrumb('Bottle Options', '/bottle-sizes')}
+  ${pageHero(h1, p.intro)}
+  ${productSections}
 
   <div class="section section-alt">
     <div class="container">
@@ -423,21 +729,40 @@ function productPage(p) {
     <div class="container">
       ${faqBlocks(p.faqs)}
       <div class="reveal" style="margin-top:40px;text-align:center;">
-        <p style="color:var(--muted);">Compare all sizes on our <a href="/bottle-sizes">bottle options page</a> or <a href="/contact">request a quote</a>.</p>
+        <p style="color:var(--muted);">Compare all sizes on our <a href="/bottle-sizes">bottle options page</a>, explore <a href="/private-label-water-bottles">private label water bottles</a> or <a href="/contact">request a quote</a>.</p>
         <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="/contact">Request a Quote</a>
       </div>
     </div>
   </div>
 
-  ${ctaBand(`Order ${p.title}`, `Get the ${p.sizeLabel} branded water bottle for your business, event or hospitality. Flexible MOQs and reliable delivery across Karnataka.`)}
-`;
+  ${landingGallery(galleryItems)}
 
-  const imageChoices = {
-    '250ml': '/assets/images/bottle-square-300.svg',
-    '500ml': '/assets/images/bottle-round-500.svg',
-    '750ml': '/assets/images/bottle-round-corporate.svg',
-    '1l': '/assets/images/bottle-round-1l.svg'
-  };
+  ${internalLinksBlock(p.slug === '250ml' ? [
+    { href: '/500ml-custom-water-bottles', label: '500ml Custom Water Bottles', text: 'The popular standard single-serve for tables and events.' },
+    { href: '/custom-water-bottles-for-restaurants', label: 'Custom Water Bottles for Restaurants', text: 'Branded bottles for restaurant takeaways and sampling.' },
+    { href: '/private-label-water-bottles', label: 'Private Label Water Bottles', text: 'Bottle water under your own brand.' },
+    { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'Delivery across the state.' }
+  ] : [
+    { href: '/250ml-custom-water-bottles', label: '250ml Custom Water Bottles', text: 'Compact single-serve bottles for sampling and takeaways.' },
+    { href: '/custom-water-bottles-for-hotels', label: 'Custom Water Bottles for Hotels', text: 'In-room, banquet and restaurant bottles for hotels.' },
+    { href: '/custom-water-bottles-for-restaurants', label: 'Custom Water Bottles for Restaurants', text: 'Branded table water for restaurants and cafés.' },
+    { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'Delivery across the state.' }
+  ])}
+
+  ${leadForm('Request Pricing')}
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Get a Quote on WhatsApp</h2>
+      <p>Order ${p.title} for your business, event or hospitality. Flexible sizes, negotiable MOQs and reliable delivery across Karnataka.</p>
+      <div class="band-actions">
+        <a class="btn btn-white" href="#" data-wa onclick="return false;">Get a Quote on WhatsApp</a>
+        <a class="btn btn-outline" style="background:#fff;border-color:#fff;color:var(--blue-800);" href="#quote">Request Pricing</a>
+        <a class="btn btn-outline" style="background:#fff;border-color:#fff;color:var(--blue-800);" href="tel:+918073137080">Call ${PHONE_DISPLAY}</a>
+      </div>
+    </div>
+  </section>
+`;
 
   const extraHead = `
 <script type="application/ld+json">
@@ -643,14 +968,21 @@ function main() {
 
   // Industry pages
   industries.forEach((ind) => {
-    fs.writeFileSync(path.join(PAGES, `water-bottles-for-${ind.slug}.html`), industryPage(ind));
+    fs.writeFileSync(path.join(PAGES, `${ind.page || `water-bottles-for-${ind.slug}`}.html`), industryPage(ind));
     console.log('Generated industry page:', ind.slug);
   });
 
   // Product pages
   products.forEach((p) => {
-    fs.writeFileSync(path.join(PAGES, `${p.slug}-branded-water-bottles.html`), productPage(p));
+    fs.writeFileSync(path.join(PAGES, `${p.page || `${p.slug}-branded-water-bottles`}.html`), productPage(p));
     console.log('Generated product page:', p.slug);
+  });
+
+  // Dedicated landing pages (private label, karnataka, etc.)
+  const landingPages = require(path.join(SEODIR, 'landing-pages.js'));
+  landingPages.forEach((lp) => {
+    fs.writeFileSync(path.join(PAGES, `${lp.slug}.html`), landingPage(lp));
+    console.log('Generated landing page:', lp.slug);
   });
 
   // Blog pages (subfolder)

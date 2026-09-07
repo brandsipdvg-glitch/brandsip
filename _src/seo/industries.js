@@ -5,6 +5,11 @@ module.exports = [
   {
     slug: 'hotels',
     title: 'Branded Water Bottles for Hotels',
+    page: 'custom-water-bottles-for-hotels',
+    metaTitle: 'Custom Water Bottles for Hotels in Karnataka | BRANDSIP',
+    metaDesc: 'Custom branded water bottles for hotels in Karnataka. Premium in-room, banquet and restaurant bottles with your hotel logo, flexible MOQs and delivery. Get a free branding mockup.',
+    landing: true,
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
     h1: 'Custom Water Bottles for Hotels & Resorts',
     eyebrow: 'Hospitality',
     intro: 'A branded water bottle in a hotel room or restaurant is one of the simplest ways to elevate the guest experience. BRANDSIP supplies custom branded water bottles for hotels, resorts, serviced apartments and boutique properties, helping you turn a basic amenity into a memorable brand moment.',
@@ -24,12 +29,19 @@ module.exports = [
       { q: 'Can you brand water bottles for my hotel?', a: 'Yes. BRANDSIP customizes the bottle label with your hotel name, logo and design, using a premium full-cover label on round bottles for a polished presentation.' },
       { q: 'What bottle sizes are best for hotels?', a: '500ml round bottles work well for in-room and banquet use, while 1 litre round bottles suit longer stays, restaurant tables and hospitality areas. BRANDSIP can advise the best mix for your property.' },
       { q: 'What is the minimum order quantity for hotels?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
-      { q: 'Do you deliver to hotels across Karnataka?', a: 'Yes. BRANDSIP supplies hotels and resorts across Karnataka from our Davangere facility.' }
+      { q: 'Do you deliver to hotels across Karnataka?', a: 'Yes. BRANDSIP supplies hotels and resorts across Karnataka from our Davangere facility.' },
+      { q: 'How long does production take?', a: 'Turnaround depends on quantity and label requirements. Share your timeline with BRANDSIP and we schedule production and delivery to meet it.' },
+      { q: 'Can you design the bottle label for us?', a: 'Yes. Send your logo, name and design preferences and BRANDSIP helps prepare a label that represents your hotel well.' }
     ]
   },
   {
     slug: 'restaurants',
     title: 'Branded Water Bottles for Restaurants',
+    page: 'custom-water-bottles-for-restaurants',
+    metaTitle: 'Custom Water Bottles for Restaurants | BRANDSIP',
+    metaDesc: 'Custom branded water bottles for restaurants across Karnataka. Table, takeaway and event bottles with your restaurant logo, flexible sizes and reliable delivery. Request pricing.',
+    landing: true,
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
     h1: 'Custom Branded Water Bottles for Restaurants',
     eyebrow: 'Hospitality',
     intro: 'The water you serve is part of your restaurant\'s identity. A branded water bottle puts your name and logo on every table while guests dine — turning a functional item into a quiet, effective brand touchpoint. BRANDSIP supplies custom branded water bottles for restaurants and cafés.',
@@ -49,7 +61,9 @@ module.exports = [
       { q: 'Can I put my restaurant logo on the bottle?', a: 'Yes. Your restaurant name, logo and design can be printed on the bottle label. BRANDSIP offers both single-side and full-cover label options.' },
       { q: 'What size bottle do restaurants usually choose?', a: 'Most restaurants prefer 500ml square or round bottles for table service. A 300ml square bottle is a good single-serve option. BRANDSIP can help you choose.' },
       { q: 'How quickly can I get branded bottles for my restaurant?', a: 'Timelines depend on quantity and label requirements. Contact BRANDSIP for current turnaround times and delivery to your city.' },
-      { q: 'Can the label match my restaurant brand colours?', a: 'Yes. Your label can be customized to match your brand identity, colours, logo and design.' }
+      { q: 'Can the label match my restaurant brand colours?', a: 'Yes. Your label can be customized to match your brand identity, colours, logo and design.' },
+      { q: 'How long does production take?', a: 'Timelines depend on quantity and label requirements. Contact BRANDSIP for current turnaround times and delivery to your city.' },
+      { q: 'Can you design the label for my restaurant?', a: 'Yes. Send your logo, name and brand colours and BRANDSIP helps prepare your restaurant label.' }
     ]
   },
   {
