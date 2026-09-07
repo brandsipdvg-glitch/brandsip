@@ -209,6 +209,30 @@ ${items}
   fs.writeFileSync(path.join(OUT_DIR, 'sitemap.xml'), sitemap);
   console.log('Built sitemap.xml');
 
+  // RSS feed from blog posts + comments feed
+  const blogData = (() => {
+    try { return require(path.join(SRC, 'seo', 'blog.js')); }
+    catch (e) { return []; }
+  })();
+  const buildRss = (items) => {
+    const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const today = new Date().toISOString();
+    const entries = items.map((b) => {
+      const link = `${BASE}/blog/${b.slug}`;
+      const description = (b.intro || '') + (b.sections ? ' ' + b.sections.map(s => s.body).join(' ') : '');
+      return `  <item>\n    <title>${esc(b.title)}</title>\n    <link>${link}</link>\n    <guid isPermaLink="true">${link}</guid>\n    <description>${esc(description.length > 2000 ? description.slice(0, 1997) + '...' : description)}</description>\n    <pubDate>${today}</pubDate>\n    <dc:creator><![CDATA[BRANDSIP]]></dc:creator>\n  </item>`;
+    }).join('\n');
+    return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>BRANDSIP Blog</title>\n    <link>${BASE}/resources</link>\n    <description>Guides on custom branded water bottles for restaurants, hotels, businesses, events and weddings.</description>\n    <language>en-in</language>\n    <lastBuildDate>${today}</lastBuildDate>\n    <atom:link href="${BASE}/feed.xml" rel="self" type="application/rss+xml"/>\n${entries}\n  </channel>\n</rss>\n`;
+  };
+  fs.writeFileSync(path.join(OUT_DIR, 'feed.xml'), buildRss(blogData));
+  console.log('Built feed.xml (' + blogData.length + ' items)');
+  // comments feed (mirrors watergram comments feed; empty by default for a static site)
+  const commentsDir = path.join(OUT_DIR, 'comments');
+  fs.mkdirSync(commentsDir, { recursive: true });
+  const commentsRss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">\n  <channel>\n    <title>BRANDSIP Comments Feed</title>\n    <link>${BASE}/resources</link>\n    <description>Comments on BRANDSIP blog articles.</description>\n    <language>en-in</language>\n    <lastBuildDate>${new Date().toISOString()}</lastBuildDate>\n  </channel>\n</rss>\n`;
+  fs.writeFileSync(path.join(commentsDir, 'feed.xml'), commentsRss);
+  console.log('Built comments/feed.xml');
+
   // CNAME for GitHub Pages custom domain (skipped for placeholder/non-custom hosts)
   const host = BASE.replace(/^https?:\/\//, '');
   if (!host.endsWith('example.com') && !host.endsWith('.github.io')) {
