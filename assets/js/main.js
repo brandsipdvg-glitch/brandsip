@@ -14,6 +14,7 @@
     el.href = waLink();
     el.setAttribute('target', '_blank');
     el.setAttribute('rel', 'noopener');
+    el.removeAttribute('onclick');
   });
 
   /* Sticky header shadow */
