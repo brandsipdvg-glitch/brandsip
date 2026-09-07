@@ -1433,6 +1433,20 @@ h1, h2, h3, h4 {
   object-fit: cover;
   transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+.gallery-item video {
+  width: 100%;
+  display: block;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background: var(--blue-50);
+}
+.gallery-item:has(video) {
+  cursor: default;
+}
+.gallery-item:has(video):hover {
+  transform: none;
+  box-shadow: var(--shadow-md);
+}
 .gallery-item:hover img {
   transform: scale(1.05);
 }
