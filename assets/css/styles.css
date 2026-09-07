@@ -1375,7 +1375,8 @@ h1, h2, h3, h4 {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
 }
-.action-card img {
+.action-card img,
+.action-card video {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -1401,7 +1402,8 @@ h1, h2, h3, h4 {
   .action-card.wide {
     grid-column: span 2;
   }
-  .action-card.wide img {
+  .action-card.wide img,
+  .action-card.wide video {
     aspect-ratio: 16 / 7;
   }
 }

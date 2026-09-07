@@ -242,7 +242,7 @@ function cityPage(c, i, total) {
 </script>
 ${faqSchema(c.faqs || cityFaqs())}
 `;
-  return wrap(body, title, desc, '/assets/images/gallery-restaurant.svg', extraHead);
+  return wrap(body, title, desc, '/assets/gallery/brandsip1.jpg', extraHead);
 }
 
 const cities = require(path.join(SEODIR, 'cities.js'));
@@ -468,12 +468,12 @@ function landingPage(lp) {
   "description": "${jsonSafe(desc)}",
   "brand": { "@type": "Brand", "name": "BRANDSIP" },
   "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "${canonicalUrl}" },
-  "image": "${BASE}/assets/images/bottle-round-500.svg"
+  "image": "${BASE}/assets/gallery/brandsip1.jpg"
 }
 </script>
 ${faqSchema(lp.faqs)}
 `;
-  return wrap(body, title, desc, '/assets/images/bottle-round-500.svg', extraHead);
+  return wrap(body, title, desc, '/assets/gallery/brandsip1.jpg', extraHead);
 }
 
 /* =====================================================================
@@ -510,22 +510,22 @@ function industryPage(ind) {
           </div>
         </div>
         <div class="reveal">
-          ${ind.landing ? deliveryBlock(ind.delivery) : `<img src="/assets/images/gallery-hotel.svg" alt="${h1}" style="border-radius:var(--radius);box-shadow:var(--shadow-md);width:100%;">`}
+          ${ind.landing ? deliveryBlock(ind.delivery) : `<img src="/assets/gallery/brandsip1.jpg" alt="${h1}" style="border-radius:var(--radius);box-shadow:var(--shadow-md);width:100%;">`}
         </div>
       </div>
     </div>
   </div>
 
   ${ind.landing ? landingGallery(ind.slug === 'restaurants' ? [
-    { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded water bottle sample', cap: 'Restaurant bottle' },
-    { src: '/assets/images/bottle-square-300.svg', alt: '300ml square branded bottle', cap: '300ml Square' },
-    { src: '/assets/images/bottle-round-500.svg', alt: '500ml round branded bottle', cap: '500ml Round' },
-    { src: '/assets/images/gallery-wedding.svg', alt: 'Wedding branded bottle', cap: 'Wedding' }
+    { src: '/assets/gallery/brandsip1.jpg', alt: 'Restaurant branded water bottle sample', cap: 'Restaurant bottle' },
+    { src: '/assets/gallery/brandsip3.jpg', alt: '300ml square branded bottle', cap: '300ml Square' },
+    { src: '/assets/gallery/brandsip7.jpg', alt: '500ml round branded bottle', cap: '500ml Round' },
+    { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Wedding branded bottle', cap: 'Wedding' }
   ] : [
-    { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded water bottle sample', cap: 'Hotel bottle' },
-    { src: '/assets/images/bottle-round-500.svg', alt: '500ml round branded bottle', cap: '500ml Round' },
-    { src: '/assets/images/bottle-round-1l.svg', alt: '1 litre round branded bottle', cap: '1 Litre Round' },
-    { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded bottle', cap: 'Corporate' }
+    { src: '/assets/gallery/brandsip1.jpg', alt: 'Hotel branded water bottle sample', cap: 'Hotel bottle' },
+    { src: '/assets/gallery/brandsip3.jpg', alt: '500ml round branded bottle', cap: '500ml Round' },
+    { src: '/assets/gallery/brandsip7.jpg', alt: '1 litre round branded bottle', cap: '1 Litre Round' },
+    { src: '/assets/gallery/brandsip4-poster.jpg', alt: 'Corporate branded bottle', cap: 'Corporate' }
   ]) : ''}
 
   <div class="section section-alt">
@@ -615,7 +615,7 @@ function industryPage(ind) {
 </script>
 ${faqSchema(ind.faqs)}
 `;
-  return wrap(body, title, desc, '/assets/images/gallery-hotel.svg', extraHead);
+  return wrap(body, title, desc, '/assets/gallery/brandsip1.jpg', extraHead);
 }
 
 /* =====================================================================
@@ -632,36 +632,36 @@ function productPage(p) {
   const specsRows = p.specs.map(s => `<tr><td><strong>${s.k}</strong></td><td>${s.v}</td></tr>`).join('\n            ');
 
   const imageChoices = {
-    '250ml': '/assets/images/bottle-square-300.svg',
-    '500ml': '/assets/images/bottle-round-500.svg',
-    '750ml': '/assets/images/bottle-round-corporate.svg',
-    '1l': '/assets/images/bottle-round-1l.svg'
+    '250ml': '/assets/gallery/brandsip1.jpg',
+    '500ml': '/assets/gallery/brandsip3.jpg',
+    '750ml': '/assets/gallery/brandsip7.jpg',
+    '1l': '/assets/gallery/brandsip1.jpg'
   };
 
   const productGalleries = {
     '250ml': [
-      { src: '/assets/images/bottle-square-300.svg', alt: '250ml custom branded water bottle', cap: '250ml Square' },
-      { src: '/assets/images/gallery-event.svg', alt: 'Event branded 250ml bottle', cap: 'Event bottle' },
-      { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded bottle', cap: 'Restaurant bottle' },
-      { src: '/assets/images/gallery-business.svg', alt: 'Business branded bottle', cap: 'Business bottle' }
+      { src: '/assets/gallery/brandsip1.jpg', alt: '250ml custom branded water bottle', cap: '250ml Square' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Event branded 250ml bottle', cap: 'Event bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Restaurant branded bottle', cap: 'Restaurant bottle' },
+      { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Business branded bottle', cap: 'Business bottle' }
     ],
     '500ml': [
-      { src: '/assets/images/bottle-round-500.svg', alt: '500ml custom branded water bottle', cap: '500ml Round' },
-      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 500ml bottle', cap: 'Hotel bottle' },
-      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 500ml bottle', cap: 'Corporate bottle' },
-      { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded 500ml bottle', cap: 'Restaurant bottle' }
+      { src: '/assets/gallery/brandsip3.jpg', alt: '500ml custom branded water bottle', cap: '500ml Round' },
+      { src: '/assets/gallery/brandsip4-poster.jpg', alt: 'Hotel branded 500ml bottle', cap: 'Hotel bottle' },
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'Corporate branded 500ml bottle', cap: 'Corporate bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Restaurant branded 500ml bottle', cap: 'Restaurant bottle' }
     ],
     '750ml': [
-      { src: '/assets/images/bottle-round-corporate.svg', alt: '750ml custom branded water bottle', cap: '750ml Round' },
-      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 750ml bottle', cap: 'Corporate bottle' },
-      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 750ml bottle', cap: 'Hotel bottle' },
-      { src: '/assets/images/gallery-wedding.svg', alt: 'Wedding branded 750ml bottle', cap: 'Wedding bottle' }
+      { src: '/assets/gallery/brandsip7.jpg', alt: '750ml custom branded water bottle', cap: '750ml Round' },
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'Corporate branded 750ml bottle', cap: 'Corporate bottle' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Hotel branded 750ml bottle', cap: 'Hotel bottle' },
+      { src: '/assets/gallery/brandsip6-poster.jpg', alt: 'Wedding branded 750ml bottle', cap: 'Wedding bottle' }
     ],
     '1l': [
-      { src: '/assets/images/bottle-round-1l.svg', alt: '1 litre custom branded water bottle', cap: '1 Litre Round' },
-      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded 1L bottle', cap: 'Hotel bottle' },
-      { src: '/assets/images/gallery-business.svg', alt: 'Business branded 1L bottle', cap: 'Business bottle' },
-      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded 1L bottle', cap: 'Corporate bottle' }
+      { src: '/assets/gallery/brandsip1.jpg', alt: '1 litre custom branded water bottle', cap: '1 Litre Round' },
+      { src: '/assets/gallery/brandsip4-poster.jpg', alt: 'Hotel branded 1L bottle', cap: 'Hotel bottle' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Business branded 1L bottle', cap: 'Business bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Corporate branded 1L bottle', cap: 'Corporate bottle' }
     ]
   };
   const galleryItems = p.gallery || productGalleries[p.slug] || productGalleries['500ml'];
@@ -841,7 +841,7 @@ function blogPage(b, idx) {
 </script>
 ${faqSchema(b.faqs)}
 `;
-  return wrap(body, title, desc, '/assets/images/bottle-round-500.svg', extraHead);
+  return wrap(body, title, desc, '/assets/gallery/brandsip1.jpg', extraHead);
 }
 
 /* =====================================================================

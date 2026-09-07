@@ -47,10 +47,10 @@ module.exports = [
       { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'Nationwide — statewide — delivery across Karnataka.' }
     ],
     gallery: [
-      { src: '/assets/images/gallery-business.svg', alt: 'Private label business water bottle', cap: 'Private label business bottle' },
-      { src: '/assets/images/bottle-square-300.svg', alt: 'Private label 300ml square water bottle', cap: 'Private label square bottle' },
-      { src: '/assets/images/bottle-round-500.svg', alt: 'Private label 500ml round water bottle', cap: 'Private label round bottle' },
-      { src: '/assets/images/bottle-round-1l.svg', alt: 'Private label 1 litre round water bottle', cap: 'Private label 1 litre bottle' }
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'Private label business water bottle', cap: 'Private label business bottle' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Private label 300ml square water bottle', cap: 'Private label square bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Private label 500ml round water bottle', cap: 'Private label round bottle' },
+      { src: '/assets/gallery/brandsip4-poster.jpg', alt: 'Private label 1 litre round water bottle', cap: 'Private label 1 litre bottle' }
     ]
   },
   {
@@ -105,10 +105,10 @@ module.exports = [
       { href: '/private-label-water-bottles', label: 'Private Label Water Bottles', text: 'Bottle water under your own brand name.' }
     ],
     gallery: [
-      { src: '/assets/images/gallery-hotel.svg', alt: 'Hotel branded water bottle Karnataka', cap: 'Hotel bottle' },
-      { src: '/assets/images/gallery-restaurant.svg', alt: 'Restaurant branded water bottle Karnataka', cap: 'Restaurant bottle' },
-      { src: '/assets/images/gallery-corporate.svg', alt: 'Corporate branded water bottle Karnataka', cap: 'Corporate bottle' },
-      { src: '/assets/images/gallery-wedding.svg', alt: 'Wedding branded water bottle Karnataka', cap: 'Wedding bottle' }
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'Hotel branded water bottle Karnataka', cap: 'Hotel bottle' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Restaurant branded water bottle Karnataka', cap: 'Restaurant bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Corporate branded water bottle Karnataka', cap: 'Corporate bottle' },
+      { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Wedding branded water bottle Karnataka', cap: 'Wedding bottle' }
     ]
   }
 ];
