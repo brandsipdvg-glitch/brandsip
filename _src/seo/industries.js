@@ -31,8 +31,45 @@ module.exports = [
       { q: 'What is the minimum order quantity for hotels?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
       { q: 'Do you deliver to hotels across Karnataka?', a: 'Yes. BRANDSIP supplies hotels and resorts across Karnataka from our Davangere facility.' },
       { q: 'How long does production take?', a: 'Turnaround depends on quantity and label requirements. Share your timeline with BRANDSIP and we schedule production and delivery to meet it.' },
-      { q: 'Can you design the bottle label for us?', a: 'Yes. Send your logo, name and design preferences and BRANDSIP helps prepare a label that represents your hotel well.' }
-    ]
+      { q: 'Can you design the bottle label for us?', a: 'Yes. Send your logo, name and design preferences and BRANDSIP helps prepare a label that represents your hotel well.' },
+      { q: 'Can the bottle label carry a QR code for hotel guest engagement?', a: 'Yes. Add a scannable QR code to your full-cover label that opens your Google Reviews page, Instagram, WhatsApp, website or digital menu — turning every in-room and restaurant bottle into a guest engagement channel.' }
+    ],
+    qr: 'A hotel water bottle with a QR code is one of the easiest guest-engagement upgrades you can make. Print a QR that opens your Google Reviews page so staff never have to ask for a rating verbally, or link it to WhatsApp concierge so guests can request room service without a call. BRANDSIP prints the QR code directly on the full-wrap label at production — no stickers, no peeling, no extra work for your housekeeping team.',
+    qrFaq: { q: 'How do QR code water bottles help hotels get more reviews?', a: 'A QR code on the bottle label takes guests directly to your Google Reviews or feedback page in one scan. It removes the friction of finding and typing a link, so guests who enjoyed their stay — or their complimentary branded water — can leave a review in seconds.' }
+  },
+  {
+    slug: 'resorts',
+    title: 'Branded Water Bottles for Resorts',
+    page: 'water-bottles-for-resorts',
+    metaTitle: 'Custom Water Bottles for Resorts in Karnataka | BRANDSIP',
+    metaDesc: 'Custom branded water bottles for resorts in Karnataka. Premium poolside, in-villa and restaurant bottles with your resort logo, QR guest engagement and delivery. Get a free branding mockup.',
+    landing: true,
+    delivery: ['Chikkamagaluru', 'Shivamogga', 'Vijayanagara', 'Mysuru', 'Davangere', 'Bengaluru'],
+    h1: 'Custom Water Bottles for Resorts, Villas & Homestays',
+    eyebrow: 'Hospitality',
+    intro: 'A resort sells an escape, and every detail should feel part of the experience. From poolside hydration to in-villa minibars, custom branded water bottles for resorts carry your name, logo and a QR code that connects guests to reviews and Instagram. BRANDSIP supplies premium branded bottles to resorts, villas and homestays across Karnataka.',
+    benefits: [
+      'A premium full-cover label reinforces the resort\u2019s relaxed, considered atmosphere',
+      'Poolside, in-room and restaurant bottles keep your brand visible at every touchpoint',
+      'QR codes link guests straight to reviews, Instagram and booking enquiries',
+      'Consistent branding across villas, restaurants, pools and event areas'
+    ],
+    examples: [
+      'Poolside and spa bottled water with the resort logo',
+      'In-villa minibar and welcome bottles for every guest',
+      'Restaurant and beach-shack branded bottles',
+      'Event, wedding and offsite bottles for resort functions'
+    ],
+    faqs: [
+      { q: 'Can you brand water bottles for my resort?', a: 'Yes. BRANDSIP customizes 500ml and 1 litre bottles with your resort name, logo and design, using premium full-cover labels ideal for villas, pools and restaurants.' },
+      { q: 'Which resorts does BRANDSIP supply?', a: 'BRANDSIP supplies boutique resorts, homestays, villas and hospitality properties across Karnataka — from Chikkamagaluru coffee estates to Hampi and coastal properties.' },
+      { q: 'What bottle sizes suit resorts?', a: '500ml round bottles suit poolside and restaurant use, while 1 litre bottles work well in villas and minibars. BRANDSIP can recommend a mix for your property.' },
+      { q: 'Can my resort bottle carry a QR code?', a: 'Yes. Print a QR code that opens your Google Reviews, Instagram, WhatsApp or booking page — every bottle becomes a guest-engagement channel.' },
+      { q: 'Do you deliver to resort properties across Karnataka?', a: 'Yes. BRANDSIP delivers to resorts, villas and homestays across Karnataka from our Davangere facility.' },
+      { q: 'Can you design the resort bottle label?', a: 'Yes. Send your logo, colours and design direction and BRANDSIP prepares a premium label that matches your resort ambiance.' }
+    ],
+    qr: 'Resort guests arrive to relax and disconnect — so the little details land hard. A bottled water with your name and a clean QR code that opens your Google reviews page, Instagram feed or WhatsApp concierge turns every villa, poolside and restaurant bottle into a quiet moment of guest engagement. Happy guests scan, share and review — building your resort\u2019s online reputation one stay at a time.',
+    qrFaq: { q: 'How do QR code water bottles help resorts build reviews?', a: 'Guests at leisure are more likely to scan and respond. A QR code on the bottle opens your Google Reviews or feedback page in one tap, turning a relaxed moment into a 5-star review and Instagram share.' }
   },
   {
     slug: 'restaurants',
@@ -63,8 +100,11 @@ module.exports = [
       { q: 'How quickly can I get branded bottles for my restaurant?', a: 'Timelines depend on quantity and label requirements. Contact BRANDSIP for current turnaround times and delivery to your city.' },
       { q: 'Can the label match my restaurant brand colours?', a: 'Yes. Your label can be customized to match your brand identity, colours, logo and design.' },
       { q: 'How long does production take?', a: 'Timelines depend on quantity and label requirements. Contact BRANDSIP for current turnaround times and delivery to your city.' },
-      { q: 'Can you design the label for my restaurant?', a: 'Yes. Send your logo, name and brand colours and BRANDSIP helps prepare your restaurant label.' }
-    ]
+      { q: 'Can you design the label for my restaurant?', a: 'Yes. Send your logo, name and brand colours and BRANDSIP helps prepare your restaurant label.' },
+      { q: 'Can I put a QR code on my restaurant water bottle?', a: 'Yes. Add a scannable QR code that opens your Google Reviews page, Zomato or Swiggy menu, WhatsApp ordering or Instagram — every table bottle becomes a channel that collects reviews and orders while guests dine.' }
+    ],
+    qr: 'A QR code on your restaurant table water quietly does your marketing for you. Print a code that opens your Google Reviews page so happy diners can leave a 5-star rating without digging for a link, or link it to WhatsApp so guests can re-order and book tables. In the age of Zomato and Instagram-worthy details, a branded bottle with a QR code is a detail guests notice, scan and remember.',
+    qrFaq: { q: 'How do QR code water bottles get restaurants more reviews?', a: 'Every table bottle carries a scannable QR code that opens your Google Reviews or feedback page instantly. Happy diners scan it after their meal and leave a review in under ten seconds — which compounds your local rankings and social proof daily.' }
   },
   {
     slug: 'cafes',
@@ -88,8 +128,11 @@ module.exports = [
       { q: 'Can cafés order branded water bottles?', a: 'Yes. BRANDSIP supplies custom branded water bottles to cafés, coffee shops and bakeries of all sizes.' },
       { q: 'Do you offer small quantities for cafés?', a: 'Minimum order quantities are negotiable based on your requirement. Contact BRANDSIP to confirm current MOQs.' },
       { q: 'Can I sell branded bottles to my customers?', a: 'Yes. You can offer branded water as a retail product. BRANDSIP can also customize the MRP on the label, subject to applicable labelling requirements.' },
-      { q: 'Do you deliver to cafés across Karnataka?', a: 'Yes. BRANDSIP delivers to cafés across Karnataka from our Davangere base.' }
-    ]
+      { q: 'Do you deliver to cafés across Karnataka?', a: 'Yes. BRANDSIP delivers to cafés across Karnataka from our Davangere base.' },
+      { q: 'Can a café bottle carry my Instagram QR code?', a: 'Yes. Add a scannable QR code to your 250ml or 500ml bottle that opens your Instagram profile, Google reviews or WhatsApp — perfect for growing your café\'s followers with every takeaway cup and table bottle.' }
+    ],
+    qr: 'Cafés live on repeat visits and shareable moments, which makes QR code bottles a natural fit. Print your Instagram handle or Google reviews link as a QR code on a 250ml branded bottle, and every takeaway becomes a follower magnet. Guests scan the bottle, tag your café, and your brand compounds with every order.',
+    qrFaq: { q: 'How can cafés use QR code water bottles to grow on Instagram?', a: 'Print a QR code on the 250ml bottle label that opens your Instagram profile or a tag-capturing landing page. Every takeaway bottle a customer scans becomes a low-cost path to a new follower, review or WhatsApp order.' }
   },
   {
     slug: 'corporate-events',
@@ -113,8 +156,11 @@ module.exports = [
       { q: 'Can you brand water for my corporate event?', a: 'Yes. BRANDSIP customizes bottles with your company name, logo and event details. Sizes and quantities can be tailored to your event.' },
       { q: 'What is the MOQ for corporate event bottles?', a: 'MOQs depend on bottle size and are negotiable. Contact BRANDSIP with your attendee count for a current quote.' },
       { q: 'Can I print event dates or sponsors?', a: 'Yes. The label can include your event name, dates, sponsors and other branding details.' },
-      { q: 'Do you deliver before my event date?', a: 'BRANDSIP works to your timeline. Contact us early with your event date so we can schedule production and delivery.' }
-    ]
+      { q: 'Do you deliver before my event date?', a: 'BRANDSIP works to your timeline. Contact us early with your event date so we can schedule production and delivery.' },
+      { q: 'Can event bottles carry a QR code to my app, site or lead form?', a: 'Yes. Add a scannable QR code that captures leads, links to your event app, or opens a feedback form — every bottle becomes a conversion touchpoint for your next launch or conference.' }
+    ],
+    qr: 'At corporate events, the branded bottle often travels home with the attendee — so a QR code on the label is a lead-generation asset that keeps working after the event ends. Link it to your event app, a lead-capture form, or a feedback survey, and turn every delegate\u2019s hydration break into a measurable conversion point.',
+    qrFaq: { q: 'How can QR code bottles capture leads at corporate events?', a: 'Print a QR code on the label that opens your lead form, event app or post-event survey. Attendees scan the bottle while seated, giving you a zero-friction channel to collect contacts and feedback from every delegate.' }
   },
   {
     slug: 'weddings',
@@ -138,8 +184,11 @@ module.exports = [
       { q: 'Can you print the couple\'s names on bottles?', a: 'Yes. Bottle labels can be customized with the couple\'s names, wedding date, monogram and theme colours.' },
       { q: 'How many bottles do I need for my wedding?', a: 'A common guideline is one or two bottles per guest, depending on the number of events. BRANDSIP can help you estimate the right quantity.' },
       { q: 'Can I match the bottles to my wedding theme?', a: 'Yes. Choose your colours, fonts and design and BRANDSIP will prepare a label that matches your theme.' },
-      { q: 'Do you deliver to my wedding venue?', a: 'Yes. BRANDSIP delivers bottles across Karnataka to your venue or city.' }
-    ]
+      { q: 'Do you deliver to my wedding venue?', a: 'Yes. BRANDSIP delivers bottles across Karnataka to your venue or city.' },
+      { q: 'Can I print a QR code to my wedding site or gift registry?', a: 'Yes. Add a scannable QR code that opens your wedding website, RSVP link, photo-sharing album or thank-you card — a memorable digital keepsake on every bottle.' }
+    ],
+    qr: 'A QR code on your wedding bottle turns a keepsake into a digital connector. Link it to your wedding website, photo-sharing album where guests upload their pictures, or a thank-you message after the event. Guests scan, relive the moments, and your wedding becomes a shareable story that keeps the celebration alive long after the last dance.',
+    qrFaq: { q: 'How can QR code labels work at weddings?', a: 'Print a QR code that opens your wedding website, RSVP page or a shared photo album. Guests scan the bottle at their seat, connect with the couple digitally, and the bottle doubles as a keepsake and a digital guestbook.' }
   },
   {
     slug: 'hospitals',
@@ -163,8 +212,11 @@ module.exports = [
       { q: 'Can you supply water bottles to hospitals?', a: 'Yes. BRANDSIP supplies custom branded packaged drinking water to hospitals, clinics and healthcare facilities.' },
       { q: 'What sizes are suitable for healthcare?', a: '300ml and 500ml single-serve bottles work well for patients, visitors and staff. BRANDSIP can advise on quantities based on your facility.' },
       { q: 'Is the water treated before packaging?', a: 'Yes. BRANDSIP packaged drinking water is filtered, UV treated and ozonised before packaging. For current certifications, contact BRANDSIP.' },
-      { q: 'Can you deliver regularly to our facility?', a: 'Yes. BRANDSIP can arrange scheduled supply to your facility, subject to location and requirements.' }
-    ]
+      { q: 'Can you deliver regularly to our facility?', a: 'Yes. BRANDSIP can arrange scheduled supply to your facility, subject to location and requirements.' },
+      { q: 'Can a hospital bottle carry appointment and service QR codes?', a: 'Yes. Print a QR code that opens your OPD booking page, feedback form or patient portal — a clean, contactless way to guide patients and collect feedback.' }
+    ],
+    qr: 'In healthcare, a QR code on the bottle label keeps things contactless and helpful. Link it to your appointment-booking page, a patient feedback form, or health information. It is a hygienic, touch-free touchpoint that reduces front-desk friction and gives visitors a clear next step.',
+    qrFaq: { q: 'How can hospitals use QR code bottles for patient feedback?', a: 'A QR code on the bottle opens a short feedback form or patient portal. Visitors and attendants scan it from the waiting area, giving hospitals a real-time, contactless channel for service feedback.' }
   },
   {
     slug: 'schools',

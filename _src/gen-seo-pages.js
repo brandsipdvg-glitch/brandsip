@@ -129,6 +129,13 @@ function cityPage(c, i, total) {
   const body = `
   ${breadcrumb('Cities', '')}
   ${pageHero(h1, `<strong>Customised water bottles in ${c.name}</strong> — ${c.intro} Choose your <a href="/bottle-sizes">bottle size &amp; shape</a>, share your branding, and BRANDSIP supplies quality packaged drinking water with your logo across ${c.name} and across Karnataka.`)}
+  ${c.areas ? `<div class="section section-soft" style="padding:30px 0 0;">
+    <div class="container">
+      <div class="geo-answer reveal" style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px 28px;">
+        <p style="font-size:1.05rem;line-height:1.7;color:var(--ink);"><strong>Fast answer:</strong> If you need customised water bottles in ${c.name}${c.areas[0] ? ` (serving ${c.areas.join(', ')})` : ''} — branded bottles with your logo, private label water or QR code labels — BRANDSIP supplies FSSAI-compliant packaged drinking water with custom branding, flexible MOQs and reliable delivery${c.name === 'Davangere' ? ' from our Davangere base, the fastest turnaround in the district' : ' from Davangere'}. ${c.geoFact || ''} Call <a href="tel:+918073137080">${PHONE_DISPLAY}</a> or WhatsApp for a quote.</p>
+      </div>
+    </div>
+  </div>` : ''}
   <div style="padding:64px 0 0;">
     <div class="container">
       <div class="section-head reveal">
@@ -153,6 +160,35 @@ function cityPage(c, i, total) {
           </ul>
           <p style="margin-top:12px;"><a href="/custom-bottles">Explore custom branded water bottles</a> or see our <a href="/bottle-sizes">bottle options</a>.</p>
         </div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-navy" aria-label="QR code water bottles in ${c.name}">
+    <div class="container">
+      <div class="grid grid-2" style="align-items:center;">
+        <div class="reveal">
+          <span class="eyebrow" style="color:var(--blue-300);">QR Marketing</span>
+          <h2 style="color:#fff;">QR Code Water Bottles in ${c.name}</h2>
+          <p style="color:rgba(255,255,255,0.85);">Brandsip is the customised water bottle company that turns every bottle into a marketing asset. Print a scannable QR code on the label that opens your <strong>Google Reviews</strong>, <strong>Instagram</strong>, <strong>WhatsApp</strong>, <strong>menu</strong>, <strong>website</strong> or a <strong>feedback form</strong> — so every guest in ${c.name} who picks up your bottle connects with your brand in one scan.</p>
+          <p style="color:rgba(255,255,255,0.85);margin-top:14px;">For restaurants, hotels, cafes, resorts, weddings and corporate events in ${c.name}, a QR-enabled bottle is the simplest ongoing marketing channel you can own.</p>
+          <div style="margin-top:24px;">
+            <a class="btn btn-white" href="/qr-code-water-bottles">Explore QR Water Bottles</a>
+            <a class="btn btn-ghost-light" style="margin-left:8px;" href="/contact">Get a Quote</a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div style="background:#fff;border-radius:var(--radius-lg);padding:30px;box-shadow:var(--shadow-lg);max-width:440px;margin:0 auto;">
+            <h3 style="margin-bottom:14px;">What the QR Code on Your Bottle Can Open</h3>
+            <div class="grid grid-2" style="gap:12px;">
+              <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Google Reviews</div>
+              <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Instagram</div>
+              <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ WhatsApp</div>
+              <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Website &amp; Menu</div>
+            </div>
+            <p style="margin-top:16px;color:var(--muted);font-size:.92rem;">QR labels are printed at production — no stickers, no peeling.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -541,6 +577,38 @@ function industryPage(ind) {
     </div>
   </div>
 
+  ${ind.qr ? `<div class="section section-navy" aria-label="QR code water bottles for ${ind.slug.replace(/-/g, ' ')}">
+    <div class="container">
+      <div class="grid grid-2" style="align-items:center;">
+        <div class="reveal">
+          <span class="eyebrow" style="color:var(--blue-300);">QR Marketing</span>
+          <h2 style="color:#fff;">QR Code Water Bottles for ${ind.slug.replace(/-/g, ' ')}</h2>
+          <p style="color:rgba(255,255,255,0.9);">${ind.qr}</p>
+          <div style="margin-top:26px;">
+            <a class="btn btn-white" href="/qr-code-water-bottles">Explore QR Water Bottles</a>
+            <a class="btn btn-ghost-light" style="margin-left:8px;" href="${ind.landing ? '#quote' : '/contact'}">Get a Quote</a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="card" style="border:none;">
+            <div class="card-body">
+              <h3 style="margin-bottom:14px;">One Scan Opens a World of Actions</h3>
+              <div class="grid grid-2" style="gap:12px;">
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Google Reviews</div>
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Instagram</div>
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ WhatsApp</div>
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Menus &amp; Websites</div>
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Feedback Forms</div>
+                <div style="background:var(--blue-50);border-radius:var(--radius-sm);padding:12px;">✓ Promotions</div>
+              </div>
+              <p style="margin-top:18px;color:var(--muted);font-size:.92rem;">QR labels are printed at production — no stickers, no peeling, no extra staff work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>` : ''}
+
   <div class="section">
     <div class="container">
       <div class="section-head reveal">
@@ -566,7 +634,7 @@ function industryPage(ind) {
 
   <div class="section section-alt">
     <div class="container">
-      ${faqBlocks(ind.faqs)}
+      ${faqBlocks(ind.qrFaq ? [...(ind.faqs || []), ind.qrFaq] : ind.faqs)}
       <div class="reveal" style="margin-top:40px;text-align:center;">
         <p style="color:var(--muted);">Explore related <a href="/industries">industries</a> or <a href="/bottle-sizes">bottle options</a>.</p>
         <a class="btn btn-primary btn-lg" style="margin-top:12px;" href="${ind.landing ? '#quote' : '/contact'}">${ind.landing ? 'Request Pricing' : 'Request a Quote'}</a>
@@ -613,7 +681,18 @@ function industryPage(ind) {
   "url": "${canonicalUrl}"
 }
 </script>
-${faqSchema(ind.faqs)}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "${h1}",
+  "description": "${jsonSafe(desc)}",
+  "brand": { "@type": "Brand", "name": "BRANDSIP" },
+  "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "${canonicalUrl}" },
+  "image": "${BASE}/assets/gallery/brandsip1.jpg"
+}
+</script>
+${faqSchema(ind.qrFaq ? [...(ind.faqs || []), ind.qrFaq] : ind.faqs)}
 `;
   return wrap(body, title, desc, '/assets/gallery/brandsip1.jpg', extraHead);
 }

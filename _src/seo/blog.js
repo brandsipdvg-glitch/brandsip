@@ -808,5 +808,121 @@ module.exports = [
       { q: 'What sizes are available for private label?', a: 'BRANDSIP offers 250ml, 500ml, 750ml and 1 litre bottles in square and round formats, with single-side or full-cover labels for your brand.' },
       { q: 'What is the minimum order for private label water?', a: 'MOQs vary by bottle size and are negotiable. Contact BRANDSIP with your size and quantity to confirm current requirements.' }
     ]
+  },
+  {
+    slug: 'how-qr-code-water-bottles-work',
+    title: 'How QR Code Water Bottles Work: A Marketing Guide for Restaurants & Hotels',
+    category: 'QR Marketing',
+    intro: 'QR code water bottles are one of the most underused marketing tools in Indian hospitality. A simple scannable code printed on the label turns every bottle of water you serve into a live connection to your Google Reviews, Instagram, WhatsApp or menu. This guide explains exactly how QR code water bottles work and how restaurants, hotels and cafés can use them.',
+    sections: [
+      { h: 'What Is a QR Code Water Bottle?', body: 'A QR code water bottle is a branded bottle of packaged drinking water with a QR code printed on the label during production. When a customer scans the code with their phone camera, it opens whatever destination the business has configured — a Google Reviews page, an Instagram profile, a WhatsApp chat, a digital menu, a website or a feedback form.' },
+      { h: 'Why the Bottle Is a Perfect QR Surface', body: 'Water is the one item every restaurant table, hotel room and event seat has in common. Guests pick it up, hold it, read it and often photograph it. No flyer, sign or receipt gets that kind of natural attention. A QR code on the label gives you a marketing channel that reaches every customer at the exact moment they are most engaged with your product.' },
+      { h: 'How Businesses Use QR Bottles in Practice', body: 'Restaurants link the code to their Google Reviews page so happy diners can rate them in under ten seconds. Cafés link it to Instagram to grow followers with every takeaway. Hotels link it to WhatsApp concierge for contactless room requests. Wedding couples link it to a shared photo album. Hospitals link it to appointment booking. The same bottle, one QR code, endlessly reusable.' },
+      { h: 'Review Growth: The Biggest Win', body: 'Google reviews are one of the strongest local SEO signals a restaurant, hotel or café can control. A QR code removes the friction of asking for a review — guests scan, tap and rate before the moment passes. Restaurants that place a "Rate us" QR bottle on every table consistently out-review competitors that rely on a verbal request at billing time.' },
+      { h: 'Printed at Production, Not as Stickers', body: 'The right way to do QR water is to print the code on the label at production, as BRANDSIP does. Stickered codes peel, smear and look cheap. A label-printed QR stays clean, scannable and premium across the entire batch, with zero work for your staff.' },
+      { h: 'Getting Started with QR Water', body: 'Start simple: pick a 500ml round bottle with a full-cover label, point the code at your Google Reviews page, and roll it out on dining tables. Measure the reviews that come in over a month, then extend the code to Instagram or WhatsApp. BRANDSIP handles the QR setup, label design and delivery across Karnataka.' }
+    ],
+    faqs: [
+      { q: 'How do QR code water bottles work?', a: 'A QR code is printed on the bottle label at production. Customers scan it with their phone camera and land on a destination you choose — Google Reviews, Instagram, WhatsApp, a website, a menu or a feedback form.' },
+      { q: 'What can the QR code open?', a: 'Anything with a URL: Google Reviews, Instagram, WhatsApp, a website or landing page, a digital menu, feedback forms, promotions, RSVP or photo-album pages.' },
+      { q: 'Do QR bottles really increase reviews?', a: 'Yes. Removing the friction of searching for a link dramatically increases review volume, because guests can rate while the experience is still fresh.' },
+      { q: 'Can I change what the QR code opens later?', a: 'Yes, in most dynamic QR setups the destination can be redirected without reprinting the batch. Discuss your requirements with BRANDSIP when ordering.' }
+    ]
+  },
+  {
+    slug: 'customised-water-bottle-price-india',
+    title: 'Customised Water Bottle Price in India: What Businesses Pay in 2026',
+    category: 'Pricing',
+    intro: 'What does a customised water bottle actually cost in India? Restaurant owners, hotel F&B managers and wedding planners all ask the same question, and the answer depends on bottle size, label type, quantity and branding. This guide breaks down how customised water bottle pricing works, what drives the per-bottle price, and how to budget for your business.',
+    sections: [
+      { h: 'What Determines the Price of a Customised Water Bottle', body: 'The per-bottle price is driven by four factors: bottle size and shape, label type (single-side sticker vs premium full-cover wrap), order quantity, and the complexity of your branding including QR codes. Larger quantities lower the per-unit price, while premium round bottles with full-wrap labels sit at the higher end of the range.' },
+      { h: 'Typical Price Ranges by Size', body: 'As a general guide in the Indian market, compact 250ml branded bottles are the most economical per unit, 500ml bottles are the standard mid-priced single-serve, and 1 litre premium round bottles with full-cover labels sit at the higher end. BRANDSIP provides exact quotes per order, since volume and label choice move the number meaningfully.' },
+      { h: 'How Much Should a Restaurant Budget?', body: 'For table service, most restaurants treat branded water as part of their beverage or F&B cost. At restaurant-scale volumes, the per-bottle investment for a 500ml branded bottle is modest when spread across monthly usage, and the brand value — plus the reviews a QR code generates — easily outweighs the cost of a generic unbranded bottle.' },
+      { h: 'How Much Does a Wedding or Event Cost?', body: 'Weddings usually need 300 to 1,500+ bottles across functions. Because volume is high but one-time, event planners get the benefit of larger-order pricing. A keepsake bottle with couple names and a QR photo album is one of the most affordable personalized touches in a wedding budget.' },
+      { h: 'Where Discounts Come From', body: 'The best pricing comes from larger quantities, simpler label formats, longer production lead times and repeat-supply agreements. Hotels and restaurants that commit to a recurring monthly volume generally unlock lower per-bottle rates than one-off small orders.' },
+      { h: 'Getting an Exact Quote from BRANDSIP', body: 'The fastest way to know exactly what your branding will cost is to share your size, quantity and label preference with BRANDSIP — by phone, WhatsApp or the contact form. You will receive a clear quote and a free branding mockup before production.' }
+    ],
+    faqs: [
+      { q: 'How much does a customised water bottle cost in India?', a: 'The per-bottle price depends on size, label type, quantity and branding. BRANDSIP provides exact quotes per order — contact us with your size and quantity for current pricing.' },
+      { q: 'What is the minimum order quantity?', a: 'MOQs vary by bottle size and are negotiable. Startups and small businesses can begin with quantities that fit their budget.' },
+      { q: 'Are prices negotiable?', a: 'Yes. BRANDSIP prices are negotiable and vary with order quantity, bottle and label requirements and agreed specifications.' },
+      { q: 'How do I get a quote?', a: 'Call 8073137080, WhatsApp the same number, or use the contact form with your size, quantity and branding details.' }
+    ]
+  },
+  {
+    slug: 'branded-water-bottles-for-cafes',
+    title: 'Branded Water Bottles for Cafés & Coffee Shops: A Complete Guide',
+    category: 'Cafés',
+    intro: 'Cafés live on repeat visits, aesthetics and social sharing — three things branded water bottles directly support. This guide explains why coffee shops across Karnataka are adding branded bottled water to their counters and tables, and how a 250ml bottle with a QR code can grow your Instagram following and reviews.',
+    sections: [
+      { h: 'Why Water Belongs in a Café Brand Strategy', body: 'A café is judged on details: the cups, the décor, the playlist and the packaging. Water is the item most cafés overlook, yet it is served with most orders. A branded bottle completes the experience, communicates care and gives customers a photogenic detail they will post.' },
+      { h: 'The 250ml Bottle: Built for Cafés', body: 'The compact 250ml bottle is the natural café format. It suits takeaway, sits well beside a coffee, and keeps the price accessible for retail sale. With a clean single-side label, it carries your logo without overwhelming the bottle\u2019s small surface.' },
+      { h: 'Takeaway as a Follower Magnet', body: 'Each takeaway order is a chance to take your brand home. Print a QR code that opens your Instagram profile or a tag-capturing page, and every bottled water sold turns a customer into a potential follower. Cafés that do this report steady follower growth from an item they were already selling.' },
+      { h: 'Table Service and Bundled Deals', body: 'For dine-in tables, a 500ml branded bottle can be bundled into meal deals or listed separately. Offering water as a proudly branded product — not a generic afterthought — raises perceived quality and average order value.' },
+      { h: 'Loyalty, Feedback and Promotions', body: 'A QR code can open a loyalty sign-up, a feedback form or a seasonal promotion. This gives cafés a zero-cost channel to collect customer data and measure satisfaction, without printing a single card.' },
+      { h: 'Start Small, Scale Fast', body: 'Most cafés start with a pilot batch of 250ml bottles, measure takeaway sales and follow growth, then scale. BRANDSIP offers flexible MOQs, so even a single outlet can begin with a modest order and reorder as the format proves itself.' }
+    ],
+    faqs: [
+      { q: 'Can cafés sell branded water bottles?', a: 'Yes. You can offer branded bottled water as a retail product at the counter, with an MRP printed on the label. BRANDSIP can customize the MRP subject to applicable labelling requirements.' },
+      { q: 'What size bottle is best for a café?', a: '250ml suits takeaway and counter sales; 500ml works for bundled deals and table service. Many cafés run both.' },
+      { q: 'How do QR code bottles grow a café Instagram?', a: 'Print a QR on the label that opens your Instagram profile. Each customer who scans a takeaway bottle becomes a path to a new follower.' }
+    ]
+  },
+  {
+    slug: 'custom-water-bottles-for-resorts',
+    title: 'Custom Water Bottles for Resorts in Karnataka: Elevating the Guest Stay',
+    category: 'Hospitality',
+    intro: 'Resorts in Karnataka — from Chikkamagaluru coffee estates to Hampi and the coast — compete on experience. A custom water bottle with the resort logo and a QR code links every villa, poolside and restaurant moment to reviews and Instagram. This guide explains why resort owners are making branded water a standard guest amenity.',
+    sections: [
+      { h: 'The Resort Amenity Problem', body: 'Guests at a resort interact with water constantly — at the pool, in the villa, at breakfast, at the bar. Unbranded bottles look generic and miss a branding opportunity that occurs dozens of times per stay. A custom branded bottle, by contrast, converts every sip into a brand reinforcement.' },
+      { h: 'Where Resort Bottles Go', body: 'Branded bottles work everywhere a guest hydrates: villa minibars, poolside, spa areas, restaurant tables and event venues. Because the label repeats the resort name across each location, the brand becomes part of the guest\'s memory of the stay.' },
+      { h: 'Premium Presentation with Full-Cover Labels', body: 'For resorts, presentation is everything. A round 500ml or 1 litre bottle with a full-cover, complete-wrap label looks premium on a side table or restaurant setting. The larger canvas also gives designers room to carry the resort\'s aesthetic — serene colours, elegant type, premium finishes.' },
+      { h: 'QR Codes That Build Reviews and Instagram', body: 'Resort guests are relaxed, receptive and filming everything. A QR code that opens your Google Reviews or Instagram makes it effortless for them to review, tag and share. One stay, one bottle, one scan — and your online reputation compounds with every booking.' },
+      { h: 'Events, Weddings and Offsites', body: 'Resorts also host weddings, corporate offsites and retreats where branded water reinforces the venue brand at every seat. Wedding couples staying at the resort can use personalized bottles for their celebrations, extending the keepsake value.' },
+      { h: 'Ordering for Your Resort', body: 'Start with a quote request covering your villa count and restaurant volume, and BRANDSIP will recommend a size mix — typically 500ml for tables and 1 litre for minibars. Flexible MOQs and scheduled delivery keep supply simple.' }
+    ],
+    faqs: [
+      { q: 'Which bottle size is best for a resort?', a: '500ml round bottles suit poolside and restaurant use, while 1 litre bottles work well in villas and minibars. BRANDSIP can recommend a mix for your property.' },
+      { q: 'Can resort bottles carry a QR code?', a: 'Yes. Print a QR code that opens your Google Reviews, Instagram, WhatsApp or booking page to connect guests with your brand.' },
+      { q: 'Does BRANDSIP deliver to resorts?', a: 'Yes. BRANDSIP delivers to resorts, villas, homestays and hospitality properties across Karnataka.' }
+    ]
+  },
+  {
+    slug: 'event-water-bottles-karnataka',
+    title: 'Event Water Bottles in Karnataka: Weddings, Conferences & Festivals',
+    category: 'Events',
+    intro: 'Every event in Karnataka — a wedding in Mysuru, a product launch in Bengaluru, a conference in Hubballi — needs water, and branding that water turns logistics into promotion. This guide covers how event water bottles work, how many to order, and how QR codes turn attendees into followers, reviewers and leads.',
+    sections: [
+      { h: 'Why Event Organizers Choose Branded Water', body: 'Branded water bottles place your event name, logo and message in every attendee\'s hand. Compared with banners and screens that move or close, a bottle stays with guests for the entire event — and often travels home with them as a keepsake.' },
+      { h: 'Weddings: Keepsakes and Digital Connections', body: 'Wedding bottles carry the couple\'s names, the date and the theme. Add a QR code to a shared photo album and guests can upload their own pictures moments after taking them. The bottle becomes a wedding memento that lives on beyond the one day.' },
+      { h: 'Corporate Events: Sponsors and Lead Capture', body: 'Conferences and launches put thousands of branded bottles at seats, in delegate kits and at registration desks. Sponsor logos and event dates go on the label, and a QR code can capture leads, open an event app or collect post-event feedback from every delegate.' },
+      { h: 'Exhibitions and Festivals: Giveaways That Work', body: 'At expos and festivals, a bottle is a giveaway that is actually used. Add your booth number or contact details to the label so the bottle works as a business card, and scan data becomes a measurable return on a low-cost promotional item.' },
+      { h: 'Estimating Bottle Quantity', body: 'The standard planning rule is one to two bottles per attendee, adjusted for event length and whether guests will have access to refills. BRANDSIP helps planners calculate quantities to avoid running short or paying for surplus.' },
+      { h: 'Timelines and Delivery', body: 'Event bottles are schedule-critical. BRANDSIP coordinates production and delivery to your venue date, so bottles arrive ready for seating, delegate kits or distribution across Karnataka.' }
+    ],
+    faqs: [
+      { q: 'How many bottles do I need for my event?', a: 'A common guideline is one to two bottles per attendee per event, depending on length. BRANDSIP can help you estimate the right quantity.' },
+      { q: 'Can event bottles carry QR codes?', a: 'Yes. Print a QR that opens your RSVP page, photo album, event app, feedback form or lead-capture page.' },
+      { q: 'Do you deliver before my event date?', a: 'Yes. Contact BRANDSIP early with your event date so production and delivery can be scheduled in advance.' }
+    ]
+  },
+  {
+    slug: 'how-to-choose-custom-water-bottle-supplier-karnataka',
+    title: 'How to Choose a Custom Water Bottle Supplier in Karnataka',
+    category: 'Business',
+    intro: 'Choosing the right custom water bottle supplier in Karnataka decides whether your branded water arrives on time, looks premium and stays within budget. This guide gives restaurants, hotels, event planners and corporate teams a practical checklist for comparing suppliers and avoiding the common pitfalls.',
+    sections: [
+      { h: 'Check the Water Quality Credentials', body: 'The water under your brand must be safe, clean and consistent. Ask a potential supplier about their water treatment — filtration, UV treatment, ozonisation — and their compliance with FSSAI packaging norms. A supplier that treats packaging responsibly protects your brand every time a bottle is opened.' },
+      { h: 'Judge Label Quality, Not Just Price', body: 'A cheap label smears, peels or misprints, and the damage to your brand costs more than the savings. Ask for sample bottles and inspect the print sharpness, labels on round vs square formats, and whether the label matches your brand colours. Premium full-cover labels on round bottles reliably produce the most professional look.' },
+      { h: 'Match Sizes and Formats to Your Business', body: 'The right supplier offers the sizes your business actually needs — 250ml for takeaways, 500ml for table service, 1 litre for rooms and hospitality. Check whether they offer square and round formats and both single-side and full-cover labels, so your branding is not forced onto a format that does not fit.' },
+      { h: 'Verify Flexibility on MOQ and Pricing', body: 'Restaurants and startups rarely want a full truckload. Confirm that minimum order quantities are negotiable and that pricing scales with volume. A supplier willing to start with a modest pilot order and grow with you is usually a more reliable long-term partner.' },
+      { h: 'Confirm Delivery and Timelines', body: 'Branded water is often needed on a strict date — a wedding, a launch, a season opening. Ask for confirmed delivery timelines to your city across Karnataka and whether the supplier can arrange scheduled recurring supply for hotels and restaurants.' },
+      { h: 'Check Design Support and After-Sales Service', body: 'Most businesses do not have print-ready artwork. A good supplier offers label design help, provides a free mockup before production, and responds quickly on WhatsApp. Test their responsiveness before you order — it predicts what your reorders will feel like.' }
+    ],
+    faqs: [
+      { q: 'What should I look for in a water bottle supplier?', a: 'Water quality compliance, label print quality, size and format options, flexible MOQs, confirmed delivery timelines and responsive design support.' },
+      { q: 'How do I compare suppliers across Karnataka?', a: 'Request sample bottles from each, compare per-bottle quotes on the same size and quantity, and verify delivery timelines to your location.' },
+      { q: 'Why do premium full-cover labels matter?', a: 'A full-cover wrap label on a round bottle creates the most premium, finished look and the largest branding canvas — important for hotels, resorts and fine dining.' }
+    ]
   }
 ];

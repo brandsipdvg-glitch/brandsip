@@ -88,10 +88,14 @@ module.exports = [
       { href: '/custom-water-bottles-mysore', label: 'Custom Water Bottles Mysuru' },
       { href: '/custom-water-bottles-hubli', label: 'Custom Water Bottles Hubballi' },
       { href: '/custom-water-bottles-davangere', label: 'Custom Water Bottles Davangere' },
+      { href: '/custom-water-bottles-harihar', label: 'Custom Water Bottles Harihar' },
+      { href: '/custom-water-bottles-bhadravati', label: 'Custom Water Bottles Bhadravati' },
+      { href: '/custom-water-bottles-chitradurga', label: 'Custom Water Bottles Chitradurga' },
+      { href: '/custom-water-bottles-shivamogga', label: 'Custom Water Bottles Shivamogga' },
       { href: '/custom-water-bottles-mangalore', label: 'Custom Water Bottles Mangaluru' },
       { href: '/custom-water-bottles-belgaum', label: 'Custom Water Bottles Belagavi' }
     ],
-    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Harihar', 'Bhadravati', 'Chitradurga', 'Shivamogga', 'Mangaluru', 'Belagavi'],
     faqs: [
       { q: 'What is the minimum order quantity?', a: 'MOQs vary by bottle size and are negotiable based on your requirement. Contact BRANDSIP for current quantities and pricing.' },
       { q: 'Do you supply across Karnataka?', a: 'Yes. BRANDSIP delivers custom branded water bottles across Karnataka from our Davangere facility — including Bengaluru, Mysuru, Hubballi, Mangaluru, Davangere and Belagavi.' },
@@ -109,6 +113,115 @@ module.exports = [
       { src: '/assets/gallery/brandsip3.jpg', alt: 'Restaurant branded water bottle Karnataka', cap: 'Restaurant bottle' },
       { src: '/assets/gallery/brandsip7.jpg', alt: 'Corporate branded water bottle Karnataka', cap: 'Corporate bottle' },
       { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Wedding branded water bottle Karnataka', cap: 'Wedding bottle' }
+    ]
+  },
+  {
+    slug: 'qr-code-water-bottles',
+    title: 'QR Code Water Bottles',
+    metaTitle: 'QR Code Water Bottles for Business Marketing | BRANDSIP',
+    metaDesc: 'QR code water bottles that connect every bottle to Google Reviews, Instagram, WhatsApp, menus and websites. Turn your branded water into a working marketing channel across Karnataka. Get a quote.',
+    h1: 'QR Code Water Bottles for Business Marketing',
+    eyebrow: 'QR Marketing',
+    lede: 'A QR code printed directly on your water bottle label turns every bottle into a marketing asset. When a guest scans it with their phone camera, it opens your Google Reviews, Instagram, WhatsApp, website, digital menu or feedback form — connecting customers to your brand in the exact moment they are holding your product.',
+    intro: {
+      heading: 'Make Every Bottle a Marketing Channel',
+      body: 'QR code water bottles are FSSAI-compliant packaged drinking water bottles with a scannable QR code printed on the label at production. Unlike generic bottles that carry no message, a QR-enabled branded bottle does three jobs at once: it carries your logo, it improves your presentation, and it opens a direct digital connection with every customer who picks it up.'
+    },
+    benefits: [
+      'Grow Google reviews naturally — happy diners scan and rate in seconds',
+      'Build your Instagram following one bottle at a time',
+      'Open WhatsApp ordering and rebooking conversations directly',
+      'Serve digital menus that never need reprinting',
+      'Capture feedback and run promotions without flyers or QR stickers',
+      'Printed at production — no stickers, no peeling, no staff effort'
+    ],
+    products: [
+      { href: '/500ml-custom-water-bottles', label: '500ml QR Water Bottles' },
+      { href: '/250ml-custom-water-bottles', label: '250ml QR Water Bottles' },
+      { href: '/1l-branded-water-bottles', label: '1 Litre QR Water Bottles' },
+      { href: '/bottle-sizes', label: 'All Bottle Sizes' }
+    ],
+    useCases: [
+      'Restaurants and cafés collecting 5-star Google reviews at the table',
+      'Hotels and resorts guiding guests to Instagram and WhatsApp concierge',
+      'Weddings and events linking guests to photo albums and RSVP pages',
+      'Corporate events capturing leads and feedback from every delegate',
+      'Cafés sending takeaway customers to their Instagram and loyalty pages'
+    ],
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
+    faqs: [
+      { q: 'How do QR code water bottles work?', a: 'A scannable QR code is printed on the bottle label at production. Customers scan it with their phone camera and land on the destination you choose — Google Reviews, Instagram, WhatsApp, a website, a digital menu or a feedback form.' },
+      { q: 'What can the QR code open?', a: 'Anything with a URL: Google Reviews, Instagram, WhatsApp chat, a website or landing page, a digital menu, feedback forms, promotions or an RSVP page.' },
+      { q: 'Is the QR code printed on the bottle?', a: 'Yes. The QR code is printed directly on the label during production — no stickers, no peeling, and no extra work for your staff.' },
+      { q: 'How do QR bottles get more reviews?', a: 'By removing friction. A guest scans the bottle instead of searching for your business, and lands directly on your review or rating page. More scans mean more reviews and stronger local ranking.' },
+      { q: 'Which businesses use QR code water bottles?', a: 'Restaurants, cafés, hotels, resorts, weddings, corporate events, hospitals and any business that serves or distributes branded water.' },
+      { q: 'What is the minimum order quantity?', a: 'MOQs are negotiable based on bottle size and requirement. Contact BRANDSIP for a current quote.' }
+    ],
+    internalLinks: [
+      { href: '/custom-water-bottles-for-restaurants', label: 'Custom Water Bottles for Restaurants', text: 'QR table water that collects reviews while guests dine.' },
+      { href: '/custom-water-bottles-for-hotels', label: 'Custom Water Bottles for Hotels', text: 'In-room and banquet bottles that connect guests to your brand.' },
+      { href: '/water-bottles-for-hospitals', label: 'Water Bottles for Hospitals', text: 'Contactless QR guidance for patients and visitors.' },
+      { href: '/custom-water-bottles-karnataka', label: 'Custom Water Bottles Karnataka', text: 'QR-enabled bottles delivered across the state.' }
+    ],
+    gallery: [
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'QR code branded water bottle sample', cap: 'QR code bottle' },
+      { src: '/assets/gallery/brandsip3.jpg', alt: 'Branded 500ml bottle with QR label', cap: 'Branded 500ml' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Restaurant branded water bottle', cap: 'Restaurant bottle' },
+      { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Wedding branded QR bottle', cap: 'Wedding bottle' }
+    ]
+  },
+  {
+    slug: 'water-bottles-for-events',
+    title: 'Branded Water Bottles for Events',
+    metaTitle: 'Custom Water Bottles for Events in Karnataka | BRANDSIP',
+    metaDesc: 'Branded water bottles for events across Karnataka — weddings, corporate events, conferences, exhibitions and festivals. Your logo and QR code on every bottle, delivered on time. Get a quote.',
+    h1: 'Custom Water Bottles for Events, Conferences & Festivals',
+    eyebrow: 'Events',
+    lede: 'Every good event runs on water — and branded event water bottles turn a practical need into a promotional moment. BRANDSIP supplies custom branded water bottles for weddings, corporate events, conferences, exhibitions and festivals, with your logo, event dates and even a QR code printed on every label.',
+    intro: {
+      heading: 'Branded Water That Works as Hard as Your Event Team',
+      body: 'Event water bottles are customised packaged drinking water bottles designed for occasions. From a couple\'s names on a wedding bottle to sponsor logos on a conference bottle, event bottles put your identity in every attendee\'s hand — and a QR code takes those attendees from guest to follower, reviewer or lead.'
+    },
+    benefits: [
+      'Your event name and logo visible at every seat',
+      'Customisable with event dates, sponsors and theme colours',
+      'QR codes connect guests to RSVPs, photo albums and feedback',
+      'A practical keepsake guests actually take home',
+      'Scheduled production and delivery around your event date',
+      'Flexible quantities for weddings, launches, conferences and festivals'
+    ],
+    products: [
+      { href: '/500ml-custom-water-bottles', label: '500ml Event Bottles' },
+      { href: '/250ml-custom-water-bottles', label: '250ml Event Bottles' },
+      { href: '/1l-branded-water-bottles', label: '1 Litre Event Bottles' },
+      { href: '/water-bottles-for-weddings', label: 'Wedding Bottles' }
+    ],
+    useCases: [
+      'Wedding bottles with couple names, date and a photo-album QR code',
+      'Conference and launch bottles with sponsor branding at every seat',
+      'Exhibition and trade show giveaway bottles with lead-capture QRs',
+      'Festival and community event bottles with programme details',
+      'Offsite and team-event bottles with company branding'
+    ],
+    delivery: ['Bengaluru', 'Mysuru', 'Hubballi', 'Davangere', 'Mangaluru', 'Belagavi'],
+    faqs: [
+      { q: 'Can you brand water bottles for my event?', a: 'Yes. BRANDSIP customizes bottles with your event name, logo, dates, sponsors and design. Sizes and quantities are tailored to your event.' },
+      { q: 'How many bottles do I need for my event?', a: 'A common guideline is one to two bottles per attendee, depending on event length. BRANDSIP can help you estimate the right quantity.' },
+      { q: 'Can bottles include a QR code?', a: 'Yes. Print a QR code that opens your RSVP page, photo album, feedback form, event app or lead-capture form.' },
+      { q: 'Do you deliver before my event date?', a: 'BRANDSIP works to your timeline. Contact us early with your event date so production and delivery can be scheduled in advance.' },
+      { q: 'Do you deliver to venues across Karnataka?', a: 'Yes. BRANDSIP delivers event water to venues across Karnataka.' }
+    ],
+    internalLinks: [
+      { href: '/water-bottles-for-weddings', label: 'Water Bottles for Weddings', text: 'Personalized keepsake bottles for celebrations.' },
+      { href: '/water-bottles-for-corporate-events', label: 'Water Bottles for Corporate Events', text: 'Conference and launch bottles with your branding.' },
+      { href: '/water-bottles-for-exhibitions', label: 'Water Bottles for Exhibitions', text: 'Giveaway bottles for expos and trade shows.' },
+      { href: '/qr-code-water-bottles', label: 'QR Code Water Bottles', text: 'Add a scannable QR to every event bottle.' }
+    ],
+    gallery: [
+      { src: '/assets/gallery/brandsip2-poster.jpg', alt: 'Wedding event branded water bottle', cap: 'Wedding event bottle' },
+      { src: '/assets/gallery/brandsip1.jpg', alt: 'Event branded water bottle', cap: 'Event bottle' },
+      { src: '/assets/gallery/brandsip4-poster.jpg', alt: 'Corporate event branded bottle', cap: 'Corporate event bottle' },
+      { src: '/assets/gallery/brandsip7.jpg', alt: 'Restaurant branded bottle', cap: 'Restaurant bottle' }
     ]
   }
 ];
